@@ -26,6 +26,14 @@ Quem já usa git pode clonar (`git clone https://github.com/aluiziodeveloper/cam
 | 24, 25 | Checklist de Produção | `material/modelos/Checklist_de_Producao.md` |
 | 26 | Protocolo de medição de fórmulas geradas por IA: vinte pedidos e ficha de registro | `material/Protocolo_IA_20_pedidos.md` |
 
+## Os formatos dos arquivos
+
+- **`.md` (Markdown):** texto comum com marcas simples de formatação (`|` desenha tabelas, `**` faz negrito, `#` faz títulos). O GitHub mostra o arquivo formatado; qualquer editor de texto o abre e grava. Os modelos que os capítulos mandam preencher estão nesse formato para que você os mantenha num editor qualquer, sem depender de um programa específico.
+- **`.xlsx`:** a planilha do Capítulo 0, para o Excel.
+- **`.csv`:** tabela em texto puro, uma linha por registro, colunas separadas por `;`. Abre no Excel; veja `dados/README.md`.
+- **`.json`:** dados estruturados em texto, com nomes e valores entre chaves. Só os roteiros de carga o leem.
+- **`.ps1` e `.js`:** os roteiros de carga, em PowerShell e em JavaScript. Veja `carga/README.md`.
+
 ## Carregar a massa no seu ambiente
 
 Leia `carga/README.md`. Em resumo: o caminho pelo **navegador** não instala nada nem registra aplicativo; o caminho por **PowerShell** é o mais confortável para quem já usa o PnP; o **fluxo do Power Automate** é o que o Capítulo 8 descreve, e o único que não confere o resultado sozinho.
