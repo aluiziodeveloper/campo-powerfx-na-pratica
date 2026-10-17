@@ -60,6 +60,8 @@ pwsh testes/Testar-Carga.ps1
 
 Os cenários: ambiente novo, item recusado no meio da massa, retomada sem duplicar, e lista que já consumiu `ID` demais.
 
+O SharePoint simulado é o que a literatura de testes chama de **dublê** (*test double*): uma peça falsa que responde como a real, para que o teste rode sem rede, sem conta e sem custo, sempre com o mesmo resultado. O dublê prova a lógica dos roteiros; não prova o comportamento do serviço real, e por isso uma execução num locatário de verdade continua necessária. O Capítulo 24 volta ao assunto.
+
 ## Licenças
 
 - **Código** (`carga/`, `ferramentas/`, `testes/`): MIT, no arquivo `LICENSE`.

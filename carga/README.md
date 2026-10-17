@@ -31,6 +31,21 @@ Os três gravam a mesma massa, na mesma ordem, em lotes de 100 itens enviados um
 
 O teste depende do `ID` que o SharePoint dá a cada item: a primeira sentinela precisa ficar com `ID` até 500 e a segunda acima de 2.000 (Capítulo 8). O `ID` segue a ordem de gravação e **nunca é reaproveitado**: um item apagado leva o número dele junto. Por isso, numa lista que já teve muitos itens criados e apagados, a primeira sentinela pode passar de 500 mesmo com a lista quase vazia, e apagar mais itens só piora. Os dois roteiros estimam a posição antes de gravar e param com a explicação. A saída é um site novo, ou a opção de ignorar a posição, sabendo que o teste perde o que mostra.
 
+## Os conceitos por trás dos roteiros
+
+Você não precisa deles para carregar a massa. Eles explicam por que os roteiros são escritos assim, e quase todos voltam no livro.
+
+- **API REST e HTTP.** O SharePoint aceita pedidos pela web: cada recurso (uma lista, um item, uma coluna) tem um endereço, e o pedido diz o que fazer com ele (`GET` para ler, `POST` para criar). HTTP é o protocolo da web, o mesmo que o navegador usa para abrir páginas. REST é o estilo de organizar uma API dessa forma, por endereços e verbos.
+- **Lote (`$batch`).** Um pedido HTTP que carrega muitos outros dentro dele. Cem gravações viajam numa ida ao servidor só. O lote do SharePoint **não é transacional**: se um item falha, os outros do mesmo lote são gravados assim mesmo. Por isso os roteiros conferem a resposta item a item, e por isso a retomada procura o que falta em vez de recomeçar.
+- **Sequência e `ID`.** O SharePoint numera os itens na ordem em que chegam e nunca reaproveita um número. Lotes em paralelo embaralhariam a ordem; os roteiros enviam um lote depois do outro.
+- **Sessão e chave de formulário.** No navegador, o roteiro usa a sessão em que você já entrou (o mesmo cookie que mantém você conectado ao site). Para gravar, o SharePoint exige ainda uma chave de formulário (*form digest*), que prova que o pedido saiu de uma página do próprio site; o roteiro a pede e a renova antes de vencer.
+- **Limitação de ritmo (*throttling*).** Quando muitos pedidos chegam depressa, o serviço responde `429` ou `503` e diz quanto esperar (`Retry-After`). Os roteiros esperam e tentam de novo, com intervalos crescentes quando o serviço não diz o tempo (*backoff*). Insistir sem esperar só aumenta a punição.
+- **Retomada sem duplicar.** Executar a etapa Massa duas vezes produz o mesmo resultado que executar uma: ela grava só os `NumeroOS` que ainda não estão na lista. Em programação, isso se chama **idempotência**, e o Capítulo 20 faz dela uma regra de integração.
+- **UTC.** O horário universal, sem fuso. Os horários do CSV são de Brasília; os roteiros os convertem para UTC antes de gravar, para que o instante salvo seja o mesmo qualquer que seja o fuso do seu computador ou do site (Capítulo 9).
+- **PowerShell e módulo.** PowerShell é a linguagem de comandos da Microsoft para automação, e roda em Windows, macOS e Linux. Um módulo é um pacote de comandos prontos; o PnP.PowerShell traz os comandos para o SharePoint.
+- **Registro de aplicativo no Entra ID.** O Microsoft Entra ID controla as contas e os acessos da organização. Um programa que age em nome de uma pessoa (como o PnP) precisa estar registrado lá, com as permissões que pode pedir. O navegador dispensa isso porque o roteiro roda dentro da página do site, com a sua sessão.
+- **Console do navegador.** O painel técnico que o navegador abre com F12. A aba *Console* executa código JavaScript na página aberta, com os mesmos acessos que a página tem.
+
 ## Navegador, sem instalar nada
 
 1. Baixe a pasta `dados/` deste repositório.
