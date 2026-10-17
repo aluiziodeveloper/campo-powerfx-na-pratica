@@ -45,3 +45,10 @@ pwsh testes/Testar-Carga.ps1
 ```
 
 Os cenários: ambiente novo, item recusado no meio da massa, retomada sem duplicar, e lista que já consumiu `ID` demais.
+
+## Licenças
+
+- **Código** (`carga/`, `ferramentas/`, `testes/`): MIT, no arquivo `LICENSE`.
+- **Dados e material** (`dados/`, `material/`): Creative Commons Atribuição 4.0 Internacional, em `LICENSE-DADOS.md`.
+
+Os dados são fictícios. O texto do livro não faz parte deste repositório.
