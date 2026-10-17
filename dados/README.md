@@ -13,7 +13,7 @@
 
 ## Convenções
 
-- Separador `;`, codificação UTF-8 com BOM (o Excel em português abre direto).
+- Separador `;`, codificação UTF-8 com BOM. A codificação é a tabela que transforma bytes em letras; UTF-8 é a que cobre todos os acentos, e o BOM é uma marca invisível no início do arquivo que avisa o Excel disso. Sem ela, o Excel em português abre "Manutenção" como "ManutenÃ§Ã£o".
 - A primeira coluna, `ID_esperado`, **não** é carregada: é o `ID` que o SharePoint vai dar a cada item se a lista receber os 351 registros da planilha e nada mais antes da massa.
 - Os horários são de Brasília (UTC−3). Os lotes e os roteiros de carga gravam em UTC, para que o instante salvo não dependa do fuso do computador de quem carrega nem do fuso regional do site (Capítulo 9).
 
