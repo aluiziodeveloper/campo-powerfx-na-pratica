@@ -10,6 +10,8 @@ Um repositório é uma pasta de arquivos que guarda também o histórico de cada
 
 Quem já usa git pode clonar (`git clone https://github.com/aluiziodeveloper/campo-powerfx-na-pratica.git`) e receber as correções com `git pull`.
 
+O histórico deste repositório (o link *commits*, no topo da lista de arquivos) mostra cada alteração feita no material, com data e descrição. É o controle de origem de que o Capítulo 23 fala, aplicado a um projeto pequeno.
+
 ## O que há aqui, por capítulo
 
 | Capítulo | O que usar | Onde |
