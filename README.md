@@ -4,6 +4,12 @@ Este repositório acompanha o livro *Power Fx na Prática — A Linguagem por Tr
 
 Os dados são fictícios: pessoas, unidades e ordens de serviço inventadas.
 
+## Como baixar, sem saber git
+
+Um repositório é uma pasta de arquivos que guarda também o histórico de cada alteração. Você não precisa de nenhuma ferramenta para usá-lo: nesta página, clique em **Code** e depois em **Download ZIP**, e descompacte o arquivo onde quiser. Para baixar um arquivo só, abra-o aqui e use o botão de download no canto da visualização.
+
+Quem já usa git pode clonar (`git clone https://github.com/aluiziodeveloper/campo-powerfx-na-pratica.git`) e receber as correções com `git pull`.
+
 ## O que há aqui, por capítulo
 
 | Capítulo | O que usar | Onde |
