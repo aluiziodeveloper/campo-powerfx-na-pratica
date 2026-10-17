@@ -1,0 +1,1006 @@
+--batch_campo
+Content-Type: multipart/mixed; boundary="changeset_campo_114"
+Content-Transfer-Encoding: binary
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Ar-condicionado da sala M-40 sem refrigerar", "NumeroOS": "OS-011652", "Descricao": "Ar-condicionado da sala de painéis M-40 ligado sem refrigerar.", "Status": "Fechada", "Prioridade": "Baixa", "Local": "Booster Parque das Águas", "DataAbertura": "2026-08-29T20:33:00Z", "Responsavel": "Úrsula Maia"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Infiltração na parede da casa de bombas D-30", "NumeroOS": "OS-011653", "Descricao": "Mancha de umidade crescente na parede da casa de bombas D-30.", "Status": "Aberta", "Prioridade": "Baixa", "Local": "Base Operacional Serra", "DataAbertura": "2026-08-29T21:41:00Z", "Responsavel": "Vagner Pacheco"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Troca de filtro do compressor E-33", "NumeroOS": "OS-011654", "Descricao": "Filtro de ar do compressor E-33 saturado. Substituição preventiva.", "Status": "Aberta", "Prioridade": "Alta", "Local": "Oficina Elétrica Central", "DataAbertura": "2026-08-29T22:44:00Z", "Responsavel": "Daniela Pires"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Troca de filtro do compressor H-09", "NumeroOS": "OS-011655", "Descricao": "Filtro de ar do compressor H-09 saturado. Substituição preventiva.", "Status": "Em andamento", "Prioridade": "Média", "Local": "Subestação Norte", "DataAbertura": "2026-08-30T00:17:00Z", "Responsavel": "Priscila Guedes"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Lâmpada queimada na área T-38", "NumeroOS": "OS-011656", "Descricao": "Iluminação da área T-38 sem funcionar. Reposição de lâmpada e conferência do reator.", "Status": "Fechada", "Prioridade": "Alta", "Local": "Usina Fotovoltaica Cerrado", "DataAbertura": "2026-08-30T01:07:00Z", "Responsavel": "Natália Cordeiro"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Aquecimento no mancal do motor R-03", "NumeroOS": "OS-011657", "Descricao": "Mancal do motor R-03 acima da temperatura usual na medição com termômetro infravermelho.", "Status": "Fechada", "Prioridade": "Média", "Local": "Estação Elevatória Leste", "DataAbertura": "2026-08-30T02:08:00Z", "Responsavel": "Gabriel Matos"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Vazamento de óleo no redutor T-37", "NumeroOS": "OS-011658", "Descricao": "Gotejamento de óleo no redutor T-37. Nível ainda dentro da faixa.", "Status": "Aberta", "Prioridade": "Baixa", "Local": "Estação de Bombeamento Vila Nova", "DataAbertura": "2026-08-30T03:11:00Z", "Responsavel": "Jonas Teles"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Disjuntor desarmando no painel R-33", "NumeroOS": "OS-011659", "Descricao": "Disjuntor do painel R-33 desarmou três vezes no turno. Carga dentro do nominal.", "Status": "Fechada", "Prioridade": "Média", "Local": "Pátio de Veículos", "DataAbertura": "2026-08-30T04:29:00Z", "Responsavel": "Érica Andrade"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Vazamento de óleo no redutor T-16", "NumeroOS": "OS-011660", "Descricao": "Gotejamento de óleo no redutor T-16. Nível ainda dentro da faixa.", "Status": "Fechada", "Prioridade": "Média", "Local": "Booster Morada do Sol", "DataAbertura": "2026-08-30T05:41:00Z", "Responsavel": "Rafael Torres"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Tomada sem energia na sala V-40", "NumeroOS": "OS-011661", "Descricao": "Tomada de serviço da sala V-40 sem tensão.", "Status": "Fechada", "Prioridade": "Média", "Local": "ETE Jardim Bela Vista", "DataAbertura": "2026-08-30T06:27:00Z", "Responsavel": "Yara Medeiros"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Bomba dosadora C-31 sem recalque", "NumeroOS": "OS-011662", "Descricao": "Bomba dosadora C-31 liga mas não dosa. Mangueira sem obstrução aparente.", "Status": "Fechada", "Prioridade": "Baixa", "Local": "Base Operacional Norte", "DataAbertura": "2026-08-30T07:35:00Z", "Responsavel": "Fernanda Quintela"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Portão da área T-26 emperrado", "NumeroOS": "OS-011663", "Descricao": "Portão de acesso da área T-26 exige força excessiva para abrir.", "Status": "Fechada", "Prioridade": "Alta", "Local": "ETA Serra Azul", "DataAbertura": "2026-08-30T08:45:00Z", "Responsavel": "Úrsula Maia"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Ar-condicionado da sala R-27 sem refrigerar", "NumeroOS": "OS-011664", "Descricao": "Ar-condicionado da sala de painéis R-27 ligado sem refrigerar.", "Status": "Em andamento", "Prioridade": "Alta", "Local": "ETE Rio Claro", "DataAbertura": "2026-08-30T09:44:00Z", "Responsavel": "Vagner Pacheco"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Tomada sem energia na sala H-13", "NumeroOS": "OS-011665", "Descricao": "Tomada de serviço da sala H-13 sem tensão.", "Status": "Em andamento", "Prioridade": "Alta", "Local": "Centro de Operações", "DataAbertura": "2026-08-30T11:21:00Z", "Responsavel": "Rafael Torres"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Bomba dosadora F-15 sem recalque", "NumeroOS": "OS-011666", "Descricao": "Bomba dosadora F-15 liga mas não dosa. Mangueira sem obstrução aparente.", "Status": "Fechada", "Prioridade": "Média", "Local": "Sede Administrativa", "DataAbertura": "2026-08-30T12:01:00Z", "Responsavel": "Kleber Antunes"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Pintura descascada na estrutura H-37", "NumeroOS": "OS-011667", "Descricao": "Estrutura metálica H-37 com pontos de corrosão sob a pintura.", "Status": "Aberta", "Prioridade": "Média", "Local": "Estação de Bombeamento Três Pontes", "DataAbertura": "2026-08-30T13:08:00Z", "Responsavel": "Flávio Gusmão"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Bomba dosadora A-16 sem recalque", "NumeroOS": "OS-011668", "Descricao": "Bomba dosadora A-16 liga mas não dosa. Mangueira sem obstrução aparente.", "Status": "Fechada", "Prioridade": "Média", "Local": "Subestação Sul", "DataAbertura": "2026-08-30T14:12:00Z", "Responsavel": "Hugo Albuquerque"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Aquecimento no mancal do motor D-07", "NumeroOS": "OS-011669", "Descricao": "Mancal do motor D-07 acima da temperatura usual na medição com termômetro infravermelho.", "Status": "Aberta", "Prioridade": "Alta", "Local": "Estação de Bombeamento Três Pontes", "DataAbertura": "2026-08-30T15:05:00Z", "Responsavel": "Natália Cordeiro"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Troca de filtro do compressor F-24", "NumeroOS": "OS-011670", "Descricao": "Filtro de ar do compressor F-24 saturado. Substituição preventiva.", "Status": "Aberta", "Prioridade": "Crítica", "Local": "Oficina Mecânica Central", "DataAbertura": "2026-08-30T16:37:00Z", "Responsavel": "Lívia Montenegro"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Medidor de vazão D-16 com leitura instável", "NumeroOS": "OS-011671", "Descricao": "Medidor de vazão D-16 oscila sem variação de processo.", "Status": "Fechada", "Prioridade": "Baixa", "Local": "Galpão de Materiais", "DataAbertura": "2026-08-30T17:44:00Z", "Responsavel": "Érica Andrade"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Tomada sem energia na sala F-09", "NumeroOS": "OS-011672", "Descricao": "Tomada de serviço da sala F-09 sem tensão.", "Status": "Fechada", "Prioridade": "Média", "Local": "Subestação Leste", "DataAbertura": "2026-08-30T18:41:00Z", "Responsavel": "Érica Andrade"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Troca de filtro do compressor M-14", "NumeroOS": "OS-011673", "Descricao": "Filtro de ar do compressor M-14 saturado. Substituição preventiva.", "Status": "Fechada", "Prioridade": "Média", "Local": "ETA Central", "DataAbertura": "2026-08-30T19:58:00Z", "Responsavel": "Caio Rangel"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Pintura descascada na estrutura D-16", "NumeroOS": "OS-011674", "Descricao": "Estrutura metálica D-16 com pontos de corrosão sob a pintura.", "Status": "Fechada", "Prioridade": "Crítica", "Local": "ETA Central", "DataAbertura": "2026-08-30T20:34:00Z", "Responsavel": "Yara Medeiros"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Troca de filtro do compressor V-17", "NumeroOS": "OS-011675", "Descricao": "Filtro de ar do compressor V-17 saturado. Substituição preventiva.", "Status": "Aberta", "Prioridade": "Média", "Local": "Subestação Sul", "DataAbertura": "2026-08-30T21:43:00Z", "Responsavel": null}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Exaustor C-07 parado", "NumeroOS": "OS-011676", "Descricao": "Exaustor C-07 não parte. Fusível íntegro.", "Status": "Fechada", "Prioridade": "Alta", "Local": "Subestação Norte", "DataAbertura": "2026-08-30T23:02:00Z", "Responsavel": "Bernardo Leal"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Tomada sem energia na sala E-14", "NumeroOS": "OS-011677", "Descricao": "Tomada de serviço da sala E-14 sem tensão.", "Status": "Fechada", "Prioridade": "Baixa", "Local": "Subestação Sul", "DataAbertura": "2026-08-30T23:57:00Z", "Responsavel": "Kleber Antunes"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Tomada sem energia na sala D-28", "NumeroOS": "OS-011678", "Descricao": "Tomada de serviço da sala D-28 sem tensão.", "Status": "Fechada", "Prioridade": "Média", "Local": "ETA Ribeirão Fundo", "DataAbertura": "2026-08-31T01:03:00Z", "Responsavel": "Daniela Pires"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Bomba dosadora C-30 sem recalque", "NumeroOS": "OS-011679", "Descricao": "Bomba dosadora C-30 liga mas não dosa. Mangueira sem obstrução aparente.", "Status": "Fechada", "Prioridade": "Média", "Local": "Sede Administrativa", "DataAbertura": "2026-08-31T02:10:00Z", "Responsavel": "Wesley Cardoso"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Correia do ventilador D-02 desgastada", "NumeroOS": "OS-011680", "Descricao": "Correia do ventilador D-02 com trincas visíveis e folga excessiva.", "Status": "Aberta", "Prioridade": "Baixa", "Local": "ETE Rio Claro", "DataAbertura": "2026-08-31T03:28:00Z", "Responsavel": "Danilo Peixoto"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Correia do ventilador D-10 desgastada", "NumeroOS": "OS-011681", "Descricao": "Correia do ventilador D-10 com trincas visíveis e folga excessiva.", "Status": "Fechada", "Prioridade": "Alta", "Local": "Estação de Bombeamento Vila Nova", "DataAbertura": "2026-08-31T04:48:00Z", "Responsavel": "Úrsula Maia"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Troca de filtro do compressor F-35", "NumeroOS": "OS-011682", "Descricao": "Filtro de ar do compressor F-35 saturado. Substituição preventiva.", "Status": "Aberta", "Prioridade": "Baixa", "Local": "Usina Fotovoltaica Planalto", "DataAbertura": "2026-08-31T05:52:00Z", "Responsavel": "Murilo Paiva"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Vazamento na bomba T-09", "NumeroOS": "OS-011683", "Descricao": "Vazamento pelo selo mecânico da bomba T-09. Piso molhado ao redor da base.", "Status": "Fechada", "Prioridade": "Média", "Local": "Usina Fotovoltaica Planalto", "DataAbertura": "2026-08-31T07:00:00Z", "Responsavel": "Otávio Lacerda"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Sensor de nível sem leitura no tanque H-25", "NumeroOS": "OS-011684", "Descricao": "Supervisório mostra leitura congelada do sensor de nível do tanque H-25.", "Status": "Fechada", "Prioridade": "Alta", "Local": "Subestação Oeste", "DataAbertura": "2026-08-31T07:36:00Z", "Responsavel": "Jonas Teles"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Lâmpada queimada na área G-06", "NumeroOS": "OS-011685", "Descricao": "Iluminação da área G-06 sem funcionar. Reposição de lâmpada e conferência do reator.", "Status": "Fechada", "Prioridade": "Média", "Local": "Estação Elevatória Oeste", "DataAbertura": "2026-08-31T08:38:00Z", "Responsavel": "Yara Medeiros"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Pintura descascada na estrutura G-25", "NumeroOS": "OS-011686", "Descricao": "Estrutura metálica G-25 com pontos de corrosão sob a pintura.", "Status": "Aberta", "Prioridade": "Média", "Local": "Base Operacional Sul", "DataAbertura": "2026-08-31T10:11:00Z", "Responsavel": "Hugo Albuquerque"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Ruído anormal no motor D-07", "NumeroOS": "OS-011687", "Descricao": "Ruído intermitente no motor D-07 durante a partida. Temperatura normal ao toque.", "Status": "Em andamento", "Prioridade": "Média", "Local": "Subestação Centro", "DataAbertura": "2026-08-31T11:20:00Z", "Responsavel": "Larissa Bezerra"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Válvula M-38 não fecha por completo", "NumeroOS": "OS-011688", "Descricao": "Válvula M-38 com passagem residual mesmo totalmente fechada. Possível desgaste da sede.", "Status": "Fechada", "Prioridade": "Baixa", "Local": "Estação de Bombeamento Vila Nova", "DataAbertura": "2026-08-31T12:15:00Z", "Responsavel": "Rafael Torres"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Portão da área T-01 emperrado", "NumeroOS": "OS-011689", "Descricao": "Portão de acesso da área T-01 exige força excessiva para abrir.", "Status": "Fechada", "Prioridade": "Baixa", "Local": "Oficina Elétrica Central", "DataAbertura": "2026-08-31T13:06:00Z", "Responsavel": "Igor Fonseca"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Medidor de vazão G-23 com leitura instável", "NumeroOS": "OS-011690", "Descricao": "Medidor de vazão G-23 oscila sem variação de processo.", "Status": "Fechada", "Prioridade": "Média", "Local": "Oficina Elétrica Central", "DataAbertura": "2026-08-31T14:19:00Z", "Responsavel": "Daniela Pires"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Tomada sem energia na sala D-34", "NumeroOS": "OS-011691", "Descricao": "Tomada de serviço da sala D-34 sem tensão.", "Status": "Aberta", "Prioridade": "Média", "Local": "Subestação Leste", "DataAbertura": "2026-08-31T15:13:00Z", "Responsavel": "Ingrid Queiroz"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Aquecimento no mancal do motor E-26", "NumeroOS": "OS-011692", "Descricao": "Mancal do motor E-26 acima da temperatura usual na medição com termômetro infravermelho.", "Status": "Aberta", "Prioridade": "Média", "Local": "ETA Central", "DataAbertura": "2026-08-31T16:34:00Z", "Responsavel": "Thiago Bastos"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Correia do ventilador A-14 desgastada", "NumeroOS": "OS-011693", "Descricao": "Correia do ventilador A-14 com trincas visíveis e folga excessiva.", "Status": "Fechada", "Prioridade": "Alta", "Local": "ETE Jardim Bela Vista", "DataAbertura": "2026-08-31T17:55:00Z", "Responsavel": "Vagner Pacheco"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Correia do ventilador M-19 desgastada", "NumeroOS": "OS-011694", "Descricao": "Correia do ventilador M-19 com trincas visíveis e folga excessiva.", "Status": "Fechada", "Prioridade": "Baixa", "Local": "ETA Central", "DataAbertura": "2026-08-31T18:44:00Z", "Responsavel": "Lívia Montenegro"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Vazamento na bomba A-04", "NumeroOS": "OS-011695", "Descricao": "Vazamento pelo selo mecânico da bomba A-04. Piso molhado ao redor da base.", "Status": "Em andamento", "Prioridade": "Média", "Local": "Pátio de Veículos", "DataAbertura": "2026-08-31T20:07:00Z", "Responsavel": "Marcos Vinícius Rocha"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Aquecimento no mancal do motor P-06", "NumeroOS": "OS-011696", "Descricao": "Mancal do motor P-06 acima da temperatura usual na medição com termômetro infravermelho.", "Status": "Aberta", "Prioridade": "Baixa", "Local": "ETE Rio Claro", "DataAbertura": "2026-08-31T20:48:00Z", "Responsavel": "Heloísa Barreto"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Troca de filtro do compressor C-30", "NumeroOS": "OS-011697", "Descricao": "Filtro de ar do compressor C-30 saturado. Substituição preventiva.", "Status": "Fechada", "Prioridade": "Alta", "Local": "ETA Central", "DataAbertura": "2026-08-31T21:50:00Z", "Responsavel": "Eduardo Salles"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Tomada sem energia na sala T-16", "NumeroOS": "OS-011698", "Descricao": "Tomada de serviço da sala T-16 sem tensão.", "Status": "Aberta", "Prioridade": "Média", "Local": "ETA Ribeirão Fundo", "DataAbertura": "2026-08-31T22:59:00Z", "Responsavel": "Jonas Teles"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Disjuntor desarmando no painel H-30", "NumeroOS": "OS-011699", "Descricao": "Disjuntor do painel H-30 desarmou três vezes no turno. Carga dentro do nominal.", "Status": "Aberta", "Prioridade": "Média", "Local": "Subestação Leste", "DataAbertura": "2026-09-01T00:38:00Z", "Responsavel": "Otávio Lacerda"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Ar-condicionado da sala H-06 sem refrigerar", "NumeroOS": "OS-011700", "Descricao": "Ar-condicionado da sala de painéis H-06 ligado sem refrigerar.", "Status": "Aberta", "Prioridade": "Média", "Local": "Galpão de Materiais", "DataAbertura": "2026-09-01T01:36:00Z", "Responsavel": "Yara Medeiros"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Ruído anormal no motor T-31", "NumeroOS": "OS-011701", "Descricao": "Ruído intermitente no motor T-31 durante a partida. Temperatura normal ao toque.", "Status": "Aberta", "Prioridade": "Crítica", "Local": "Reservatório Alto da Colina", "DataAbertura": "2026-09-01T02:31:00Z", "Responsavel": "Vagner Pacheco"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Pintura descascada na estrutura F-35", "NumeroOS": "OS-011702", "Descricao": "Estrutura metálica F-35 com pontos de corrosão sob a pintura.", "Status": "Fechada", "Prioridade": "Média", "Local": "Reservatório Industrial", "DataAbertura": "2026-09-01T03:20:00Z", "Responsavel": "Alex Nogueira"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Sensor de nível sem leitura no tanque P-20", "NumeroOS": "OS-011703", "Descricao": "Supervisório mostra leitura congelada do sensor de nível do tanque P-20.", "Status": "Em andamento", "Prioridade": "Média", "Local": "Subestação Norte", "DataAbertura": "2026-09-01T04:52:00Z", "Responsavel": "Wesley Cardoso"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Ar-condicionado da sala V-20 sem refrigerar", "NumeroOS": "OS-011704", "Descricao": "Ar-condicionado da sala de painéis V-20 ligado sem refrigerar.", "Status": "Fechada", "Prioridade": "Média", "Local": "ETA Central", "DataAbertura": "2026-09-01T05:29:00Z", "Responsavel": "Daniela Pires"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Vazamento na bomba G-05", "NumeroOS": "OS-011705", "Descricao": "Vazamento pelo selo mecânico da bomba G-05. Piso molhado ao redor da base.", "Status": "Fechada", "Prioridade": "Baixa", "Local": "Booster Parque das Águas", "DataAbertura": "2026-09-01T06:58:00Z", "Responsavel": "Vagner Pacheco"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Calha entupida no prédio V-21", "NumeroOS": "OS-011706", "Descricao": "Calha do prédio V-21 transbordando em dia de chuva.", "Status": "Fechada", "Prioridade": "Crítica", "Local": "Oficina Elétrica Central", "DataAbertura": "2026-09-01T08:13:00Z", "Responsavel": "Daniela Pires"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Portão da área H-20 emperrado", "NumeroOS": "OS-011707", "Descricao": "Portão de acesso da área H-20 exige força excessiva para abrir.", "Status": "Aberta", "Prioridade": "Alta", "Local": "ETE Rio Claro", "DataAbertura": "2026-09-01T09:17:00Z", "Responsavel": "Thiago Bastos"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Vazamento de óleo no redutor T-34", "NumeroOS": "OS-011708", "Descricao": "Gotejamento de óleo no redutor T-34. Nível ainda dentro da faixa.", "Status": "Fechada", "Prioridade": "Alta", "Local": "Centro de Operações", "DataAbertura": "2026-09-01T09:51:00Z", "Responsavel": "Érica Andrade"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Vazamento na bomba P-31", "NumeroOS": "OS-011709", "Descricao": "Vazamento pelo selo mecânico da bomba P-31. Piso molhado ao redor da base.", "Status": "Aberta", "Prioridade": "Média", "Local": "Subestação Oeste", "DataAbertura": "2026-09-01T11:06:00Z", "Responsavel": null}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Válvula R-17 não fecha por completo", "NumeroOS": "OS-011710", "Descricao": "Válvula R-17 com passagem residual mesmo totalmente fechada. Possível desgaste da sede.", "Status": "Fechada", "Prioridade": "Média", "Local": "Laboratório de Controle", "DataAbertura": "2026-09-01T12:14:00Z", "Responsavel": "Hugo Albuquerque"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Pintura descascada na estrutura H-12", "NumeroOS": "OS-011711", "Descricao": "Estrutura metálica H-12 com pontos de corrosão sob a pintura.", "Status": "Aberta", "Prioridade": "Média", "Local": "Subestação Norte", "DataAbertura": "2026-09-01T13:29:00Z", "Responsavel": null}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Bomba dosadora T-30 sem recalque", "NumeroOS": "OS-011712", "Descricao": "Bomba dosadora T-30 liga mas não dosa. Mangueira sem obstrução aparente.", "Status": "Fechada", "Prioridade": "Média", "Local": "Subestação Sul", "DataAbertura": "2026-09-01T14:30:00Z", "Responsavel": "Simone Carvalho"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Ar-condicionado da sala M-31 sem refrigerar", "NumeroOS": "OS-011713", "Descricao": "Ar-condicionado da sala de painéis M-31 ligado sem refrigerar.", "Status": "Aberta", "Prioridade": "Alta", "Local": "ETA Ribeirão Fundo", "DataAbertura": "2026-09-01T15:32:00Z", "Responsavel": "Thiago Bastos"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Troca de filtro do compressor E-18", "NumeroOS": "OS-011714", "Descricao": "Filtro de ar do compressor E-18 saturado. Substituição preventiva.", "Status": "Aberta", "Prioridade": "Média", "Local": "Base Operacional Sul", "DataAbertura": "2026-09-01T16:25:00Z", "Responsavel": "Aline Rocha"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Sensor de nível sem leitura no tanque G-27", "NumeroOS": "OS-011715", "Descricao": "Supervisório mostra leitura congelada do sensor de nível do tanque G-27.", "Status": "Aberta", "Prioridade": "Baixa", "Local": "Base Operacional Norte", "DataAbertura": "2026-09-01T17:37:00Z", "Responsavel": "Fernanda Quintela"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Portão da área F-08 emperrado", "NumeroOS": "OS-011716", "Descricao": "Portão de acesso da área F-08 exige força excessiva para abrir.", "Status": "Aberta", "Prioridade": "Alta", "Local": "Estação Elevatória Leste", "DataAbertura": "2026-09-01T19:10:00Z", "Responsavel": "Danilo Peixoto"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Correia do ventilador T-26 desgastada", "NumeroOS": "OS-011717", "Descricao": "Correia do ventilador T-26 com trincas visíveis e folga excessiva.", "Status": "Aberta", "Prioridade": "Baixa", "Local": "Base Operacional Sul", "DataAbertura": "2026-09-01T20:21:00Z", "Responsavel": "Cíntia Freitas"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Disjuntor desarmando no painel C-01", "NumeroOS": "OS-011718", "Descricao": "Disjuntor do painel C-01 desarmou três vezes no turno. Carga dentro do nominal.", "Status": "Aberta", "Prioridade": "Média", "Local": "ETA Central", "DataAbertura": "2026-09-01T20:49:00Z", "Responsavel": null}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Portão da área H-21 emperrado", "NumeroOS": "OS-011719", "Descricao": "Portão de acesso da área H-21 exige força excessiva para abrir.", "Status": "Em andamento", "Prioridade": "Alta", "Local": "Base Operacional Norte", "DataAbertura": "2026-09-01T22:06:00Z", "Responsavel": "Gabriel Matos"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Válvula G-22 não fecha por completo", "NumeroOS": "OS-011720", "Descricao": "Válvula G-22 com passagem residual mesmo totalmente fechada. Possível desgaste da sede.", "Status": "Aberta", "Prioridade": "Alta", "Local": "ETA Central", "DataAbertura": "2026-09-01T23:27:00Z", "Responsavel": "Igor Fonseca"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Sensor de nível sem leitura no tanque E-24", "NumeroOS": "OS-011721", "Descricao": "Supervisório mostra leitura congelada do sensor de nível do tanque E-24.", "Status": "Aberta", "Prioridade": "Alta", "Local": "Subestação Sul", "DataAbertura": "2026-09-02T00:45:00Z", "Responsavel": "Lívia Montenegro"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Troca de filtro do compressor D-27", "NumeroOS": "OS-011722", "Descricao": "Filtro de ar do compressor D-27 saturado. Substituição preventiva.", "Status": "Fechada", "Prioridade": "Média", "Local": "Adutora Tronco Sul", "DataAbertura": "2026-09-02T01:27:00Z", "Responsavel": "Flávio Gusmão"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Ar-condicionado da sala G-12 sem refrigerar", "NumeroOS": "OS-011723", "Descricao": "Ar-condicionado da sala de painéis G-12 ligado sem refrigerar.", "Status": "Em andamento", "Prioridade": "Média", "Local": "ETA Central", "DataAbertura": "2026-09-02T02:17:00Z", "Responsavel": "Heloísa Barreto"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Bomba dosadora R-24 sem recalque", "NumeroOS": "OS-011724", "Descricao": "Bomba dosadora R-24 liga mas não dosa. Mangueira sem obstrução aparente.", "Status": "Aberta", "Prioridade": "Média", "Local": "Pátio de Veículos", "DataAbertura": "2026-09-02T03:35:00Z", "Responsavel": "Jonas Teles"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Falha de comunicação no CLP C-03", "NumeroOS": "OS-011725", "Descricao": "CLP C-03 perde comunicação com o supervisório em intervalos irregulares.", "Status": "Fechada", "Prioridade": "Crítica", "Local": "Centro de Operações", "DataAbertura": "2026-09-02T04:46:00Z", "Responsavel": "Fernanda Quintela"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Ruído anormal no motor P-09", "NumeroOS": "OS-011726", "Descricao": "Ruído intermitente no motor P-09 durante a partida. Temperatura normal ao toque.", "Status": "Em andamento", "Prioridade": "Alta", "Local": "Estação Elevatória Oeste", "DataAbertura": "2026-09-02T05:37:00Z", "Responsavel": "Flávio Gusmão"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Aquecimento no mancal do motor T-37", "NumeroOS": "OS-011727", "Descricao": "Mancal do motor T-37 acima da temperatura usual na medição com termômetro infravermelho.", "Status": "Aberta", "Prioridade": "Alta", "Local": "Adutora Tronco Norte", "DataAbertura": "2026-09-02T06:40:00Z", "Responsavel": "Priscila Guedes"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Lâmpada queimada na área D-23", "NumeroOS": "OS-011728", "Descricao": "Iluminação da área D-23 sem funcionar. Reposição de lâmpada e conferência do reator.", "Status": "Em andamento", "Prioridade": "Baixa", "Local": "Estação de Bombeamento Vila Nova", "DataAbertura": "2026-09-02T07:59:00Z", "Responsavel": "Lívia Montenegro"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Ruído anormal no motor D-09", "NumeroOS": "OS-011729", "Descricao": "Ruído intermitente no motor D-09 durante a partida. Temperatura normal ao toque.", "Status": "Fechada", "Prioridade": "Baixa", "Local": "Adutora Tronco Sul", "DataAbertura": "2026-09-02T09:27:00Z", "Responsavel": "Priscila Guedes"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Calha entupida no prédio G-34", "NumeroOS": "OS-011730", "Descricao": "Calha do prédio G-34 transbordando em dia de chuva.", "Status": "Fechada", "Prioridade": "Alta", "Local": "Base Operacional Litoral", "DataAbertura": "2026-09-02T10:16:00Z", "Responsavel": "Marcos Vinícius Rocha"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Pintura descascada na estrutura P-09", "NumeroOS": "OS-011731", "Descricao": "Estrutura metálica P-09 com pontos de corrosão sob a pintura.", "Status": "Aberta", "Prioridade": "Média", "Local": "Sede Administrativa", "DataAbertura": "2026-09-02T11:33:00Z", "Responsavel": "Eduardo Salles"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Válvula T-19 não fecha por completo", "NumeroOS": "OS-011732", "Descricao": "Válvula T-19 com passagem residual mesmo totalmente fechada. Possível desgaste da sede.", "Status": "Fechada", "Prioridade": "Alta", "Local": "Captação Lagoa Seca", "DataAbertura": "2026-09-02T12:16:00Z", "Responsavel": "Danilo Peixoto"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Correia do ventilador R-13 desgastada", "NumeroOS": "OS-011733", "Descricao": "Correia do ventilador R-13 com trincas visíveis e folga excessiva.", "Status": "Aberta", "Prioridade": "Baixa", "Local": "Base Operacional Serra", "DataAbertura": "2026-09-02T13:49:00Z", "Responsavel": null}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Aquecimento no mancal do motor R-05", "NumeroOS": "OS-011734", "Descricao": "Mancal do motor R-05 acima da temperatura usual na medição com termômetro infravermelho.", "Status": "Fechada", "Prioridade": "Alta", "Local": "Reservatório Industrial", "DataAbertura": "2026-09-02T14:39:00Z", "Responsavel": "Kleber Antunes"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Disjuntor desarmando no painel R-39", "NumeroOS": "OS-011735", "Descricao": "Disjuntor do painel R-39 desarmou três vezes no turno. Carga dentro do nominal.", "Status": "Aberta", "Prioridade": "Alta", "Local": "Subestação Norte", "DataAbertura": "2026-09-02T15:43:00Z", "Responsavel": "Bernardo Leal"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Aquecimento no mancal do motor A-02", "NumeroOS": "OS-011736", "Descricao": "Mancal do motor A-02 acima da temperatura usual na medição com termômetro infravermelho.", "Status": "Fechada", "Prioridade": "Alta", "Local": "Estação Elevatória Leste", "DataAbertura": "2026-09-02T16:49:00Z", "Responsavel": "Simone Carvalho"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Disjuntor desarmando no painel V-01", "NumeroOS": "OS-011737", "Descricao": "Disjuntor do painel V-01 desarmou três vezes no turno. Carga dentro do nominal.", "Status": "Em andamento", "Prioridade": "Crítica", "Local": "Captação Lagoa Seca", "DataAbertura": "2026-09-02T18:03:00Z", "Responsavel": "Igor Fonseca"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Sensor de nível sem leitura no tanque D-01", "NumeroOS": "OS-011738", "Descricao": "Supervisório mostra leitura congelada do sensor de nível do tanque D-01.", "Status": "Em andamento", "Prioridade": "Alta", "Local": "Subestação Oeste", "DataAbertura": "2026-09-02T18:49:00Z", "Responsavel": "Otávio Lacerda"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Troca de filtro do compressor M-39", "NumeroOS": "OS-011739", "Descricao": "Filtro de ar do compressor M-39 saturado. Substituição preventiva.", "Status": "Aberta", "Prioridade": "Média", "Local": "Reservatório Industrial", "DataAbertura": "2026-09-02T20:21:00Z", "Responsavel": "Gabriel Matos"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Disjuntor desarmando no painel G-29", "NumeroOS": "OS-011740", "Descricao": "Disjuntor do painel G-29 desarmou três vezes no turno. Carga dentro do nominal.", "Status": "Fechada", "Prioridade": "Baixa", "Local": "Laboratório de Controle", "DataAbertura": "2026-09-02T21:28:00Z", "Responsavel": "Yara Medeiros"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Exaustor E-15 parado", "NumeroOS": "OS-011741", "Descricao": "Exaustor E-15 não parte. Fusível íntegro.", "Status": "Fechada", "Prioridade": "Alta", "Local": "Estação Elevatória Porto", "DataAbertura": "2026-09-02T22:04:00Z", "Responsavel": "Larissa Bezerra"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Pintura descascada na estrutura G-37", "NumeroOS": "OS-011742", "Descricao": "Estrutura metálica G-37 com pontos de corrosão sob a pintura.", "Status": "Fechada", "Prioridade": "Média", "Local": "Adutora Tronco Norte", "DataAbertura": "2026-09-02T23:11:00Z", "Responsavel": "Úrsula Maia"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Correia do ventilador G-18 desgastada", "NumeroOS": "OS-011743", "Descricao": "Correia do ventilador G-18 com trincas visíveis e folga excessiva.", "Status": "Em andamento", "Prioridade": "Baixa", "Local": "Torre de Telecomunicação Morro Alto", "DataAbertura": "2026-09-03T00:43:00Z", "Responsavel": "Otávio Lacerda"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Bomba dosadora M-25 sem recalque", "NumeroOS": "OS-011744", "Descricao": "Bomba dosadora M-25 liga mas não dosa. Mangueira sem obstrução aparente.", "Status": "Aberta", "Prioridade": "Baixa", "Local": "ETE Jardim Bela Vista", "DataAbertura": "2026-09-03T01:40:00Z", "Responsavel": "Hugo Albuquerque"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Vazamento na bomba T-22", "NumeroOS": "OS-011745", "Descricao": "Vazamento pelo selo mecânico da bomba T-22. Piso molhado ao redor da base.", "Status": "Fechada", "Prioridade": "Média", "Local": "Usina Fotovoltaica Cerrado", "DataAbertura": "2026-09-03T02:35:00Z", "Responsavel": "Priscila Guedes"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Válvula F-30 não fecha por completo", "NumeroOS": "OS-011746", "Descricao": "Válvula F-30 com passagem residual mesmo totalmente fechada. Possível desgaste da sede.", "Status": "Aberta", "Prioridade": "Baixa", "Local": "Galpão de Materiais", "DataAbertura": "2026-09-03T03:52:00Z", "Responsavel": "Wesley Cardoso"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Infiltração na parede da casa de bombas R-07", "NumeroOS": "OS-011747", "Descricao": "Mancha de umidade crescente na parede da casa de bombas R-07.", "Status": "Em andamento", "Prioridade": "Baixa", "Local": "Usina Fotovoltaica Planalto", "DataAbertura": "2026-09-03T04:36:00Z", "Responsavel": "Juliana Aguiar"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Tomada sem energia na sala C-36", "NumeroOS": "OS-011748", "Descricao": "Tomada de serviço da sala C-36 sem tensão.", "Status": "Em andamento", "Prioridade": "Alta", "Local": "Booster Morada do Sol", "DataAbertura": "2026-09-03T05:47:00Z", "Responsavel": "Thiago Bastos"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Aquecimento no mancal do motor P-35", "NumeroOS": "OS-011749", "Descricao": "Mancal do motor P-35 acima da temperatura usual na medição com termômetro infravermelho.", "Status": "Aberta", "Prioridade": "Média", "Local": "Reservatório Alto da Colina", "DataAbertura": "2026-09-03T07:26:00Z", "Responsavel": "Danilo Peixoto"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Sensor de nível sem leitura no tanque H-39", "NumeroOS": "OS-011750", "Descricao": "Supervisório mostra leitura congelada do sensor de nível do tanque H-39.", "Status": "Aberta", "Prioridade": "Alta", "Local": "Base Operacional Sul", "DataAbertura": "2026-09-03T07:54:00Z", "Responsavel": "Thiago Bastos"}
+
+--changeset_campo_114
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+POST {{SITE}}/_api/web/lists/getbytitle('Ocorrencias')/items HTTP/1.1
+Content-Type: application/json;odata=nometadata
+Accept: application/json;odata=nometadata
+
+{"Title": "Vazamento de óleo no redutor G-13", "NumeroOS": "OS-011751", "Descricao": "Gotejamento de óleo no redutor G-13. Nível ainda dentro da faixa.", "Status": "Em andamento", "Prioridade": "Média", "Local": "Reservatório Santa Luzia", "DataAbertura": "2026-09-03T09:09:00Z", "Responsavel": "Vagner Pacheco"}
+
+--changeset_campo_114--
+--batch_campo--

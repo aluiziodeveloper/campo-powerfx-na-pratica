@@ -1,0 +1,34 @@
+{
+  "gerado_com": {
+    "semente": 2026,
+    "fim": "2026-09-30"
+  },
+  "lista": "Ocorrencias",
+  "registros_planilha": 351,
+  "registros_massa": 12000,
+  "total": 12351,
+  "por_status": {
+    "Aberta": 2400,
+    "Em andamento": 619,
+    "Fechada": 9332
+  },
+  "status_normalizado": "as grafias Aberto/aberta/Em Andamento da planilha contam como Aberta/Em andamento",
+  "sentinelas": [
+    {
+      "nome": "primeira",
+      "NumeroOS": "OS-000472",
+      "indice_na_massa": 120,
+      "ID_esperado": 472,
+      "Titulo": "Vibração no motor do exaustor E-14",
+      "regra": "ID <= 500"
+    },
+    {
+      "nome": "segunda",
+      "NumeroOS": "OS-012152",
+      "indice_na_massa": 11800,
+      "ID_esperado": 12152,
+      "Titulo": "Vibração excessiva na bomba B-07",
+      "regra": "ID > 2000"
+    }
+  ]
+}

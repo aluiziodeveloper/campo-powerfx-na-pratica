@@ -1,0 +1,47 @@
+# CAMPO — material de apoio de *Power Fx na Prática*
+
+Este repositório acompanha o livro *Power Fx na Prática — A Linguagem por Trás do Power Apps*, de Jorge Aluizio Alves de Souza. O CAMPO (Controle de Atividades, Manutenção e Ocorrências) é a aplicação que o livro constrói do Capítulo 0 ao 27. Aqui estão a planilha de onde ele nasce, os dados do Teste de Realidade #1, os roteiros que carregam esses dados no seu SharePoint e os modelos que os capítulos mandam preencher.
+
+Os dados são fictícios: pessoas, unidades e ordens de serviço inventadas.
+
+## O que há aqui, por capítulo
+
+| Capítulo | O que usar | Onde |
+|---|---|---|
+| 0, 2, 4, 7 | A planilha v0.0, com as sete abas, as doze fórmulas e a sujeira que o livro manda inventariar | `material/CAMPO_v0.0.xlsx` |
+| 0, 2, 4 | Ficha da planilha, para o inventário | `material/Ficha_da_planilha_v0.0.md` |
+| 4 | As listas `Ocorrencias` e `Unidades`, se você preferir criá-las por roteiro em vez de importar a planilha | `carga/` (etapas Listas e Planilha) |
+| 5 em diante | Cartão de leitura de fórmulas, para imprimir | `material/Cartao_de_leitura_de_formulas.md` |
+| 8, 11 | A massa de 12.000 ordens de serviço com as duas sentinelas, e três jeitos de carregá-la | `dados/` e `carga/` |
+| 4 em diante | Pendências do CAMPO | `material/modelos/Pendencias_CAMPO.md` |
+| 8, 22, 23, 25, 27 | Registro de Decisões do CAMPO | `material/modelos/Registro_de_Decisoes_do_CAMPO.md` |
+| 22 | Registro de Recomendação Técnica | `material/modelos/Registro_de_Recomendacao_Tecnica.md` |
+| 24, 26 | Checklist de revisão de fórmulas | `material/modelos/Checklist_de_revisao_de_formulas.md` |
+| 24, 25 | Checklist de Produção | `material/modelos/Checklist_de_Producao.md` |
+| 26 | Protocolo de medição de fórmulas geradas por IA: vinte pedidos e ficha de registro | `material/Protocolo_IA_20_pedidos.md` |
+
+## Carregar a massa no seu ambiente
+
+Leia `carga/README.md`. Em resumo: o caminho pelo **navegador** não instala nada nem registra aplicativo; o caminho por **PowerShell** é o mais confortável para quem já usa o PnP; o **fluxo do Power Automate** é o que o Capítulo 8 descreve, e o único que não confere o resultado sozinho.
+
+## Gerar os dados de novo
+
+A massa termina em 30/09/2026. Se você for carregá-la muito depois, gere de novo com a data do dia, para que "aberta há mais de N dias" e as vencidas do Capítulo 11 façam sentido no seu calendário:
+
+```
+pip install openpyxl
+python ferramentas/gerar_material.py --fim 2027-03-15
+```
+
+A semente é fixa: com a mesma data final, os arquivos saem idênticos. A posição das sentinelas não muda com a data.
+
+## Testes dos roteiros de carga
+
+Os dois roteiros são testados contra um SharePoint simulado, sem conectar a nada:
+
+```
+node testes/testar-navegador.js
+pwsh testes/Testar-Carga.ps1
+```
+
+Os cenários: ambiente novo, item recusado no meio da massa, retomada sem duplicar, e lista que já consumiu `ID` demais.

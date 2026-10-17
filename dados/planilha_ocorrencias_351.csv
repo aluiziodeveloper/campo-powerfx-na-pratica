@@ -1,0 +1,352 @@
+﻿ID_esperado;NumeroOS;Titulo;Descricao;Status;Prioridade;Local;DataAbertura;Responsavel
+1;OS-0140;Pintura descascada na estrutura E-23;Estrutura metálica E-23 com pontos de corrosão sob a pintura.;Em Andamento;Média;Almoxarifado Central;2023-03-06T16:40:00;Daniela Pires
+2;OS-0177;Pintura descascada na estrutura G-17;Estrutura metálica G-17 com pontos de corrosão sob a pintura.;aberta;Baixa;Subestação Oeste;2023-03-27T08:40:00;Flávio Gusmão
+3;OS-0214;Falha de comunicação no CLP P-34;CLP P-34 perde comunicação com o supervisório em intervalos irregulares.;Aberto;Baixa;Booster Morada do Sol;2023-04-17T11:10:00;Simone Carvalho
+4;OS-0251;Medidor de vazão A-06 com leitura instável;Medidor de vazão A-06 oscila sem variação de processo.;Em Andamento;Média;Subestação Leste;2023-05-08T08:50:00;Érica Andrade
+5;OS-0288;Exaustor C-25 parado;Exaustor C-25 não parte. Fusível íntegro.;Aberto;Baixa;Base Operacional Norte;2023-05-29T16:50:00;Flávio Gusmão
+6;OS-0325;Ar-condicionado da sala M-35 sem refrigerar;Ar-condicionado da sala de painéis M-35 ligado sem refrigerar.;Aberto;Crítica;Estação de Bombeamento Vila Nova;2023-06-19T09:50:00;Igor Fonseca
+7;OS-0362;Vazamento na bomba C-26;Vazamento pelo selo mecânico da bomba C-26. Piso molhado ao redor da base.;Aberto;Alta;Adutora Tronco Norte;2023-07-10T17:30:00;Rafael Torres
+8;OS-0399;Vazamento na bomba A-05;Vazamento pelo selo mecânico da bomba A-05. Piso molhado ao redor da base.;aberta;Baixa;Captação Lagoa Seca;2023-07-31T15:10:00;Wesley Cardoso
+9;OS-0436;Lâmpada queimada na área F-31;Iluminação da área F-31 sem funcionar. Reposição de lâmpada e conferência do reator.;aberta;Alta;Usina Fotovoltaica Planalto;2023-08-21T15:10:00;Flávio Gusmão
+10;OS-0473;Infiltração na parede da casa de bombas H-16;Mancha de umidade crescente na parede da casa de bombas H-16.;Em Andamento;Média;Base Operacional Litoral;2023-09-11T09:50:00;Cíntia Freitas
+11;OS-0510;Ruído anormal no motor M-16;Ruído intermitente no motor M-16 durante a partida. Temperatura normal ao toque.;Aberto;Média;Reservatório Santa Luzia;2023-10-02T15:50:00;Heloísa Barreto
+12;OS-0547;Exaustor M-38 parado;Exaustor M-38 não parte. Fusível íntegro.;Aberto;Média;Adutora Tronco Norte;2023-10-23T15:50:00;Hugo Albuquerque
+13;OS-0584;Válvula H-03 não fecha por completo;Válvula H-03 com passagem residual mesmo totalmente fechada. Possível desgaste da sede.;Em Andamento;Média;Base Operacional Norte;2023-11-13T16:20:00;Thiago Bastos
+14;OS-0621;Infiltração na parede da casa de bombas P-21;Mancha de umidade crescente na parede da casa de bombas P-21.;Aberto;Alta;Reservatório Alto da Colina;2023-12-04T16:30:00;Beatriz Farias
+15;OS-0658;Falha de comunicação no CLP R-34;CLP R-34 perde comunicação com o supervisório em intervalos irregulares.;Aberto;Alta;Adutora Tronco Norte;2023-12-25T12:40:00;Zeca Moraes
+16;OS-0695;Válvula R-05 não fecha por completo;Válvula R-05 com passagem residual mesmo totalmente fechada. Possível desgaste da sede.;aberta;Média;Reservatório Santa Luzia;2024-01-15T16:50:00;Heloísa Barreto
+17;OS-0732;Disjuntor desarmando no painel H-26;Disjuntor do painel H-26 desarmou três vezes no turno. Carga dentro do nominal.;aberta;Baixa;ETE Rio Claro;2024-02-05T15:30:00;Daniela Pires
+18;OS-0769;Portão da área D-34 emperrado;Portão de acesso da área D-34 exige força excessiva para abrir.;Em Andamento;Alta;Estação Elevatória Oeste;2024-02-26T14:10:00;Rafael Torres
+19;OS-0806;Sensor de nível sem leitura no tanque A-14;Supervisório mostra leitura congelada do sensor de nível do tanque A-14.;aberta;Baixa;Almoxarifado Central;2024-03-18T12:20:00;Murilo Paiva
+20;OS-0843;Disjuntor desarmando no painel M-36;Disjuntor do painel M-36 desarmou três vezes no turno. Carga dentro do nominal.;Aberto;Média;Estação Elevatória Leste;2024-04-08T08:00:00;Flávio Gusmão
+21;OS-0880;Tomada sem energia na sala T-03;Tomada de serviço da sala T-03 sem tensão.;aberta;Baixa;Estação de Bombeamento Vila Nova;2024-04-29T10:50:00;Marcos Vinícius Rocha
+22;OS-0917;Calha entupida no prédio A-19;Calha do prédio A-19 transbordando em dia de chuva.;Em Andamento;Alta;Laboratório de Controle;2024-05-20T17:30:00;Simone Carvalho
+23;OS-1520;Válvula A-19 não fecha por completo;Válvula A-19 com passagem residual mesmo totalmente fechada. Possível desgaste da sede.;Em andamento;Média;Subestação Sul;2025-01-10T16:00:00;Rafael Torres
+24;OS-1601;Aquecimento no mancal do motor V-35;Mancal do motor V-35 acima da temperatura usual na medição com termômetro infravermelho.;Aberta;Alta;Laboratório de Controle;2025-02-04T13:00:00;Lívia Montenegro
+25;OS-1682;Infiltração na parede da casa de bombas M-04;Mancha de umidade crescente na parede da casa de bombas M-04.;Em andamento;Média;ETE Rio Claro;2025-03-01T12:00:00;Bernardo Leal
+26;OS-1763;Bomba dosadora C-16 sem recalque;Bomba dosadora C-16 liga mas não dosa. Mangueira sem obstrução aparente.;Em andamento;Crítica;Reservatório Alto da Colina;2025-03-26T15:00:00;Murilo Paiva
+27;OS-1844;Aquecimento no mancal do motor M-40;Mancal do motor M-40 acima da temperatura usual na medição com termômetro infravermelho.;Aberta;Alta;ETE Rio Claro;2025-04-20T14:00:00;Murilo Paiva
+28;OS-1925;Válvula P-22 não fecha por completo;Válvula P-22 com passagem residual mesmo totalmente fechada. Possível desgaste da sede.;Em andamento;Média;Torre de Telecomunicação Morro Alto;2025-05-15T12:00:00;Kleber Antunes
+29;OS-2006;Bomba dosadora C-02 sem recalque;Bomba dosadora C-02 liga mas não dosa. Mangueira sem obstrução aparente.;Aberta;Média;Pátio de Veículos;2025-06-09T15:00:00;Igor Fonseca
+30;OS-2087;Exaustor P-16 parado;Exaustor P-16 não parte. Fusível íntegro.;Em andamento;Baixa;Subestacao Norte;2025-07-04T15:00:00;Juliana Aguiar
+31;OS-2168;Troca de filtro do compressor D-32;Filtro de ar do compressor D-32 saturado. Substituição preventiva.;Aberta;Média;ETA Central;2025-07-29T15:00:00;Aline Rocha
+32;OS-2249;Aquecimento no mancal do motor V-32;Mancal do motor V-32 acima da temperatura usual na medição com termômetro infravermelho.;Em andamento;Média;Sede Administrativa;2025-08-23T14:00:00;Wesley Cardoso
+33;OS-2330;Tomada sem energia na sala G-06;Tomada de serviço da sala G-06 sem tensão.;Em andamento;Baixa;Oficina Elétrica Central;2025-09-17T09:00:00;Rafael Torres
+34;OS-2411;Infiltração na parede da casa de bombas C-25;Mancha de umidade crescente na parede da casa de bombas C-25.;Em andamento;Baixa;Booster Morada do Sol;2025-10-12T15:00:00;Larissa Bezerra
+35;OS-2492;Medidor de vazão V-35 com leitura instável;Medidor de vazão V-35 oscila sem variação de processo.;Aberta;Crítica;Subestação Norte;2025-11-06T09:00:00;Larissa Bezerra
+36;OS-2573;Bomba dosadora R-07 sem recalque;Bomba dosadora R-07 liga mas não dosa. Mangueira sem obstrução aparente.;Aberta;Alta;Reservatório Industrial;2025-12-01T14:00:00;Kleber Antunes
+37;OS-2701;Ar-condicionado da sala P-31 sem refrigerar;Ar-condicionado da sala de painéis P-31 ligado sem refrigerar.;Fechada;Alta;ETA Central;2026-01-05T07:47:00;Jonas Teles
+38;OS-2702;Medidor de vazão D-27 com leitura instável;Medidor de vazão D-27 oscila sem variação de processo.;Aberta;Baixa;Subestação Norte;2026-01-06T02:04:49;Thiago Bastos
+39;OS-2703;Lâmpada queimada na área H-01;Iluminação da área H-01 sem funcionar. Reposição de lâmpada e conferência do reator.;Fechada;Média;Subestação Centro;2026-01-06T22:11:38;Otávio Lacerda
+40;OS-2704;Troca de filtro do compressor M-05;Filtro de ar do compressor M-05 saturado. Substituição preventiva.;Fechada;Baixa;Booster Parque das Águas;2026-01-07T16:11:27;Érica Andrade
+41;OS-2705;Bomba dosadora V-20 sem recalque;Bomba dosadora V-20 liga mas não dosa. Mangueira sem obstrução aparente.;Fechada;Alta;Usina Fotovoltaica Planalto;2026-01-08T11:30:17;Cíntia Freitas
+42;OS-2706;Calha entupida no prédio F-21;Calha do prédio F-21 transbordando em dia de chuva.;Aberta;Baixa;Subestação Centro;2026-01-09T07:28:06;Murilo Paiva
+43;OS-2707;Vazamento na bomba E-14;Vazamento pelo selo mecânico da bomba E-14. Piso molhado ao redor da base.;Fechada;Baixa;Estação Elevatória Leste;2026-01-10T02:21:55;Bernardo Leal
+44;OS-2708;Infiltração na parede da casa de bombas V-21;Mancha de umidade crescente na parede da casa de bombas V-21.;Fechada;Alta;Subestação Centro;2026-01-10T21:01:45;Aline Rocha
+45;OS-2709;Lâmpada queimada na área R-22;Iluminação da área R-22 sem funcionar. Reposição de lâmpada e conferência do reator.;Fechada;Média;Estação Elevatória Porto;2026-01-11T16:00:34;Murilo Paiva
+46;OS-2710;Medidor de vazão P-35 com leitura instável;Medidor de vazão P-35 oscila sem variação de processo.;Fechada;Baixa;Centro de Operações;2026-01-12T11:37:23;Yara Medeiros
+47;OS-2711;Bomba dosadora E-12 sem recalque;Bomba dosadora E-12 liga mas não dosa. Mangueira sem obstrução aparente.;Fechada;Média;Subestação Norte;2026-01-13T06:30:12;Marcos Vinícius Rocha
+48;OS-2712;Medidor de vazão D-28 com leitura instável;Medidor de vazão D-28 oscila sem variação de processo.;Fechada;Média;Subestação Centro;2026-01-14T00:49:02;Aline Rocha
+49;OS-2713;Calha entupida no prédio T-04;Calha do prédio T-04 transbordando em dia de chuva.;Fechada;Média;Usina Fotovoltaica Planalto;2026-01-14T20:35:51;Ingrid Queiroz
+50;OS-2714;Troca de filtro do compressor P-20;Filtro de ar do compressor P-20 saturado. Substituição preventiva.;Fechada;Baixa;ETE Rio Claro;2026-01-15T15:55:40;
+51;OS-2715;Tomada sem energia na sala F-40;Tomada de serviço da sala F-40 sem tensão.;Fechada;Média;Base Operacional Sul;2026-01-16T10:47:30;Yara Medeiros
+52;OS-2716;Correia do ventilador P-15 desgastada;Correia do ventilador P-15 com trincas visíveis e folga excessiva.;Fechada;Crítica;Adutora Tronco Norte;;Aline Rocha
+53;OS-2717;Ar-condicionado da sala G-16 sem refrigerar;Ar-condicionado da sala de painéis G-16 ligado sem refrigerar.;Fechada;Média;Estação Elevatória Oeste;2026-01-18T00:08:08;Beatriz Farias
+54;OS-2718;Disjuntor desarmando no painel E-14;Disjuntor do painel E-14 desarmou três vezes no turno. Carga dentro do nominal.;Fechada;Alta;Almoxarifado Central;2026-01-18T20:09:58;Glória Sampaio
+55;OS-2719;Sensor de nível sem leitura no tanque H-33;Supervisório mostra leitura congelada do sensor de nível do tanque H-33.;Fechada;Alta;Subestação Norte;2026-01-19T14:50:47;Fernanda Quintela
+56;OS-2720;Disjuntor desarmando no painel C-14;Disjuntor do painel C-14 desarmou três vezes no turno. Carga dentro do nominal.;Fechada;Média;Reservatório Santa Luzia;2026-01-20T09:21:36;Yara Medeiros
+57;OS-2721;Tomada sem energia na sala T-07;Tomada de serviço da sala T-07 sem tensão.;Fechada;Média;Estação Elevatória Leste;;Alex Nogueira
+58;OS-2722;Disjuntor desarmando no painel C-22;Disjuntor do painel C-22 desarmou três vezes no turno. Carga dentro do nominal.;Fechada;Média;Reservatório Industrial;2026-01-21T23:23:15;Cíntia Freitas
+59;OS-2723;Disjuntor desarmando no painel T-07;Disjuntor do painel T-07 desarmou três vezes no turno. Carga dentro do nominal.;Em andamento;Baixa;ETA Ribeirão Fundo;2026-01-22T18:23:04;Murilo Paiva
+60;OS-2724;Calha entupida no prédio G-39;Calha do prédio G-39 transbordando em dia de chuva.;Fechada;Alta;Subestação Oeste;2026-01-23T14:01:53;Priscila Guedes
+61;OS-2725;Lâmpada queimada na área M-30;Iluminação da área M-30 sem funcionar. Reposição de lâmpada e conferência do reator.;Aberta;Baixa;Estação de Bombeamento Três Pontes;2026-01-24T08:24:43;Murilo Paiva
+62;OS-2726;Vazamento de óleo no redutor D-06;Gotejamento de óleo no redutor D-06. Nível ainda dentro da faixa.;Fechada;Crítica;Reservatório Industrial;2026-01-25T04:25:32;Eduardo Salles
+63;OS-2727;Bomba dosadora M-04 sem recalque;Bomba dosadora M-04 liga mas não dosa. Mangueira sem obstrução aparente.;Fechada;Média;Estação Elevatória Leste;2026-01-25T23:07:21;Gabriel Matos
+64;OS-2728;Ruído anormal no motor H-12;Ruído intermitente no motor H-12 durante a partida. Temperatura normal ao toque.;Fechada;Média;Subestação Leste;2026-01-26T17:48:11;Lívia Montenegro
+65;OS-2729;Tomada sem energia na sala E-28;Tomada de serviço da sala E-28 sem tensão.;Fechada;Alta;Booster Parque das Águas;2026-01-27T13:36:00;Alex Nogueira
+66;OS-2730;Lâmpada queimada na área R-39;Iluminação da área R-39 sem funcionar. Reposição de lâmpada e conferência do reator.;Fechada;Baixa;ETE Rio Claro;2026-01-28T08:01:49;Danilo Peixoto
+67;OS-2731;Disjuntor desarmando no painel V-15;Disjuntor do painel V-15 desarmou três vezes no turno. Carga dentro do nominal.;Fechada;Média;Pátio de Veículos;2026-01-29T03:50:38;Cíntia Freitas
+68;OS-2732;Aquecimento no mancal do motor R-40;Mancal do motor R-40 acima da temperatura usual na medição com termômetro infravermelho.;Fechada;Alta;Reservatório Alto da Colina;2026-01-29T23:07:28;Úrsula Maia
+69;OS-2733;Infiltração na parede da casa de bombas V-39;Mancha de umidade crescente na parede da casa de bombas V-39.;Fechada;Média;Adutora Tronco Norte;2026-01-30T18:08:17;Rafael Torres
+70;OS-2734;Ruído anormal no motor P-40;Ruído intermitente no motor P-40 durante a partida. Temperatura normal ao toque.;Fechada;Alta;Reservatório Industrial;2026-01-31T12:04:06;Cíntia Freitas
+71;OS-2735;Portão da área E-38 emperrado;Portão de acesso da área E-38 exige força excessiva para abrir.;Fechada;Média;Estação Elevatória Oeste;2026-02-01T07:03:56;Jonas Teles
+72;OS-2736;Medidor de vazão F-20 com leitura instável;Medidor de vazão F-20 oscila sem variação de processo.;Aberta;Alta;Oficina Elétrica Central;2026-02-02T02:25:45;
+73;OS-2737;Válvula R-39 não fecha por completo;Válvula R-39 com passagem residual mesmo totalmente fechada. Possível desgaste da sede.;Fechada;Média;Estação Elevatória Leste;2026-02-02T22:16:34;Heloísa Barreto
+74;OS-2738;Troca de filtro do compressor H-28;Filtro de ar do compressor H-28 saturado. Substituição preventiva.;Fechada;Média;Almoxarifado Central;;Gabriel Matos
+75;OS-2739;Falha de comunicação no CLP H-29;CLP H-29 perde comunicação com o supervisório em intervalos irregulares.;Fechada;Média;Oficina Mecânica Central;2026-02-04T11:39:13;Yara Medeiros
+76;OS-2740;Vazamento na bomba G-25;Vazamento pelo selo mecânico da bomba G-25. Piso molhado ao redor da base.;Fechada;Baixa;ETA Central ;2026-02-05T06:21:02;Glória Sampaio
+77;OS-2741;Vazamento na bomba G-27;Vazamento pelo selo mecânico da bomba G-27. Piso molhado ao redor da base.;Fechada;Média;Oficina Elétrica Central;2026-02-06T02:29:51;Thiago Bastos
+78;OS-2742;Pintura descascada na estrutura P-04;Estrutura metálica P-04 com pontos de corrosão sob a pintura.;Fechada;Alta;Estação Elevatória Leste;2026-02-06T21:32:41;Rafael Torres
+79;OS-2743;Correia do ventilador F-17 desgastada;Correia do ventilador F-17 com trincas visíveis e folga excessiva.;Fechada;Crítica;ETE Vale do Sol;2026-02-07T15:47:30;Eduardo Salles
+80;OS-2744;Infiltração na parede da casa de bombas D-04;Mancha de umidade crescente na parede da casa de bombas D-04.;Fechada;Baixa;Booster Morada do Sol;2026-02-08T10:57:19;Lívia Montenegro
+81;OS-2745;Bomba dosadora C-40 sem recalque;Bomba dosadora C-40 liga mas não dosa. Mangueira sem obstrução aparente.;Fechada;Média;Almoxarifado Central;2026-02-09T06:32:09;Daniela Pires
+82;OS-2746;Medidor de vazão D-07 com leitura instável;Medidor de vazão D-07 oscila sem variação de processo.;Fechada;Baixa;ETE Rio Claro;2026-02-10T00:51:58;Eduardo Salles
+83;OS-2747;Disjuntor desarmando no painel C-38;Disjuntor do painel C-38 desarmou três vezes no turno. Carga dentro do nominal.;Fechada;Baixa;Usina Fotovoltaica Planalto;2026-02-10T20:08:47;Caio Rangel
+84;OS-2748;Lâmpada queimada na área M-36;Iluminação da área M-36 sem funcionar. Reposição de lâmpada e conferência do reator.;Fechada;Baixa;Pátio de Veículos;2026-02-11T15:22:37;Thiago Bastos
+85;OS-2749;Vazamento de óleo no redutor G-36;Gotejamento de óleo no redutor G-36. Nível ainda dentro da faixa.;Fechada;Média;Base Operacional Norte;2026-02-12T10:46:26;Marcos Vinícius Rocha
+86;OS-2750;Ruído anormal no motor H-20;Ruído intermitente no motor H-20 durante a partida. Temperatura normal ao toque.;Fechada;Alta;Laboratório de Controle;2026-02-13T05:19:15;Lívia Montenegro
+87;OS-2751;Sensor de nível sem leitura no tanque R-26;Supervisório mostra leitura congelada do sensor de nível do tanque R-26.;Fechada;Baixa;Subestação Leste;2026-02-14T01:02:04;Cíntia Freitas
+88;OS-2752;Calha entupida no prédio M-10;Calha do prédio M-10 transbordando em dia de chuva.;Fechada;Baixa;Estação Elevatória Leste;2026-02-14T20:11:54;Gabriel Matos
+89;OS-2753;Lâmpada queimada na área H-13;Iluminação da área H-13 sem funcionar. Reposição de lâmpada e conferência do reator.;Fechada;Alta;Usina Fotovoltaica Planalto;2026-02-15T14:43:43;Jonas Teles
+90;OS-2754;Ar-condicionado da sala D-14 sem refrigerar;Ar-condicionado da sala de painéis D-14 ligado sem refrigerar.;Fechada;Média;Pátio de Veículos;2026-02-16T09:39:32;Thiago Bastos
+91;OS-2755;Vazamento na bomba C-13;Vazamento pelo selo mecânico da bomba C-13. Piso molhado ao redor da base.;Fechada;Média;Subestação Leste;2026-02-17T04:27:22;Bernardo Leal
+92;OS-2756;Aquecimento no mancal do motor A-24;Mancal do motor A-24 acima da temperatura usual na medição com termômetro infravermelho.;Fechada;Média;Subestação Oeste;2026-02-18T00:02:11;Murilo Paiva
+93;OS-2757;Infiltração na parede da casa de bombas E-22;Mancha de umidade crescente na parede da casa de bombas E-22.;Fechada;Alta;Estação Elevatória Leste;2026-02-18T18:47:00;Murilo Paiva
+94;OS-2758;Disjuntor desarmando no painel P-05;Disjuntor do painel P-05 desarmou três vezes no turno. Carga dentro do nominal.;Fechada;Média;Reservatório Industrial;;Yara Medeiros
+95;OS-2759;Lâmpada queimada na área D-10;Iluminação da área D-10 sem funcionar. Reposição de lâmpada e conferência do reator.;Fechada;Alta;ETE Rio Claro;2026-02-20T09:16:39;Heloísa Barreto
+96;OS-2760;Correia do ventilador F-38 desgastada;Correia do ventilador F-38 com trincas visíveis e folga excessiva.;Fechada;Média;Estação Elevatória Oeste;2026-02-21T04:48:28;Marcos Vinícius Rocha
+97;OS-2761;Sensor de nível sem leitura no tanque G-31;Supervisório mostra leitura congelada do sensor de nível do tanque G-31.;Fechada;Crítica;Laboratório de Controle;2026-02-21T23:06:17;Igor Fonseca
+98;OS-2762;Ar-condicionado da sala F-35 sem refrigerar;Ar-condicionado da sala de painéis F-35 ligado sem refrigerar.;Fechada;Crítica;Adutora Tronco Sul;2026-02-22T18:18:07;Otávio Lacerda
+99;OS-2763;Portão da área M-03 emperrado;Portão de acesso da área M-03 exige força excessiva para abrir.;Fechada;Baixa;ETA Central;2026-02-23T13:58:56;Flávio Gusmão
+100;OS-2764;Correia do ventilador V-07 desgastada;Correia do ventilador V-07 com trincas visíveis e folga excessiva.;Fechada;Alta;Subestação Centro;2026-02-24T09:02:45;Cíntia Freitas
+101;OS-2765;Aquecimento no mancal do motor M-21;Mancal do motor M-21 acima da temperatura usual na medição com termômetro infravermelho.;Fechada;Média;ETA Central;2026-02-25T03:28:35;Daniela Pires
+102;OS-2766;Aquecimento no mancal do motor F-28;Mancal do motor F-28 acima da temperatura usual na medição com termômetro infravermelho.;Fechada;Alta;ETE Vale do Sol;2026-02-25T22:14:24;Marcos Vinícius Rocha
+103;OS-2767;Pintura descascada na estrutura A-02;Estrutura metálica A-02 com pontos de corrosão sob a pintura.;Em andamento;Baixa;ETE Vale do Sol;2026-02-26T17:35:13;Vagner Pacheco
+104;OS-2768;Disjuntor desarmando no painel F-32;Disjuntor do painel F-32 desarmou três vezes no turno. Carga dentro do nominal.;Fechada;Baixa;Base Operacional Litoral;2026-02-27T13:01:03;Wesley Cardoso
+105;OS-2769;Pintura descascada na estrutura V-40;Estrutura metálica V-40 com pontos de corrosão sob a pintura.;Fechada;Alta;Estação Elevatória Oeste;2026-02-28T07:16:52;Hugo Albuquerque
+106;OS-2770;Calha entupida no prédio V-28;Calha do prédio V-28 transbordando em dia de chuva.;Fechada;Crítica;Laboratório de Controle;2026-03-01T02:36:41;Zeca Moraes
+107;OS-2771;Válvula P-17 não fecha por completo;Válvula P-17 com passagem residual mesmo totalmente fechada. Possível desgaste da sede.;Fechada;Média;Adutora Tronco Norte;2026-03-01T21:30:30;Bernardo Leal
+108;OS-2772;Pintura descascada na estrutura C-02;Estrutura metálica C-02 com pontos de corrosão sob a pintura.;Fechada;Média;Booster Morada do Sol;2026-03-02T16:56:20;Daniela Pires
+109;OS-2773;Ar-condicionado da sala A-31 sem refrigerar;Ar-condicionado da sala de painéis A-31 ligado sem refrigerar.;Fechada;Alta;Laboratório de Controle;2026-03-03T11:33:09;Bernardo Leal
+110;OS-2774;Disjuntor desarmando no painel V-23;Disjuntor do painel V-23 desarmou três vezes no turno. Carga dentro do nominal.;Fechada;Baixa;ETE Rio Claro;2026-03-04T07:08:58;Priscila Guedes
+111;OS-2775;Vazamento de óleo no redutor E-14;Gotejamento de óleo no redutor E-14. Nível ainda dentro da faixa.;Em andamento;Média;ETE Vale do Sol;2026-03-05T02:04:48;Alex Nogueira
+112;OS-2776;Disjuntor desarmando no painel A-34;Disjuntor do painel A-34 desarmou três vezes no turno. Carga dentro do nominal.;Fechada;Média;ETA Serra Azul;2026-03-05T21:28:37;Igor Fonseca
+113;OS-2777;Válvula V-39 não fecha por completo;Válvula V-39 com passagem residual mesmo totalmente fechada. Possível desgaste da sede.;Fechada;Média;Estação Elevatória Leste;2026-03-06T16:12:26;Danilo Peixoto
+114;OS-2778;Medidor de vazão H-28 com leitura instável;Medidor de vazão H-28 oscila sem variação de processo.;Em andamento;Média;ETE Vale do Sol;2026-03-07T10:45:16;Bernardo Leal
+115;OS-2779;Correia do ventilador G-14 desgastada;Correia do ventilador G-14 com trincas visíveis e folga excessiva.;Aberta;Média;Usina Fotovoltaica Planalto;2026-03-08T06:18:05;Hugo Albuquerque
+116;OS-2780;Portão da área G-16 emperrado;Portão de acesso da área G-16 exige força excessiva para abrir.;Em andamento;Baixa;Base Operacional Sul;2026-03-09T01:06:54;Wesley Cardoso
+117;OS-2781;Pintura descascada na estrutura C-13;Estrutura metálica C-13 com pontos de corrosão sob a pintura.;Fechada;Baixa;ETA Ribeirão Fundo;2026-03-09T21:06:43;Flávio Gusmão
+118;OS-2782;Sensor de nível sem leitura no tanque E-15;Supervisório mostra leitura congelada do sensor de nível do tanque E-15.;Fechada;Baixa;Almoxarifado Central;2026-03-10T15:43:33;Flávio Gusmão
+119;OS-2783;Bomba dosadora A-18 sem recalque;Bomba dosadora A-18 liga mas não dosa. Mangueira sem obstrução aparente.;Fechada;Baixa;Est. Elevatória Oeste;2026-03-11T11:01:22;Thiago Bastos
+120;OS-2784;Aquecimento no mancal do motor T-03;Mancal do motor T-03 acima da temperatura usual na medição com termômetro infravermelho.;Aberta;Média;Estação de Bombeamento Vila Nova;2026-03-12T06:25:11;
+121;OS-2785;Troca de filtro do compressor V-05;Filtro de ar do compressor V-05 saturado. Substituição preventiva.;Fechada;Baixa;Estação de Bombeamento Vila Nova;2026-03-13T01:02:01;Ingrid Queiroz
+122;OS-2786;Vazamento de óleo no redutor V-21;Gotejamento de óleo no redutor V-21. Nível ainda dentro da faixa.;Fechada;Média;Subestação Centro;2026-03-13T19:41:50;Simone Carvalho
+123;OS-2787;Disjuntor desarmando no painel V-04;Disjuntor do painel V-04 desarmou três vezes no turno. Carga dentro do nominal.;Fechada;Média;ETA Central;2026-03-14T15:12:39;
+124;OS-2788;Exaustor G-15 parado;Exaustor G-15 não parte. Fusível íntegro.;Fechada;Alta;Sede Administrativa;2026-03-15T09:37:29;Alex Nogueira
+125;OS-2789;Medidor de vazão D-37 com leitura instável;Medidor de vazão D-37 oscila sem variação de processo.;Fechada;Baixa;Base Operacional Norte;2026-03-16T05:30:18;Simone Carvalho
+126;OS-2790;Bomba dosadora P-05 sem recalque;Bomba dosadora P-05 liga mas não dosa. Mangueira sem obstrução aparente.;Fechada;Baixa;ETA Central;2026-03-17T00:02:07;Simone Carvalho
+127;OS-2791;Correia do ventilador A-12 desgastada;Correia do ventilador A-12 com trincas visíveis e folga excessiva.;Em andamento;Média;Subestação Oeste;2026-03-17T19:18:56;Zeca Moraes
+128;OS-2792;Correia do ventilador P-01 desgastada;Correia do ventilador P-01 com trincas visíveis e folga excessiva.;Fechada;Baixa;Subestação Norte;2026-03-18T14:32:46;Daniela Pires
+129;OS-2793;Vazamento na bomba V-03;Vazamento pelo selo mecânico da bomba V-03. Piso molhado ao redor da base.;Fechada;Média;Almoxarifado Central;2026-03-19T09:17:35;
+130;OS-2794;Vazamento na bomba M-04;Vazamento pelo selo mecânico da bomba M-04. Piso molhado ao redor da base.;Fechada;Baixa;Oficina Elétrica Central;2026-03-20T04:22:24;Gabriel Matos
+131;OS-2795;Bomba dosadora A-13 sem recalque;Bomba dosadora A-13 liga mas não dosa. Mangueira sem obstrução aparente.;Fechada;Baixa;Oficina Elétrica Central;2026-03-20T23:04:14;Hugo Albuquerque
+132;OS-2796;Válvula E-03 não fecha por completo;Válvula E-03 com passagem residual mesmo totalmente fechada. Possível desgaste da sede.;Fechada;Média;Subestação Norte;2026-03-21T18:46:03;Caio Rangel
+133;OS-2797;Medidor de vazão P-33 com leitura instável;Medidor de vazão P-33 oscila sem variação de processo.;Fechada;Média;Centro de Operações;2026-03-22T12:58:52;Gabriel Matos
+134;OS-2798;Vazamento de óleo no redutor V-26;Gotejamento de óleo no redutor V-26. Nível ainda dentro da faixa.;Fechada;Baixa;Estação de Bombeamento Vila Nova;2026-03-23T08:43:42;Úrsula Maia
+135;OS-2799;Correia do ventilador E-23 desgastada;Correia do ventilador E-23 com trincas visíveis e folga excessiva.;Fechada;Alta;Subestação Norte;2026-03-24T03:11:31;Beatriz Farias
+136;OS-2800;Infiltração na parede da casa de bombas P-16;Mancha de umidade crescente na parede da casa de bombas P-16.;Fechada;Baixa;Subestação Sul;2026-03-24T22:22:20;Úrsula Maia
+137;OS-2801;Vazamento na bomba T-14;Vazamento pelo selo mecânico da bomba T-14. Piso molhado ao redor da base.;Fechada;Crítica;Subestação Norte;2026-03-25T17:27:09;Kleber Antunes
+138;OS-2802;Correia do ventilador E-29 desgastada;Correia do ventilador E-29 com trincas visíveis e folga excessiva.;Fechada;Baixa;Galpão de Materiais;2026-03-26T12:31:59;Hugo Albuquerque
+139;OS-2803;Disjuntor desarmando no painel G-23;Disjuntor do painel G-23 desarmou três vezes no turno. Carga dentro do nominal.;Fechada;Alta;Oficina Elétrica Central;2026-03-27T08:35:48;Caio Rangel
+140;OS-2804;Aquecimento no mancal do motor D-27;Mancal do motor D-27 acima da temperatura usual na medição com termômetro infravermelho.;Aberta;Média;Captação Lagoa Seca;2026-03-28T03:01:37;
+141;OS-2805;Lâmpada queimada na área R-29;Iluminação da área R-29 sem funcionar. Reposição de lâmpada e conferência do reator.;Fechada;Média;Base Operacional Serra;2026-03-28T22:41:27;Hugo Albuquerque
+142;OS-2806;Ar-condicionado da sala V-12 sem refrigerar;Ar-condicionado da sala de painéis V-12 ligado sem refrigerar.;Fechada;Média;Almoxarifado Central;2026-03-29T17:24:16;Natália Cordeiro
+143;OS-2807;Ar-condicionado da sala P-05 sem refrigerar;Ar-condicionado da sala de painéis P-05 ligado sem refrigerar.;Fechada;Baixa;Estação de Bombeamento Vila Nova;2026-03-30T12:05:05;Marcos Vinícius Rocha
+144;OS-2808;Calha entupida no prédio A-09;Calha do prédio A-09 transbordando em dia de chuva.;Fechada;Baixa;Sede Administrativa;2026-03-31T07:06:55;Gabriel Matos
+145;OS-2809;Tomada sem energia na sala H-08;Tomada de serviço da sala H-08 sem tensão.;Fechada;Média;Galpão de Materiais;2026-04-01T02:05:44;Igor Fonseca
+146;OS-2810;Exaustor R-39 parado;Exaustor R-39 não parte. Fusível íntegro.;Fechada;Alta;Estação Elevatória Leste;2026-04-01T21:55:33;Hugo Albuquerque
+147;OS-2811;Vazamento na bomba T-26;Vazamento pelo selo mecânico da bomba T-26. Piso molhado ao redor da base.;Fechada;Média;Estação Elevatória Leste;2026-04-02T16:40:22;Rafael Torres
+148;OS-2812;Pintura descascada na estrutura G-04;Estrutura metálica G-04 com pontos de corrosão sob a pintura.;Fechada;Média;Booster Parque das Águas;2026-04-03T11:12:12;Otávio Lacerda
+149;OS-2813;Troca de filtro do compressor C-26;Filtro de ar do compressor C-26 saturado. Substituição preventiva.;Fechada;Média;Base Operacional Norte;2026-04-04T06:00:01;Jonas Teles
+150;OS-2814;Lâmpada queimada na área G-38;Iluminação da área G-38 sem funcionar. Reposição de lâmpada e conferência do reator.;Fechada;Média;ETE Rio Claro;2026-04-05T02:02:50;Fernanda Quintela
+151;OS-2815;Lâmpada queimada na área F-08;Iluminação da área F-08 sem funcionar. Reposição de lâmpada e conferência do reator.;Fechada;Média;Torre de Telecomunicação Morro Alto;2026-04-05T20:45:40;Kleber Antunes
+152;OS-2816;Correia do ventilador F-15 desgastada;Correia do ventilador F-15 com trincas visíveis e folga excessiva.;Fechada;Baixa;Pátio de Veículos;2026-04-06T16:29:29;Cíntia Freitas
+153;OS-2817;Correia do ventilador D-34 desgastada;Correia do ventilador D-34 com trincas visíveis e folga excessiva.;Fechada;Baixa;Oficina Mecânica Central;2026-04-07T10:35:18;
+154;OS-2818;Vazamento na bomba P-09;Vazamento pelo selo mecânico da bomba P-09. Piso molhado ao redor da base.;Fechada;Baixa;Estação Elevatória Leste;2026-04-08T06:22:08;Juliana Aguiar
+155;OS-2819;Vazamento na bomba V-19;Vazamento pelo selo mecânico da bomba V-19. Piso molhado ao redor da base.;Fechada;Alta;ETA Central;2026-04-09T01:03:57;Otávio Lacerda
+156;OS-2820;Bomba dosadora V-02 sem recalque;Bomba dosadora V-02 liga mas não dosa. Mangueira sem obstrução aparente.;Em andamento;Baixa;Sede Administrativa;2026-04-09T20:04:46;Zeca Moraes
+157;OS-2821;Ruído anormal no motor H-04;Ruído intermitente no motor H-04 durante a partida. Temperatura normal ao toque.;Fechada;Baixa;Almoxarifado;2026-04-10T14:29:35;Lívia Montenegro
+158;OS-2822;Tomada sem energia na sala R-36;Tomada de serviço da sala R-36 sem tensão.;Fechada;Média;Estação Elevatória Leste;2026-04-11T10:03:25;Vagner Pacheco
+159;OS-2823;Disjuntor desarmando no painel M-35;Disjuntor do painel M-35 desarmou três vezes no turno. Carga dentro do nominal.;Fechada;Crítica;Subestação Centro;2026-04-12T05:04:14;Otávio Lacerda
+160;OS-2824;Lâmpada queimada na área G-12;Iluminação da área G-12 sem funcionar. Reposição de lâmpada e conferência do reator.;Fechada;Média;Estação Elevatória Oeste;;Danilo Peixoto
+161;OS-2825;Válvula T-31 não fecha por completo;Válvula T-31 com passagem residual mesmo totalmente fechada. Possível desgaste da sede.;Fechada;Média;Base Operacional Sul;2026-04-13T19:34:53;
+162;OS-2826;Bomba dosadora H-03 sem recalque;Bomba dosadora H-03 liga mas não dosa. Mangueira sem obstrução aparente.;Fechada;Média;ETA Central;2026-04-14T14:33:42;Bernardo Leal
+163;OS-2827;Disjuntor desarmando no painel D-07;Disjuntor do painel D-07 desarmou três vezes no turno. Carga dentro do nominal.;Fechada;Alta;Booster Parque das Águas;2026-04-15T09:20:31;
+164;OS-2828;Ruído anormal no motor M-03;Ruído intermitente no motor M-03 durante a partida. Temperatura normal ao toque.;Fechada;Crítica;ETA Central;2026-04-16T04:30:21;
+165;OS-2829;Correia do ventilador V-38 desgastada;Correia do ventilador V-38 com trincas visíveis e folga excessiva.;Fechada;Média;Estação de Bombeamento Vila Nova;2026-04-16T23:24:10;
+166;OS-2830;Portão da área E-09 emperrado;Portão de acesso da área E-09 exige força excessiva para abrir.;Fechada;Média;Base Operacional Norte;2026-04-17T19:00:59;Vagner Pacheco
+167;OS-2831;Troca de filtro do compressor A-05;Filtro de ar do compressor A-05 saturado. Substituição preventiva.;Fechada;Alta;Booster Morada do Sol;2026-04-18T14:16:48;Zeca Moraes
+168;OS-2832;Disjuntor desarmando no painel A-04;Disjuntor do painel A-04 desarmou três vezes no turno. Carga dentro do nominal.;Fechada;Média;Galpão de Materiais;2026-04-19T09:24:38;Hugo Albuquerque
+169;OS-2833;Aquecimento no mancal do motor V-31;Mancal do motor V-31 acima da temperatura usual na medição com termômetro infravermelho.;Fechada;Alta;Laboratório de Controle;2026-04-20T03:34:27;Kleber Antunes
+170;OS-2834;Portão da área E-16 emperrado;Portão de acesso da área E-16 exige força excessiva para abrir.;Fechada;Média;Subestação Leste;2026-04-20T22:37:16;Wesley Cardoso
+171;OS-2835;Pintura descascada na estrutura G-03;Estrutura metálica G-03 com pontos de corrosão sob a pintura.;Fechada;Média;Adutora Tronco Sul;2026-04-21T17:22:06;Cíntia Freitas
+172;OS-2836;Pintura descascada na estrutura A-07;Estrutura metálica A-07 com pontos de corrosão sob a pintura.;Fechada;Média;ETE Vale do Sol;2026-04-22T13:31:55;Aline Rocha
+173;OS-2837;Aquecimento no mancal do motor A-13;Mancal do motor A-13 acima da temperatura usual na medição com termômetro infravermelho.;Fechada;Baixa;Booster Morada do Sol;2026-04-23T07:33:44;Juliana Aguiar
+174;OS-2838;Sensor de nível sem leitura no tanque G-01;Supervisório mostra leitura congelada do sensor de nível do tanque G-01.;Fechada;Alta;Estação Elevatória Leste;2026-04-24T02:43:34;Kleber Antunes
+175;OS-2839;Vazamento na bomba G-08;Vazamento pelo selo mecânico da bomba G-08. Piso molhado ao redor da base.;Fechada;Alta;Adutora Tronco Norte;2026-04-24T22:46:23;Igor Fonseca
+176;OS-2840;Ar-condicionado da sala T-17 sem refrigerar;Ar-condicionado da sala de painéis T-17 ligado sem refrigerar.;Fechada;Baixa;Base Operacional Sul;2026-04-25T16:58:12;Natália Cordeiro
+177;OS-2841;Medidor de vazão C-37 com leitura instável;Medidor de vazão C-37 oscila sem variação de processo.;Fechada;Crítica;Adutora Tronco Norte;2026-04-26T11:57:01;Natália Cordeiro
+178;OS-2842;Tomada sem energia na sala H-05;Tomada de serviço da sala H-05 sem tensão.;Fechada;Baixa;Estação Elevatória Oeste;2026-04-27T06:50:51;Igor Fonseca
+179;OS-2843;Disjuntor desarmando no painel V-09;Disjuntor do painel V-09 desarmou três vezes no turno. Carga dentro do nominal.;Fechada;Alta;Booster Morada do Sol;2026-04-28T03:06:40;Jonas Teles
+180;OS-2844;Correia do ventilador E-32 desgastada;Correia do ventilador E-32 com trincas visíveis e folga excessiva.;Fechada;Baixa;Booster Morada do Sol;2026-04-28T21:01:29;Lívia Montenegro
+181;OS-2845;Bomba dosadora M-26 sem recalque;Bomba dosadora M-26 liga mas não dosa. Mangueira sem obstrução aparente.;Fechada;Crítica;Usina Fotovoltaica Cerrado;2026-04-29T16:48:19;Zeca Moraes
+182;OS-2846;Medidor de vazão D-19 com leitura instável;Medidor de vazão D-19 oscila sem variação de processo.;Fechada;Baixa;Captação Lagoa Seca;2026-04-30T12:10:08;Vagner Pacheco
+183;OS-2847;Medidor de vazão T-10 com leitura instável;Medidor de vazão T-10 oscila sem variação de processo.;Fechada;Alta;Pátio de Veículos;2026-05-01T06:27:57;Danilo Peixoto
+184;OS-2848;Portão da área C-11 emperrado;Portão de acesso da área C-11 exige força excessiva para abrir.;Em andamento;Média;Estação de Bombeamento Vila Nova;2026-05-02T01:24:47;Hugo Albuquerque
+185;OS-2849;Medidor de vazão F-29 com leitura instável;Medidor de vazão F-29 oscila sem variação de processo.;Fechada;Média;Subestação Norte;2026-05-02T21:04:36;
+186;OS-2850;Aquecimento no mancal do motor E-40;Mancal do motor E-40 acima da temperatura usual na medição com termômetro infravermelho.;Fechada;Alta;Usina Fotovoltaica Planalto;2026-05-03T15:52:25;Zeca Moraes
+187;OS-2851;Troca de filtro do compressor A-19;Filtro de ar do compressor A-19 saturado. Substituição preventiva.;Fechada;Média;Estação Elevatória Oeste;2026-05-04T11:38:14;Flávio Gusmão
+188;OS-2852;Vazamento na bomba R-27;Vazamento pelo selo mecânico da bomba R-27. Piso molhado ao redor da base.;Fechada;Crítica;Reservatório Alto da Colina;2026-05-05T05:51:04;Otávio Lacerda
+189;OS-2853;Infiltração na parede da casa de bombas E-33;Mancha de umidade crescente na parede da casa de bombas E-33.;Fechada;Média;Base Operacional Norte;2026-05-06T01:07:53;Kleber Antunes
+190;OS-2854;Correia do ventilador P-31 desgastada;Correia do ventilador P-31 com trincas visíveis e folga excessiva.;Fechada;Média;Subestação Norte;2026-05-06T20:10:42;Bernardo Leal
+191;OS-2855;Medidor de vazão F-19 com leitura instável;Medidor de vazão F-19 oscila sem variação de processo.;Fechada;Média;Oficina Elétrica Central;2026-05-07T15:27:32;Caio Rangel
+192;OS-2856;Infiltração na parede da casa de bombas M-12;Mancha de umidade crescente na parede da casa de bombas M-12.;Aberta;Crítica;Reservatório Alto da Colina;2026-05-08T11:02:21;
+193;OS-2857;Lâmpada queimada na área H-25;Iluminação da área H-25 sem funcionar. Reposição de lâmpada e conferência do reator.;Fechada;Baixa;Estação de Bombeamento Três Pontes;2026-05-09T06:03:10;Glória Sampaio
+194;OS-2858;Troca de filtro do compressor H-33;Filtro de ar do compressor H-33 saturado. Substituição preventiva.;Fechada;Média;Estação Elevatória Oeste;2026-05-10T00:43:59;Fernanda Quintela
+195;OS-2859;Vazamento de óleo no redutor V-20;Gotejamento de óleo no redutor V-20. Nível ainda dentro da faixa.;Fechada;Média;Captação Rio Verde;2026-05-10T20:01:49;Jonas Teles
+196;OS-2860;Sensor de nível sem leitura no tanque A-16;Supervisório mostra leitura congelada do sensor de nível do tanque A-16.;Aberta;Média;ETA Serra Azul;2026-05-11T15:03:38;
+197;OS-2861;Ruído anormal no motor R-35;Ruído intermitente no motor R-35 durante a partida. Temperatura normal ao toque.;Fechada;Baixa;Reservatório Alto da Colina;2026-05-12T09:41:27;Wesley Cardoso
+198;OS-2862;Infiltração na parede da casa de bombas V-40;Mancha de umidade crescente na parede da casa de bombas V-40.;Aberta;Média;Subestação Centro;2026-05-13T04:25:17;
+199;OS-2863;Exaustor P-39 parado;Exaustor P-39 não parte. Fusível íntegro.;Fechada;Baixa;Reservatório Alto da Colina;2026-05-13T23:23:06;Beatriz Farias
+200;OS-2864;Vazamento na bomba D-33;Vazamento pelo selo mecânico da bomba D-33. Piso molhado ao redor da base.;Fechada;Baixa;ETA Central;2026-05-14T18:12:55;Alex Nogueira
+201;OS-2865;Calha entupida no prédio A-06;Calha do prédio A-06 transbordando em dia de chuva.;Fechada;Média;Base Operacional Sul;2026-05-15T13:24:45;Juliana Aguiar
+202;OS-2866;Ar-condicionado da sala P-17 sem refrigerar;Ar-condicionado da sala de painéis P-17 ligado sem refrigerar.;Fechada;Média;ETE Rio claro;;Jonas Teles
+203;OS-2867;Lâmpada queimada na área A-25;Iluminação da área A-25 sem funcionar. Reposição de lâmpada e conferência do reator.;Fechada;Baixa;Base Operacional Sul;2026-05-17T04:40:23;Simone Carvalho
+204;OS-2868;Portão da área E-05 emperrado;Portão de acesso da área E-05 exige força excessiva para abrir.;Fechada;Baixa;Base Operacional Norte;2026-05-17T22:44:12;Simone Carvalho
+205;OS-2869;Vazamento de óleo no redutor H-18;Gotejamento de óleo no redutor H-18. Nível ainda dentro da faixa.;Fechada;Alta;Almoxarifado Central;2026-05-18T18:13:02;Heloísa Barreto
+206;OS-2870;Vazamento de óleo no redutor V-31;Gotejamento de óleo no redutor V-31. Nível ainda dentro da faixa.;Fechada;Baixa;Reservatório Santa Luzia;2026-05-19T12:44:51;Kleber Antunes
+207;OS-2871;Aquecimento no mancal do motor F-06;Mancal do motor F-06 acima da temperatura usual na medição com termômetro infravermelho.;Fechada;Média;Base Operacional Litoral;2026-05-20T08:57:40;Natália Cordeiro
+208;OS-2872;Medidor de vazão F-29 com leitura instável;Medidor de vazão F-29 oscila sem variação de processo.;Fechada;Média;Oficina Elétrica Central;2026-05-21T02:58:30;Bernardo Leal
+209;OS-2873;Bomba dosadora D-23 sem recalque;Bomba dosadora D-23 liga mas não dosa. Mangueira sem obstrução aparente.;Fechada;Baixa;Subestação Leste;2026-05-21T22:50:19;Caio Rangel
+210;OS-2874;Válvula E-11 não fecha por completo;Válvula E-11 com passagem residual mesmo totalmente fechada. Possível desgaste da sede.;Fechada;Alta;Usina Fotovoltaica Planalto;2026-05-22T17:57:08;Bernardo Leal
+211;OS-2875;Tomada sem energia na sala H-38;Tomada de serviço da sala H-38 sem tensão.;Fechada;Alta;Galpão de Materiais;2026-05-23T12:39:58;Flávio Gusmão
+212;OS-2876;Aquecimento no mancal do motor E-34;Mancal do motor E-34 acima da temperatura usual na medição com termômetro infravermelho.;Fechada;Alta;Pátio de Veículos;2026-05-24T07:56:47;Larissa Bezerra
+213;OS-2877;Exaustor F-32 parado;Exaustor F-32 não parte. Fusível íntegro.;Em andamento;Alta;Sede Administrativa;2026-05-25T02:46:36;Igor Fonseca
+214;OS-2878;Ar-condicionado da sala G-10 sem refrigerar;Ar-condicionado da sala de painéis G-10 ligado sem refrigerar.;Fechada;Média;Subestação Sul;;Thiago Bastos
+215;OS-2879;Sensor de nível sem leitura no tanque G-25;Supervisório mostra leitura congelada do sensor de nível do tanque G-25.;Fechada;Baixa;Captação Rio Verde;2026-05-26T16:49:15;Ingrid Queiroz
+216;OS-2880;Válvula M-07 não fecha por completo;Válvula M-07 com passagem residual mesmo totalmente fechada. Possível desgaste da sede.;Fechada;Média;Estação Elevatória Porto;2026-05-27T11:42:04;Thiago Bastos
+217;OS-2881;Troca de filtro do compressor D-28;Filtro de ar do compressor D-28 saturado. Substituição preventiva.;Fechada;Baixa;Subestação Norte;;Danilo Peixoto
+218;OS-2882;Portão da área G-01 emperrado;Portão de acesso da área G-01 exige força excessiva para abrir.;Fechada;Baixa;Subestação Leste;2026-05-29T02:03:43;Thiago Bastos
+219;OS-2883;Falha de comunicação no CLP R-19;CLP R-19 perde comunicação com o supervisório em intervalos irregulares.;Fechada;Média;Base Operacional Sul;2026-05-29T21:28:32;Danilo Peixoto
+220;OS-2884;Falha de comunicação no CLP T-35;CLP T-35 perde comunicação com o supervisório em intervalos irregulares.;Fechada;Média;Usina Fotovoltaica Planalto;2026-05-30T15:51:21;Caio Rangel
+221;OS-2885;Vazamento na bomba M-18;Vazamento pelo selo mecânico da bomba M-18. Piso molhado ao redor da base.;Fechada;Baixa;Estação Elevatória Leste;2026-05-31T11:32:11;Thiago Bastos
+222;OS-2886;Pintura descascada na estrutura C-01;Estrutura metálica C-01 com pontos de corrosão sob a pintura.;Fechada;Alta;Base Operacional Norte;2026-06-01T06:21:00;Eduardo Salles
+223;OS-2887;Falha de comunicação no CLP H-03;CLP H-03 perde comunicação com o supervisório em intervalos irregulares.;Fechada;Alta;Sede Administrativa;2026-06-02T01:24:49;
+224;OS-2888;Válvula M-33 não fecha por completo;Válvula M-33 com passagem residual mesmo totalmente fechada. Possível desgaste da sede.;Fechada;Baixa;Subestação Leste;2026-06-02T20:59:38;Wesley Cardoso
+225;OS-2889;Ar-condicionado da sala H-05 sem refrigerar;Ar-condicionado da sala de painéis H-05 ligado sem refrigerar.;Fechada;Baixa;Subestação Norte;2026-06-03T15:07:28;Daniela Pires
+226;OS-2890;Disjuntor desarmando no painel R-22;Disjuntor do painel R-22 desarmou três vezes no turno. Carga dentro do nominal.;Fechada;Baixa;Booster Morada do Sol;2026-06-04T11:04:17;Rafael Torres
+227;OS-2891;Medidor de vazão H-05 com leitura instável;Medidor de vazão H-05 oscila sem variação de processo.;Fechada;Média;Torre de Telecomunicação Morro Alto;2026-06-05T05:12:06;Hugo Albuquerque
+228;OS-2892;Falha de comunicação no CLP V-16;CLP V-16 perde comunicação com o supervisório em intervalos irregulares.;Fechada;Média;Almoxarifado Central;2026-06-06T00:41:56;Eduardo Salles
+229;OS-2893;Ruído anormal no motor T-11;Ruído intermitente no motor T-11 durante a partida. Temperatura normal ao toque.;Fechada;Média;Oficina Mecânica Central;2026-06-06T19:43:45;Caio Rangel
+230;OS-2894;Ar-condicionado da sala D-05 sem refrigerar;Ar-condicionado da sala de painéis D-05 ligado sem refrigerar.;Fechada;Média;Captação Rio Verde;2026-06-07T15:03:34;Daniela Pires
+231;OS-2895;Medidor de vazão R-39 com leitura instável;Medidor de vazão R-39 oscila sem variação de processo.;Fechada;Média;Galpão de Materiais;2026-06-08T10:20:24;Úrsula Maia
+232;OS-2896;Sensor de nível sem leitura no tanque E-32;Supervisório mostra leitura congelada do sensor de nível do tanque E-32.;Fechada;Média;ETE Vale do Sol;2026-06-09T04:44:13;Aline Rocha
+233;OS-2897;Exaustor M-37 parado;Exaustor M-37 não parte. Fusível íntegro.;Fechada;Média;Torre de Telecomunicação Morro Alto;2026-06-09T23:37:02;Cíntia Freitas
+234;OS-2898;Tomada sem energia na sala G-19;Tomada de serviço da sala G-19 sem tensão.;Fechada;Alta;Reservatório Industrial;2026-06-10T18:37:51;Rafael Torres
+235;OS-2899;Tomada sem energia na sala A-22;Tomada de serviço da sala A-22 sem tensão.;Fechada;Média;Torre de Telecomunicação Morro Alto;2026-06-11T14:39:41;Ingrid Queiroz
+236;OS-2900;Ruído anormal no motor V-25;Ruído intermitente no motor V-25 durante a partida. Temperatura normal ao toque.;Fechada;Média;Captação Lagoa Seca;2026-06-12T09:21:30;Yara Medeiros
+237;OS-2901;Vazamento de óleo no redutor V-09;Gotejamento de óleo no redutor V-09. Nível ainda dentro da faixa.;Fechada;Baixa;ETA Serra Azul;2026-06-13T04:44:19;Simone Carvalho
+238;OS-2902;Troca de filtro do compressor H-05;Filtro de ar do compressor H-05 saturado. Substituição preventiva.;Fechada;Baixa;Base Operacional Sul;2026-06-13T23:30:09;Cíntia Freitas
+239;OS-2903;Válvula F-02 não fecha por completo;Válvula F-02 com passagem residual mesmo totalmente fechada. Possível desgaste da sede.;Fechada;Média;Estação Elevatória Porto;2026-06-14T18:44:58;Natália Cordeiro
+240;OS-2904;Falha de comunicação no CLP M-24;CLP M-24 perde comunicação com o supervisório em intervalos irregulares.;Fechada;Crítica;Oficina Mecânica Central;;Thiago Bastos
+241;OS-2905;Sensor de nível sem leitura no tanque H-25;Supervisório mostra leitura congelada do sensor de nível do tanque H-25.;Fechada;Média;Adutora Tronco Norte;2026-06-16T08:43:37;Heloísa Barreto
+242;OS-2906;Medidor de vazão T-14 com leitura instável;Medidor de vazão T-14 oscila sem variação de processo.;Em andamento;Alta;Reservatório Industrial;2026-06-17T03:35:26;Fernanda Quintela
+243;OS-2907;Portão da área E-02 emperrado;Portão de acesso da área E-02 exige força excessiva para abrir.;Fechada;Média;Reservatório Industrial;2026-06-17T22:48:15;Érica Andrade
+244;OS-2908;Correia do ventilador E-36 desgastada;Correia do ventilador E-36 com trincas visíveis e folga excessiva.;Fechada;Média;Estação Elevatória Porto;2026-06-18T17:02:04;Eduardo Salles
+245;OS-2909;Pintura descascada na estrutura A-20;Estrutura metálica A-20 com pontos de corrosão sob a pintura.;Fechada;Baixa;Base Operacional Serra;2026-06-19T12:36:54;
+246;OS-2910;Aquecimento no mancal do motor P-28;Mancal do motor P-28 acima da temperatura usual na medição com termômetro infravermelho.;Fechada;Baixa;Base Op. Sul;2026-06-20T08:22:43;Otávio Lacerda
+247;OS-2911;Portão da área A-28 emperrado;Portão de acesso da área A-28 exige força excessiva para abrir.;Fechada;Média;Estação Elevatória Leste;2026-06-21T03:05:32;Otávio Lacerda
+248;OS-2912;Disjuntor desarmando no painel F-13;Disjuntor do painel F-13 desarmou três vezes no turno. Carga dentro do nominal.;Fechada;Baixa;Centro de Operações;2026-06-21T22:16:22;Zeca Moraes
+249;OS-2913;Portão da área V-26 emperrado;Portão de acesso da área V-26 exige força excessiva para abrir.;Fechada;Baixa;Subestação Centro;2026-06-22T17:21:11;Daniela Pires
+250;OS-2914;Bomba dosadora G-25 sem recalque;Bomba dosadora G-25 liga mas não dosa. Mangueira sem obstrução aparente.;Fechada;Média;Subestação Centro;2026-06-23T11:28:00;Hugo Albuquerque
+251;OS-2915;Lâmpada queimada na área V-18;Iluminação da área V-18 sem funcionar. Reposição de lâmpada e conferência do reator.;Fechada;Média;Estação Elevatória Porto;2026-06-24T06:42:50;Eduardo Salles
+252;OS-2916;Sensor de nível sem leitura no tanque D-01;Supervisório mostra leitura congelada do sensor de nível do tanque D-01.;Fechada;Alta;Base Operacional Litoral;2026-06-25T02:05:39;Murilo Paiva
+253;OS-2917;Troca de filtro do compressor D-22;Filtro de ar do compressor D-22 saturado. Substituição preventiva.;Fechada;Baixa;Subestação Norte;2026-06-25T21:01:28;Kleber Antunes
+254;OS-2918;Falha de comunicação no CLP T-30;CLP T-30 perde comunicação com o supervisório em intervalos irregulares.;Fechada;Baixa;Base Operacional Sul;2026-06-26T16:44:17;Érica Andrade
+255;OS-2919;Pintura descascada na estrutura C-32;Estrutura metálica C-32 com pontos de corrosão sob a pintura.;Fechada;Média;Captação Lagoa Seca;2026-06-27T12:03:07;Ingrid Queiroz
+256;OS-2920;Portão da área R-37 emperrado;Portão de acesso da área R-37 exige força excessiva para abrir.;Fechada;Média;Estação Elevatória Porto;2026-06-28T06:57:56;Heloísa Barreto
+257;OS-2921;Calha entupida no prédio R-30;Calha do prédio R-30 transbordando em dia de chuva.;Fechada;Média;Estação de Bombeamento Vila Nova;2026-06-29T01:58:45;Yara Medeiros
+258;OS-2922;Troca de filtro do compressor M-22;Filtro de ar do compressor M-22 saturado. Substituição preventiva.;Fechada;Média;Subestação Norte;2026-06-29T20:06:35;Zeca Moraes
+259;OS-2923;Falha de comunicação no CLP F-34;CLP F-34 perde comunicação com o supervisório em intervalos irregulares.;Fechada;Alta;Base Operacional Litoral;2026-06-30T15:26:24;Cíntia Freitas
+260;OS-2924;Calha entupida no prédio A-35;Calha do prédio A-35 transbordando em dia de chuva.;Fechada;Média;Captação Rio Verde;2026-07-01T10:28:13;Wesley Cardoso
+261;OS-2925;Válvula C-26 não fecha por completo;Válvula C-26 com passagem residual mesmo totalmente fechada. Possível desgaste da sede.;Fechada;Baixa;ETE Rio Claro;2026-07-02T05:27:03;Úrsula Maia
+262;OS-2926;Tomada sem energia na sala M-05;Tomada de serviço da sala M-05 sem tensão.;Fechada;Média;ETE Rio Claro;2026-07-03T00:19:52;Marcos Vinícius Rocha
+263;OS-2927;Vazamento de óleo no redutor T-18;Gotejamento de óleo no redutor T-18. Nível ainda dentro da faixa.;Fechada;Crítica;ETE Vale do Sol;2026-07-03T20:19:41;Alex Nogueira
+264;OS-2928;Aquecimento no mancal do motor R-06;Mancal do motor R-06 acima da temperatura usual na medição com termômetro infravermelho.;Fechada;Média;Base Operacional Sul;2026-07-04T15:28:30;Daniela Pires
+265;OS-2929;Válvula G-30 não fecha por completo;Válvula G-30 com passagem residual mesmo totalmente fechada. Possível desgaste da sede.;Fechada;Média;Estação Elevatória Leste;2026-07-05T09:24:20;Caio Rangel
+266;OS-2930;Calha entupida no prédio M-30;Calha do prédio M-30 transbordando em dia de chuva.;Aberta;Média;Torre de Telecomunicação Morro Alto;2026-07-06T05:18:09;
+267;OS-2931;Medidor de vazão G-31 com leitura instável;Medidor de vazão G-31 oscila sem variação de processo.;Fechada;Média;Subestação Norte;2026-07-07T00:38:58;Aline Rocha
+268;OS-2932;Exaustor R-12 parado;Exaustor R-12 não parte. Fusível íntegro.;Fechada;Baixa;ETE Vale do Sol;2026-07-07T19:01:48;Jonas Teles
+269;OS-2933;Válvula D-29 não fecha por completo;Válvula D-29 com passagem residual mesmo totalmente fechada. Possível desgaste da sede.;Fechada;Alta;Reservatório Industrial;2026-07-08T14:36:37;Simone Carvalho
+270;OS-2934;Troca de filtro do compressor C-18;Filtro de ar do compressor C-18 saturado. Substituição preventiva.;Fechada;Alta;Base Operacional Serra;2026-07-09T09:23:26;Heloísa Barreto
+271;OS-2935;Troca de filtro do compressor R-14;Filtro de ar do compressor R-14 saturado. Substituição preventiva.;Fechada;Média;Captação Lagoa Seca;2026-07-10T04:24:16;Marcos Vinícius Rocha
+272;OS-2936;Correia do ventilador H-31 desgastada;Correia do ventilador H-31 com trincas visíveis e folga excessiva.;Fechada;Baixa;Base Operacional Norte;2026-07-10T23:20:05;Úrsula Maia
+273;OS-2937;Calha entupida no prédio C-20;Calha do prédio C-20 transbordando em dia de chuva.;Fechada;Baixa;ETA Ribeirão Fundo;2026-07-11T18:32:54;
+274;OS-2938;Aquecimento no mancal do motor D-18;Mancal do motor D-18 acima da temperatura usual na medição com termômetro infravermelho.;Fechada;Média;Torre de Telecomunicação Morro Alto;2026-07-12T12:59:43;Murilo Paiva
+275;OS-2939;Calha entupida no prédio M-08;Calha do prédio M-08 transbordando em dia de chuva.;Aberta;Alta;Usina Fotovoltaica Planalto;2026-07-13T08:16:33;
+276;OS-2940;Portão da área A-19 emperrado;Portão de acesso da área A-19 exige força excessiva para abrir.;Fechada;Alta;Subestação Norte;2026-07-14T03:49:22;Cíntia Freitas
+277;OS-2941;Portão da área D-34 emperrado;Portão de acesso da área D-34 exige força excessiva para abrir.;Fechada;Alta;Booster Parque das Águas;2026-07-14T23:06:11;Natália Cordeiro
+278;OS-2942;Disjuntor desarmando no painel F-14;Disjuntor do painel F-14 desarmou três vezes no turno. Carga dentro do nominal.;Fechada;Alta;Oficina Mecânica Central;2026-07-15T17:46:01;Ingrid Queiroz
+279;OS-2943;Válvula P-07 não fecha por completo;Válvula P-07 com passagem residual mesmo totalmente fechada. Possível desgaste da sede.;Fechada;Média;Centro de Operações;2026-07-16T13:05:50;Wesley Cardoso
+280;OS-2944;Calha entupida no prédio F-19;Calha do prédio F-19 transbordando em dia de chuva.;Em andamento;Alta;Base Operacional Norte;2026-07-17T08:32:39;Lívia Montenegro
+281;OS-2945;Correia do ventilador H-11 desgastada;Correia do ventilador H-11 com trincas visíveis e folga excessiva.;Fechada;Baixa;Reservatório Industrial;2026-07-18T03:14:29;Igor Fonseca
+282;OS-2946;Falha de comunicação no CLP V-10;CLP V-10 perde comunicação com o supervisório em intervalos irregulares.;Fechada;Crítica;Usina Fotovoltaica Planalto;2026-07-18T22:31:18;Úrsula Maia
+283;OS-2947;Lâmpada queimada na área H-24;Iluminação da área H-24 sem funcionar. Reposição de lâmpada e conferência do reator.;Fechada;Baixa;Subestação Oeste;2026-07-19T17:08:07;Aline Rocha
+284;OS-2948;Sensor de nível sem leitura no tanque H-40;Supervisório mostra leitura congelada do sensor de nível do tanque H-40.;Em andamento;Baixa;Estação Elevatória Leste;2026-07-20T12:51:56;Priscila Guedes
+285;OS-2949;Falha de comunicação no CLP V-40;CLP V-40 perde comunicação com o supervisório em intervalos irregulares.;Fechada;Baixa;ETA Serra Azul;2026-07-21T07:42:46;Eduardo Salles
+286;OS-2950;Ruído anormal no motor V-24;Ruído intermitente no motor V-24 durante a partida. Temperatura normal ao toque.;Fechada;Alta;Base Operacional Litoral;2026-07-22T02:57:35;Bernardo Leal
+287;OS-2951;Falha de comunicação no CLP V-38;CLP V-38 perde comunicação com o supervisório em intervalos irregulares.;Fechada;Média;Subestação Norte;2026-07-22T21:25:24;Yara Medeiros
+288;OS-2952;Aquecimento no mancal do motor T-33;Mancal do motor T-33 acima da temperatura usual na medição com termômetro infravermelho.;Fechada;Alta;Subestação Norte;2026-07-23T16:35:14;Caio Rangel
+289;OS-2953;Bomba dosadora C-20 sem recalque;Bomba dosadora C-20 liga mas não dosa. Mangueira sem obstrução aparente.;Fechada;Baixa;Laboratorio de Controle;2026-07-24T12:04:03;Zeca Moraes
+290;OS-2954;Troca de filtro do compressor M-12;Filtro de ar do compressor M-12 saturado. Substituição preventiva.;Fechada;Baixa;ETE Vale do Sol;2026-07-25T06:18:52;Simone Carvalho
+291;OS-2955;Tomada sem energia na sala P-34;Tomada de serviço da sala P-34 sem tensão.;Fechada;Baixa;Subestação Sul;2026-07-26T02:07:42;Kleber Antunes
+292;OS-2956;Lâmpada queimada na área H-22;Iluminação da área H-22 sem funcionar. Reposição de lâmpada e conferência do reator.;Fechada;Alta;Base Operacional Sul;2026-07-26T20:53:31;Jonas Teles
+293;OS-2957;Exaustor P-11 parado;Exaustor P-11 não parte. Fusível íntegro.;Fechada;Alta;Captação Rio Verde;2026-07-27T16:25:20;Simone Carvalho
+294;OS-2958;Válvula A-22 não fecha por completo;Válvula A-22 com passagem residual mesmo totalmente fechada. Possível desgaste da sede.;Fechada;Baixa;Oficina Elétrica Central;2026-07-28T10:15:09;Alex Nogueira
+295;OS-2959;Vazamento de óleo no redutor C-40;Gotejamento de óleo no redutor C-40. Nível ainda dentro da faixa.;Em andamento;Alta;Base Operacional Sul;2026-07-29T05:41:59;Zeca Moraes
+296;OS-2960;Troca de filtro do compressor E-22;Filtro de ar do compressor E-22 saturado. Substituição preventiva.;Aberta;Média;Base Operacional Litoral;2026-07-30T01:26:48;
+297;OS-2961;Medidor de vazão M-18 com leitura instável;Medidor de vazão M-18 oscila sem variação de processo.;Fechada;Média;Estação Elevatória Leste;2026-07-30T19:50:37;Vagner Pacheco
+298;OS-2962;Falha de comunicação no CLP R-13;CLP R-13 perde comunicação com o supervisório em intervalos irregulares.;Fechada;Baixa;Base Operacional Litoral;2026-07-31T15:01:27;Lívia Montenegro
+299;OS-2963;Aquecimento no mancal do motor M-03;Mancal do motor M-03 acima da temperatura usual na medição com termômetro infravermelho.;Aberta;Baixa;ETA Ribeirão Fundo;2026-08-01T10:33:16;
+300;OS-2964;Aquecimento no mancal do motor T-13;Mancal do motor T-13 acima da temperatura usual na medição com termômetro infravermelho.;Em andamento;Média;Reservatório Santa Luzia;2026-08-02T05:16:05;Alex Nogueira
+301;OS-2965;Infiltração na parede da casa de bombas M-24;Mancha de umidade crescente na parede da casa de bombas M-24.;Em andamento;Alta;Estação de Bombeamento Três Pontes;2026-08-03T00:28:55;Ingrid Queiroz
+302;OS-2966;Vazamento na bomba G-32;Vazamento pelo selo mecânico da bomba G-32. Piso molhado ao redor da base.;Aberta;Média;Reservatório Alto da Colina;2026-08-03T19:51:44;
+303;OS-2967;Disjuntor desarmando no painel T-36;Disjuntor do painel T-36 desarmou três vezes no turno. Carga dentro do nominal.;Fechada;Alta;Pátio de Veículos;2026-08-04T15:03:33;Glória Sampaio
+304;OS-2968;Correia do ventilador C-10 desgastada;Correia do ventilador C-10 com trincas visíveis e folga excessiva.;Aberta;Crítica;Oficina Mecânica Central;2026-08-05T09:09:22;
+305;OS-2969;Sensor de nível sem leitura no tanque G-31;Supervisório mostra leitura congelada do sensor de nível do tanque G-31.;Fechada;Média;ETE Rio Claro;2026-08-06T04:10:12;Caio Rangel
+306;OS-2970;Calha entupida no prédio E-02;Calha do prédio E-02 transbordando em dia de chuva.;Aberta;Média;Oficina Mecânica Central;2026-08-07T00:11:01;
+307;OS-2971;Correia do ventilador D-29 desgastada;Correia do ventilador D-29 com trincas visíveis e folga excessiva.;Aberta;Média;ETA Central;2026-08-07T18:05:50;
+308;OS-2972;Portão da área G-11 emperrado;Portão de acesso da área G-11 exige força excessiva para abrir.;Fechada;Média;Booster Parque das Águas;2026-08-08T13:43:40;Cíntia Freitas
+309;OS-2973;Pintura descascada na estrutura A-18;Estrutura metálica A-18 com pontos de corrosão sob a pintura.;Aberta;Alta;Subestação Sul;2026-08-09T08:31:29;
+310;OS-2974;Calha entupida no prédio D-26;Calha do prédio D-26 transbordando em dia de chuva.;Fechada;Alta;Centro de Operações;;Igor Fonseca
+311;OS-2975;Sensor de nível sem leitura no tanque G-07;Supervisório mostra leitura congelada do sensor de nível do tanque G-07.;Em andamento;Baixa;ETA Central;2026-08-10T22:33:08;Eduardo Salles
+312;OS-2976;Correia do ventilador T-22 desgastada;Correia do ventilador T-22 com trincas visíveis e folga excessiva.;Fechada;Média;Reservatório Santa Luzia;2026-08-11T17:43:57;Yara Medeiros
+313;OS-2977;Lâmpada queimada na área H-02;Iluminação da área H-02 sem funcionar. Reposição de lâmpada e conferência do reator.;Fechada;Média;Sede Administrativa;2026-08-12T12:47:46;Fernanda Quintela
+314;OS-2978;Tomada sem energia na sala P-23;Tomada de serviço da sala P-23 sem tensão.;Fechada;Média;Oficina Mecânica Central;2026-08-13T08:20:35;Marcos Vinícius Rocha
+315;OS-2979;Tomada sem energia na sala E-11;Tomada de serviço da sala E-11 sem tensão.;Fechada;Média;Usina Fotovoltaica Planalto;2026-08-14T03:34:25;Érica Andrade
+316;OS-2980;Calha entupida no prédio A-39;Calha do prédio A-39 transbordando em dia de chuva.;Em andamento;Alta;Booster Parque das Águas;2026-08-14T21:39:14;Érica Andrade
+317;OS-2981;Troca de filtro do compressor M-02;Filtro de ar do compressor M-02 saturado. Substituição preventiva.;Aberta;Crítica;Estação de Bombeamento Vila Nova;2026-08-15T17:45:03;
+318;OS-2982;Disjuntor desarmando no painel H-39;Disjuntor do painel H-39 desarmou três vezes no turno. Carga dentro do nominal.;Aberta;Média;Reservatório Industrial;2026-08-16T12:52:53;
+319;OS-2983;Medidor de vazão F-29 com leitura instável;Medidor de vazão F-29 oscila sem variação de processo.;Aberta;Média;Booster Morada do Sol;2026-08-17T07:39:42;
+320;OS-2984;Calha entupida no prédio H-33;Calha do prédio H-33 transbordando em dia de chuva.;Aberta;Média;Pátio de Veículos;2026-08-18T02:32:31;
+321;OS-2985;Bomba dosadora V-30 sem recalque;Bomba dosadora V-30 liga mas não dosa. Mangueira sem obstrução aparente.;Aberta;Baixa;Usina Fotovoltaica Cerrado;2026-08-18T22:00:21;
+322;OS-2986;Medidor de vazão D-13 com leitura instável;Medidor de vazão D-13 oscila sem variação de processo.;Aberta;Média;Torre de Telecomunicação Morro Alto;2026-08-19T15:59:10;
+323;OS-2987;Correia do ventilador A-12 desgastada;Correia do ventilador A-12 com trincas visíveis e folga excessiva.;Fechada;Média;Adutora Tronco Sul;2026-08-20T11:47:59;Érica Andrade
+324;OS-2988;Troca de filtro do compressor F-30;Filtro de ar do compressor F-30 saturado. Substituição preventiva.;Em andamento;Média;Estação Elevatória Leste;2026-08-21T06:38:48;Thiago Bastos
+325;OS-2989;Calha entupida no prédio M-13;Calha do prédio M-13 transbordando em dia de chuva.;Aberta;Alta;ETA Ribeirão Fundo;2026-08-22T01:13:38;
+326;OS-2990;Infiltração na parede da casa de bombas H-25;Mancha de umidade crescente na parede da casa de bombas H-25.;Fechada;Média;ETA Ribeirão Fundo;2026-08-22T20:38:27;Úrsula Maia
+327;OS-2991;Portão da área H-07 emperrado;Portão de acesso da área H-07 exige força excessiva para abrir.;Em andamento;Média;Subestação Oeste;2026-08-23T15:29:16;Ingrid Queiroz
+328;OS-2992;Infiltração na parede da casa de bombas E-07;Mancha de umidade crescente na parede da casa de bombas E-07.;Aberta;Média;ETA Ribeirão Fundo;2026-08-24T11:17:06;
+329;OS-2993;Troca de filtro do compressor F-01;Filtro de ar do compressor F-01 saturado. Substituição preventiva.;Aberta;Média;Estação de Bombeamento Vila Nova;2026-08-25T05:46:55;
+330;OS-2994;Exaustor C-24 parado;Exaustor C-24 não parte. Fusível íntegro.;Aberta;Crítica;Subestação Centro;2026-08-26T01:32:44;
+331;OS-2995;Calha entupida no prédio A-30;Calha do prédio A-30 transbordando em dia de chuva.;Em andamento;Média;Pátio de Veículos;2026-08-26T19:53:34;Rafael Torres
+332;OS-2996;Válvula T-06 não fecha por completo;Válvula T-06 com passagem residual mesmo totalmente fechada. Possível desgaste da sede.;Fechada;Média;Reservatório Alto da Colina;2026-08-27T15:31:23;Glória Sampaio
+333;OS-2997;Falha de comunicação no CLP C-12;CLP C-12 perde comunicação com o supervisório em intervalos irregulares.;Fechada;Baixa;Booster Parque das Águas;;
+334;OS-2998;Falha de comunicação no CLP G-21;CLP G-21 perde comunicação com o supervisório em intervalos irregulares.;Fechada;Baixa;Sede Administrativa;2026-08-29T05:11:01;Vagner Pacheco
+335;OS-2999;Disjuntor desarmando no painel M-20;Disjuntor do painel M-20 desarmou três vezes no turno. Carga dentro do nominal.;Fechada;Baixa;ETA Central;2026-08-30T01:08:51;Cíntia Freitas
+336;OS-3000;Ruído anormal no motor A-06;Ruído intermitente no motor A-06 durante a partida. Temperatura normal ao toque.;Fechada;Alta;Laboratório de Controle;2026-08-30T20:03:40;
+337;OS-3001;Correia do ventilador H-12 desgastada;Correia do ventilador H-12 com trincas visíveis e folga excessiva.;Fechada;Média;Reservatório Industrial;2026-08-31T14:07:29;Cíntia Freitas
+338;OS-3002;Bomba dosadora T-28 sem recalque;Bomba dosadora T-28 liga mas não dosa. Mangueira sem obstrução aparente.;Fechada;Média;Reservatório Alto da Colina;2026-09-01T09:27:19;Glória Sampaio
+339;OS-3003;Aquecimento no mancal do motor H-38;Mancal do motor H-38 acima da temperatura usual na medição com termômetro infravermelho.;Em andamento;Média;Pátio de Veículos;2026-09-02T04:18:08;Eduardo Salles
+340;OS-3004;Vazamento de óleo no redutor F-35;Gotejamento de óleo no redutor F-35. Nível ainda dentro da faixa.;Em andamento;Média;Subestação Centro;2026-09-02T23:52:57;Ingrid Queiroz
+341;OS-3005;Portão da área A-40 emperrado;Portão de acesso da área A-40 exige força excessiva para abrir.;Em andamento;Baixa;ETE Vale do Sol;2026-09-03T19:30:47;Glória Sampaio
+342;OS-3006;Exaustor V-30 parado;Exaustor V-30 não parte. Fusível íntegro.;Aberta;Média;Estação Elevatória Oeste;2026-09-04T13:29:36;
+343;OS-3007;Lâmpada queimada na área F-23;Iluminação da área F-23 sem funcionar. Reposição de lâmpada e conferência do reator.;Aberta;Crítica;Almoxarifado Central;2026-09-05T09:14:25;
+344;OS-3008;Portão da área M-08 emperrado;Portão de acesso da área M-08 exige força excessiva para abrir.;Aberta;Baixa;Adutora Tronco Sul;;
+345;OS-3009;Vazamento na bomba M-36;Vazamento pelo selo mecânico da bomba M-36. Piso molhado ao redor da base.;Aberta;Alta;Base Operacional Norte;2026-09-06T22:45:04;
+346;OS-3010;Falha de comunicação no CLP A-20;CLP A-20 perde comunicação com o supervisório em intervalos irregulares.;Aberta;Alta;Base Operacional Norte;2026-09-07T18:04:53;
+347;OS-3011;Portão da área F-01 emperrado;Portão de acesso da área F-01 exige força excessiva para abrir.;Aberta;Baixa;Estação Elevatória Leste;2026-09-08T13:20:42;
+348;OS-3012;Exaustor H-03 parado;Exaustor H-03 não parte. Fusível íntegro.;Aberta;Crítica;Booster Morada do Sol;2026-09-09T08:39:32;
+349;OS-3013;Vazamento de óleo no redutor G-14;Gotejamento de óleo no redutor G-14. Nível ainda dentro da faixa.;Em andamento;Média;Centro de Operações;2026-09-10T03:16:21;Caio Rangel
+350;OS-3014;Medidor de vazão M-04 com leitura instável;Medidor de vazão M-04 oscila sem variação de processo.;Fechada;Média;Estação de Bombeamento Vila Nova;2026-09-10T22:48:10;
+351;OS-3015;Aquecimento no mancal do motor V-16;Mancal do motor V-16 acima da temperatura usual na medição com termômetro infravermelho.;Em andamento;Média;Subestação Sul;2026-09-11T17:02:59;Hugo Albuquerque
