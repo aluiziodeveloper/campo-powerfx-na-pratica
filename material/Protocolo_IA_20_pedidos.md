@@ -1,6 +1,6 @@
 # Protocolo de medição: fórmulas geradas por assistente de IA
 
-*Material de apoio do Capítulo 26, seção "O método para medir". Vinte pedidos fixos, do domínio do CAMPO, cada um submetido de duas formas. As quarenta respostas são classificadas pelas seis categorias do capítulo.*
+*Material de apoio do Capítulo 27, seção "O método para medir". Vinte pedidos fixos, do domínio do CAMPO, cada um submetido de duas formas. As quarenta respostas são classificadas pelas seis categorias do capítulo.*
 
 🔄 *O resultado vale para a combinação ferramenta × versão × data em que você o obtiver. Registre as três.*
 
@@ -25,26 +25,26 @@ Cada pedido especificado é o pedido natural seguido deste bloco, sem alteraçã
 
 | # | Pedido natural | Onde a fórmula vai | O que o livro espera de uma boa resposta |
 |---|---|---|---|
-| 1 | Preciso mostrar numa galeria só as ordens de serviço que estão abertas. | `Items` da galeria | Igualdade sobre `Status`, delegável (Cap. 8) |
-| 2 | Quero uma caixa de busca que encontre a ordem de serviço pelo número ou pelo título. | `Items` da galeria | `StartsWith` sobre `NumeroOS` e `Title`, ou a declaração de que "contém" não delega (Caps. 8 e 11) |
-| 3 | Quero mostrar o total de horas apontadas por unidade neste mês. | `Items` de uma galeria de resumo | Reconhecer que agregação não delega no SharePoint, e propor recorte ou fluxo (Caps. 10 e 11) |
-| 4 | Preciso de um botão que feche a ordem de serviço selecionada na galeria. | `OnSelect` do botão | `Patch` sobre `galOcorrencias.Selected`, com `IfError` (Cap. 13) |
-| 5 | Como calculo há quantos dias a ordem de serviço está aberta? | `Text` de um rótulo na galeria | `DateDiff` com tratamento de `DataAbertura` em branco (Caps. 6 e 9) |
-| 6 | Quero que cada supervisor veja apenas as ordens de serviço da unidade dele. | `Items` da galeria | Filtro delegável **e** a ressalva de que filtrar na tela não é segurança (Cap. 21) |
-| 7 | Quero um contador com quantas ordens de serviço críticas estão abertas. | `Text` de um rótulo | `CountRows` sobre filtro: a contagem não delega e dá no máximo 500 (Cap. 10) |
-| 8 | Preciso listar as ordens de serviço vencidas, considerando o prazo de cada prioridade. | `Items` da galeria | Datas de corte calculadas fora da condição (Cap. 11, Regra 10) |
-| 9 | Quero ordenar a galeria da mais recente para a mais antiga. | `Items` da galeria | `Sort` sobre `DataAbertura`, depois do recorte (Cap. 10) |
-| 10 | Quero mostrar a última ordem de serviço aberta na unidade. | `Text` de um rótulo | `First(Sort(...; Descending))`, e não `Last` (Cap. 10) |
-| 11 | Quero uma lista suspensa com as unidades, para filtrar a galeria. | `Items` da lista suspensa e da galeria | Lista alimentada por `Unidades`; filtro por igualdade (Caps. 7 e 11) |
-| 12 | Preciso de um formulário para registrar uma nova ordem de serviço. | `OnSelect` do botão Salvar | `SubmitForm`, com o que vem depois no `OnSuccess` (Caps. 4 e 13) |
-| 13 | Quero gravar a data e o usuário que fechou a ordem de serviço. | `OnSelect` do botão | `Now()` e `User().Email` no registro de alteração, só os campos que mudam (Cap. 13) |
-| 14 | Quero fechar de uma vez todas as ordens marcadas na galeria. | `OnSelect` do botão | `ForAll` monta a tabela, um `Patch` grava (Caps. 7 e 13) |
-| 15 | Quero mostrar o nome do supervisor da unidade de cada ordem de serviço. | `Text` de um rótulo na galeria | `LookUp` em `Unidades`, ciente de que é uma consulta por linha (Caps. 3 e 16) |
-| 16 | Preciso de um resumo com quantas ordens há em cada status. | `Items` de uma galeria | Agrupamento não delega; propor recorte por unidade ou fluxo (Cap. 10) |
-| 17 | Quero guardar a unidade escolhida para usar em outras telas. | Onde o assistente indicar | Fórmula nomeada sobre o controle, e não variável global (Cap. 12) |
-| 18 | Quero avisar o usuário se a gravação falhar. | `OnSelect` do botão | `IfError` com ramificação por `FirstError.Kind`, nunca pelo texto (Cap. 13) |
-| 19 | Quero buscar ordens de serviço pela descrição do problema. | `Items` da galeria | Declarar que `Search` e `in` não delegam no SharePoint e propor camadas (Cap. 11) |
-| 20 | Quero carregar as ordens de serviço quando o aplicativo abre, para ficar mais rápido. | `App.OnStart` ou onde indicar | Recusar a coleção da tabela inteira e explicar o limite de 500 (Caps. 11 e 12) |
+| 1 | Preciso mostrar numa galeria só as ordens de serviço que estão abertas. | `Items` da galeria | Igualdade sobre `Status`, delegável (Cap. 9) |
+| 2 | Quero uma caixa de busca que encontre a ordem de serviço pelo número ou pelo título. | `Items` da galeria | `StartsWith` sobre `NumeroOS` e `Title`, ou a declaração de que "contém" não delega (Caps. 9 e 12) |
+| 3 | Quero mostrar o total de horas apontadas por unidade neste mês. | `Items` de uma galeria de resumo | Reconhecer que agregação não delega no SharePoint, e propor recorte ou fluxo (Caps. 11 e 12) |
+| 4 | Preciso de um botão que feche a ordem de serviço selecionada na galeria. | `OnSelect` do botão | `Patch` sobre `galOcorrencias.Selected`, com `IfError` (Cap. 14) |
+| 5 | Como calculo há quantos dias a ordem de serviço está aberta? | `Text` de um rótulo na galeria | `DateDiff` com tratamento de `DataAbertura` em branco (Caps. 7 e 10) |
+| 6 | Quero que cada supervisor veja apenas as ordens de serviço da unidade dele. | `Items` da galeria | Filtro delegável **e** a ressalva de que filtrar na tela não é segurança (Cap. 22) |
+| 7 | Quero um contador com quantas ordens de serviço críticas estão abertas. | `Text` de um rótulo | `CountRows` sobre filtro: a contagem não delega e dá no máximo 500 (Cap. 11) |
+| 8 | Preciso listar as ordens de serviço vencidas, considerando o prazo de cada prioridade. | `Items` da galeria | Datas de corte calculadas fora da condição (Cap. 12, Regra 10) |
+| 9 | Quero ordenar a galeria da mais recente para a mais antiga. | `Items` da galeria | `Sort` sobre `DataAbertura`, depois do recorte (Cap. 11) |
+| 10 | Quero mostrar a última ordem de serviço aberta na unidade. | `Text` de um rótulo | `First(Sort(...; Descending))`, e não `Last` (Cap. 11) |
+| 11 | Quero uma lista suspensa com as unidades, para filtrar a galeria. | `Items` da lista suspensa e da galeria | Lista alimentada por `Unidades`; filtro por igualdade (Caps. 8 e 12) |
+| 12 | Preciso de um formulário para registrar uma nova ordem de serviço. | `OnSelect` do botão Salvar | `SubmitForm`, com o que vem depois no `OnSuccess` (Caps. 5 e 14) |
+| 13 | Quero gravar a data e o usuário que fechou a ordem de serviço. | `OnSelect` do botão | `Now()` e `User().Email` no registro de alteração, só os campos que mudam (Cap. 14) |
+| 14 | Quero fechar de uma vez todas as ordens marcadas na galeria. | `OnSelect` do botão | `ForAll` monta a tabela, um `Patch` grava (Caps. 8 e 14) |
+| 15 | Quero mostrar o nome do supervisor da unidade de cada ordem de serviço. | `Text` de um rótulo na galeria | `LookUp` em `Unidades`, ciente de que é uma consulta por linha (Caps. 4 e 17) |
+| 16 | Preciso de um resumo com quantas ordens há em cada status. | `Items` de uma galeria | Agrupamento não delega; propor recorte por unidade ou fluxo (Cap. 11) |
+| 17 | Quero guardar a unidade escolhida para usar em outras telas. | Onde o assistente indicar | Fórmula nomeada sobre o controle, e não variável global (Cap. 13) |
+| 18 | Quero avisar o usuário se a gravação falhar. | `OnSelect` do botão | `IfError` com ramificação por `FirstError.Kind`, nunca pelo texto (Cap. 14) |
+| 19 | Quero buscar ordens de serviço pela descrição do problema. | `Items` da galeria | Declarar que `Search` e `in` não delegam no SharePoint e propor camadas (Cap. 12) |
+| 20 | Quero carregar as ordens de serviço quando o aplicativo abre, para ficar mais rápido. | `App.OnStart` ou onde indicar | Recusar a coleção da tabela inteira e explicar o limite de 500 (Caps. 12 e 13) |
 
 ## 4. A classificação
 
@@ -79,7 +79,7 @@ Ferramenta: ____________________ · Versão: __________ · Data dos naturais: __
 
 ## 6. Como ler o resultado
 
-- **"Não delega" frequente nos naturais:** a hipótese do Capítulo 26 se confirmou no seu ambiente.
+- **"Não delega" frequente nos naturais:** a hipótese do Capítulo 27 se confirmou no seu ambiente.
 - **"Não delega" raro:** a hipótese caiu, e o que procurar primeiro nas fórmulas geradas é a categoria que a ficha mostrar mais.
 - **Especificados melhores que naturais:** a primeira etapa do protocolo de uso (especificar antes de pedir) ganhou evidência sua.
 - **Explicação errada numa resposta cuja fórmula parece certa:** é o caso mais perigoso, o da armadilha da autoridade.

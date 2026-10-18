@@ -1,6 +1,6 @@
 # Carga do CAMPO no seu SharePoint
 
-*Capítulos 4, 8 e 11 de* Power Fx na Prática. *Três caminhos para levar a massa do Teste de Realidade #1 (e, se você precisar, as listas e a planilha do Capítulo 4) para um site seu.*
+*Capítulos 5, 9 e 12 de* Power Fx na Prática. *Três caminhos para levar a massa do Teste de Realidade #1 (e, se você precisar, as listas e a planilha do Capítulo 5) para um site seu.*
 
 ## Qual caminho usar
 
@@ -20,16 +20,16 @@ Os três gravam a mesma massa, na mesma ordem, em lotes de 100 itens enviados um
 
 | Etapa | O que faz | Quando usar |
 |---|---|---|
-| Listas | Cria `Ocorrencias` (com `Titulo` na coluna `Title`, `NumeroOS`, `Descricao`, `Status`, `Prioridade`, `Local`, `DataAbertura` e `Responsavel`) e `Unidades` (`Nome`, `Supervisor`), com os seis índices do Capítulo 4. Se a lista já existe, só acrescenta o que falta | Se você não fez o Capítulo 4 no seu site |
-| Planilha | Grava os 351 registros da planilha v0.0, do jeito que a importação do Capítulo 4 os deixa (com as seis grafias de `Status`), e as 40 unidades. Pula a etapa se a lista já tiver itens | Junto com Listas |
-| Massa | Grava as 12.000 ordens de serviço. Se for interrompida, a próxima execução grava só o que falta | Capítulo 8 |
+| Listas | Cria `Ocorrencias` (com `Titulo` na coluna `Title`, `NumeroOS`, `Descricao`, `Status`, `Prioridade`, `Local`, `DataAbertura` e `Responsavel`) e `Unidades` (`Nome`, `Supervisor`), com os seis índices do Capítulo 5. Se a lista já existe, só acrescenta o que falta | Se você não fez o Capítulo 5 no seu site |
+| Planilha | Grava os 351 registros da planilha v0.0, do jeito que a importação do Capítulo 5 os deixa (com as seis grafias de `Status`), e as 40 unidades. Pula a etapa se a lista já tiver itens | Junto com Listas |
+| Massa | Grava as 12.000 ordens de serviço. Se for interrompida, a próxima execução grava só o que falta | Capítulo 9 |
 | Conferir | Conta os itens por status e localiza as duas sentinelas, e compara com `dados/esperado.json` | Sempre, depois da massa |
 
-**Quem fez os Capítulos 4 a 7 no próprio site** usa só Massa e Conferir: a lista já está lá, com os 351 registros e as grafias que o Capítulo 7 corrigiu. **Quem chega ao Capítulo 8 sem ter montado a lista** usa as quatro etapas num site novo.
+**Quem fez os Capítulos 5 a 8 no próprio site** usa só Massa e Conferir: a lista já está lá, com os 351 registros e as grafias que o Capítulo 8 corrigiu. **Quem chega ao Capítulo 9 sem ter montado a lista** usa as quatro etapas num site novo.
 
 ## Por que a posição importa, e por que não se conserta apagando
 
-O teste depende do `ID` que o SharePoint dá a cada item: a primeira sentinela precisa ficar com `ID` até 500 e a segunda acima de 10.000, o teto do limite de linhas que o Capítulo 8 manda subir (até setembro de 2026 o teto era 2.000). O `ID` segue a ordem de gravação e **nunca é reaproveitado**: um item apagado leva o número dele junto. Por isso, numa lista que já teve muitos itens criados e apagados, a primeira sentinela pode passar de 500 mesmo com a lista quase vazia, e apagar mais itens só piora. Os dois roteiros estimam a posição antes de gravar e param com a explicação. A saída é um site novo, ou a opção de ignorar a posição, sabendo que o teste perde o que mostra.
+O teste depende do `ID` que o SharePoint dá a cada item: a primeira sentinela precisa ficar com `ID` até 500 e a segunda acima de 10.000, o teto do limite de linhas que o Capítulo 9 manda subir (até setembro de 2026 o teto era 2.000). O `ID` segue a ordem de gravação e **nunca é reaproveitado**: um item apagado leva o número dele junto. Por isso, numa lista que já teve muitos itens criados e apagados, a primeira sentinela pode passar de 500 mesmo com a lista quase vazia, e apagar mais itens só piora. Os dois roteiros estimam a posição antes de gravar e param com a explicação. A saída é um site novo, ou a opção de ignorar a posição, sabendo que o teste perde o que mostra.
 
 ## Os conceitos por trás dos roteiros
 
@@ -40,8 +40,8 @@ Você não precisa deles para carregar a massa. Eles explicam por que os roteiro
 - **Sequência e `ID`.** O SharePoint numera os itens na ordem em que chegam e nunca reaproveita um número. Lotes em paralelo embaralhariam a ordem; os roteiros enviam um lote depois do outro.
 - **Sessão e chave de formulário.** No navegador, o roteiro usa a sessão em que você já entrou (o mesmo cookie que mantém você conectado ao site). Para gravar, o SharePoint exige ainda uma chave de formulário (*form digest*), que prova que o pedido saiu de uma página do próprio site; o roteiro a pede e a renova antes de vencer.
 - **Limitação de ritmo (*throttling*).** Quando muitos pedidos chegam depressa, o serviço responde `429` ou `503` e diz quanto esperar (`Retry-After`). Os roteiros esperam e tentam de novo, com intervalos crescentes quando o serviço não diz o tempo (*backoff*). Insistir sem esperar só aumenta a punição.
-- **Retomada sem duplicar.** Executar a etapa Massa duas vezes produz o mesmo resultado que executar uma: ela grava só os `NumeroOS` que ainda não estão na lista. Em programação, isso se chama **idempotência**, e o Capítulo 20 faz dela uma regra de integração.
-- **UTC.** O horário universal, sem fuso. Os horários do CSV são de Brasília; os roteiros os convertem para UTC antes de gravar, para que o instante salvo seja o mesmo qualquer que seja o fuso do seu computador ou do site (Capítulo 9).
+- **Retomada sem duplicar.** Executar a etapa Massa duas vezes produz o mesmo resultado que executar uma: ela grava só os `NumeroOS` que ainda não estão na lista. Em programação, isso se chama **idempotência**, e o Capítulo 21 faz dela uma regra de integração.
+- **UTC.** O horário universal, sem fuso. Os horários do CSV são de Brasília; os roteiros os convertem para UTC antes de gravar, para que o instante salvo seja o mesmo qualquer que seja o fuso do seu computador ou do site (Capítulo 10).
 - **PowerShell e módulo.** PowerShell é a linguagem de comandos da Microsoft para automação, e roda em Windows, macOS e Linux. Um módulo é um pacote de comandos prontos; o PnP.PowerShell traz os comandos para o SharePoint.
 - **Registro de aplicativo no Entra ID.** O Microsoft Entra ID controla as contas e os acessos da organização. Um programa que age em nome de uma pessoa (como o PnP) precisa estar registrado lá, com as permissões que pode pedir. O navegador dispensa isso porque o roteiro roda dentro da página do site, com a sua sessão.
 - **Console do navegador.** O painel técnico que o navegador abre com F12. A aba *Console* executa código JavaScript na página aberta, com os mesmos acessos que a página tem.
@@ -72,7 +72,7 @@ Register-PnPEntraIDAppForInteractiveLogin -ApplicationName "Carga CAMPO" -Tenant
 Anote o identificador do aplicativo (*Client ID*) que o comando devolve. Se a sua conta não puder consentir, o pedido vai para um administrador; enquanto ele não responde, use o caminho do navegador.
 
 ```powershell
-# quem fez os Capítulos 4 a 7
+# quem fez os Capítulos 5 a 8
 ./carga/Carregar-CAMPO.ps1 -Site https://contoso.sharepoint.com/sites/campo -ClientId <client-id>
 
 # site novo, do zero
@@ -83,8 +83,8 @@ Sem navegador na máquina, acrescente `-EntrarPorCodigo -Tenant contoso.onmicros
 
 ## Depois da carga
 
-- A conferência mostra os números esperados ao lado dos encontrados. Os totais por status juntam as grafias da planilha, como o Capítulo 7 faz.
-- **Anote a duração.** O Capítulo 8 não publica quanto a carga demora, porque depende do seu locatário, da hora e da fila do serviço. O número é seu, e o método é este.
+- A conferência mostra os números esperados ao lado dos encontrados. Os totais por status juntam as grafias da planilha, como o Capítulo 8 faz.
+- **Anote a duração.** O Capítulo 9 não publica quanto a carga demora, porque depende do seu locatário, da hora e da fila do serviço. O número é seu, e o método é este.
 - Se você carregar muito depois de setembro de 2026, gere a massa de novo com a data do dia (veja o README principal), para que "aberta há mais de N dias" faça sentido no seu calendário.
 
 🔄 *Escrito em outubro de 2026. Os dois roteiros foram testados contra um SharePoint simulado (`testes/`), com os cenários de ambiente novo, falha no meio, retomada e lista com `ID` consumidos. Nomes de cmdlets, a exigência de registro do PnP e o comportamento do console dos navegadores mudam; se algo divergir, abra uma *issue* neste repositório.*

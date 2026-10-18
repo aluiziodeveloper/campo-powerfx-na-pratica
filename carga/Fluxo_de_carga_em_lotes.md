@@ -1,12 +1,12 @@
 # Fluxo de carga em lotes (Power Automate)
 
-*Material de apoio do Capítulo 8, seção "O método de carga". O fluxo grava as 12.000 ordens de serviço em 120 requisições, uma por arquivo de lote de 100 itens, usando o recurso de lote da API REST do SharePoint pela ação "Enviar uma solicitação HTTP para o SharePoint", do* connector *padrão.*
+*Material de apoio do Capítulo 9, seção "O método de carga". O fluxo grava as 12.000 ordens de serviço em 120 requisições, uma por arquivo de lote de 100 itens, usando o recurso de lote da API REST do SharePoint pela ação "Enviar uma solicitação HTTP para o SharePoint", do* connector *padrão.*
 
 🔄 *Nomes de ações e menus do Power Automate mudam. Procure pela ação descrita, não pelo desenho. Roteiro escrito em outubro de 2026. Diferente dos dois roteiros desta pasta, o fluxo não cria as listas, não retoma e não confere: para isso, prefira o navegador ou o PowerShell (veja o `README.md`).*
 
 ## Por que assim
 
-- **Uma requisição por item** seriam cerca de 12.000 chamadas, acima do teto diário de requisições de uma licença comum do Microsoft 365 (Capítulo 8, nota 17).
+- **Uma requisição por item** seriam cerca de 12.000 chamadas, acima do teto diário de requisições de uma licença comum do Microsoft 365 (Capítulo 9, nota 17).
 - **Em lotes de 100**, são 120 chamadas de gravação, mais as de leitura dos arquivos: duas ordens de grandeza a menos. A documentação do `$batch` não publica um teto de operações por requisição; 100 é o tamanho que o PnP usa internamente.
 - **Os lotes rodam em sequência, sem paralelismo**, para que o `ID` de cada item siga a ordem do arquivo. O teste depende da posição das sentinelas.
 
@@ -42,7 +42,7 @@
 
 - A resposta de cada requisição em lote volta com **código 200 mesmo quando itens falham**: o status de cada item está dentro do corpo da resposta, um `HTTP/1.1 201 Created` por item gravado. Abra a saída de uma das execuções e confira.
 - No fim, a lista deve ter os 351 da planilha mais 12.000. Confira as duas sentinelas pelo `NumeroOS` e veja se os `ID` batem com `dados/estatisticas.md`. Se quiser a conferência automática, rode só a etapa Conferir de um dos dois roteiros.
-- A duração está no histórico de execuções do fluxo, e o consumo de requisições nos relatórios do centro de administração. Anote os dois: o Capítulo 8 não publica esses números, porque dependem do seu locatário.
+- A duração está no histórico de execuções do fluxo, e o consumo de requisições nos relatórios do centro de administração. Anote os dois: o Capítulo 9 não publica esses números, porque dependem do seu locatário.
 
 ## Se o serviço recusar um lote, ou o fluxo parar no meio
 

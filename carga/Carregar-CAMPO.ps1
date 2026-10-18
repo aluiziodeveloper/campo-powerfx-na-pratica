@@ -4,14 +4,14 @@
   SharePoint, conferindo no fim os números que o livro usa.
 
 .DESCRIPTION
-  Material de apoio do livro "Power Fx na Prática" (Capítulos 4, 8 e 11).
+  Material de apoio do livro "Power Fx na Prática" (Capítulos 5, 9 e 12).
 
   O roteiro faz, na ordem, só as etapas pedidas:
 
-    Listas    cria Ocorrencias e Unidades com as colunas e os seis índices do Capítulo 4,
+    Listas    cria Ocorrencias e Unidades com as colunas e os seis índices do Capítulo 5,
               ou confere as que já existem
     Planilha  grava os 351 registros da planilha v0.0 e as 40 unidades, como a importação
-              do Capítulo 4 faria (pula a etapa se a lista já tiver itens)
+              do Capítulo 5 faria (pula a etapa se a lista já tiver itens)
     Massa     grava as 12.000 ordens de serviço em lotes de 100, em sequência, para que o
               ID de cada item siga a ordem do arquivo; se for interrompido, a nova
               execução grava só o que falta
@@ -32,7 +32,7 @@
 
 .EXAMPLE
   ./Carregar-CAMPO.ps1 -Site https://contoso.sharepoint.com/sites/campo -ClientId <id> -Etapas Massa,Conferir
-  Para quem fez os Capítulos 4 a 7 e já tem a lista com os 351 registros.
+  Para quem fez os Capítulos 5 a 8 e já tem a lista com os 351 registros.
 #>
 [CmdletBinding()]
 param(
@@ -62,7 +62,7 @@ function Registrar([string] $texto) {
 }
 
 # Os horários do CSV são de Brasília (UTC-3). Grava-se em UTC, para que o instante salvo
-# não dependa do fuso deste computador nem do fuso regional do site (Capítulo 9).
+# não dependa do fuso deste computador nem do fuso regional do site (Capítulo 10).
 function ParaUtc([string] $texto) {
     if ([string]::IsNullOrWhiteSpace($texto)) { return $null }
     return [datetimeoffset]::Parse("$texto-03:00", [Globalization.CultureInfo]::InvariantCulture).UtcDateTime
@@ -155,7 +155,7 @@ if ($Etapas -contains "Listas") {
             Registrar "  coluna $($c.Nome) ($($c.Tipo)) criada"
         }
     }
-    # Índices com a lista ainda pequena: depois de crescer, a operação pode ser recusada (Capítulo 4).
+    # Índices com a lista ainda pequena: depois de crescer, a operação pode ser recusada (Capítulo 5).
     foreach ($nome in @("Title") + ($colunas | Where-Object { $_.Indice } | ForEach-Object { $_.Nome })) {
         Set-PnPField -List $Lista -Identity $nome -Values @{ Indexed = $true } | Out-Null
     }
@@ -276,9 +276,9 @@ if ($Etapas -contains "Conferir") {
     $linhasConf | Format-Table -AutoSize | Out-String | ForEach-Object { Registrar $_ }
     Registrar ("Grafias de Status na lista: {0}" -f (($grafias.GetEnumerator() | Sort-Object Key |
         ForEach-Object { "$($_.Key) = $($_.Value)" }) -join "; "))
-    Registrar ("As contagens por status normalizam as grafias da planilha, como o Capítulo 7 faz. " +
+    Registrar ("As contagens por status normalizam as grafias da planilha, como o Capítulo 8 faz. " +
                "O que o Teste de Realidade #1 exige são as duas regras de ID; os totais são os números contra os " +
-               "quais o Capítulo 8 compara o aplicativo.")
+               "quais o Capítulo 9 compara o aplicativo.")
 }
 
 Registrar ("Fim. Duração total: {0:hh\:mm\:ss}." -f ((Get-Date) - $Inicio))
