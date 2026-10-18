@@ -8,7 +8,7 @@ body:
     attributes:
       label: Capítulo e seção
       description: O número da página muda entre edições e formatos; o capítulo e a seção, não.
-      placeholder: "Cap. 8, Teste de Realidade #1"
+      placeholder: "Cap. 9, Teste de Realidade #1"
     validations:
       required: true
   - type: dropdown

@@ -1,6 +1,6 @@
 # Registro de Recomendação Técnica
 
-*Material de apoio do Capítulo 22. Uma página: protege quem recomendou e preserva o motivo da decisão para quem vier depois. Tom de ata, não de defesa; riscos com gatilho, não com adjetivo.*
+*Material de apoio do Capítulo 23. Uma página: protege quem recomendou e preserva o motivo da decisão para quem vier depois. Tom de ata, não de defesa; riscos com gatilho, não com adjetivo.*
 
 ```
   REGISTRO DE RECOMENDAÇÃO TÉCNICA                    ___/___/______

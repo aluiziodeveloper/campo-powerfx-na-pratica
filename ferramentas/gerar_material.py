@@ -2,13 +2,13 @@
 
 Produz, de forma reprodutível (semente fixa):
 
-  1. material/CAMPO_v0.0.xlsx — a planilha do Capítulo 0, com as sete abas, as
+  1. material/CAMPO_v0.0.xlsx — a planilha do Capítulo 1, com as sete abas, as
      doze fórmulas (F1 a F12) e a sujeira que o livro manda inventariar.
   2. dados/planilha_ocorrencias_351.csv e dados/unidades_40.csv — as duas abas
-     que o Capítulo 4 transforma em listas, para quem prepara o ambiente pelo
+     que o Capítulo 5 transforma em listas, para quem prepara o ambiente pelo
      automatizador de carga em vez de importar a planilha.
   3. dados/ocorrencias_12000.csv — as 12.000 ordens de serviço do Teste de
-     Realidade #1 (Capítulo 8), com as duas sentinelas.
+     Realidade #1 (Capítulo 9), com as duas sentinelas.
   4. dados/lotes/lote_NNN.txt — os corpos das requisições $batch da API REST do
      SharePoint, que o fluxo de carga envia em sequência.
   5. dados/estatisticas.md e dados/esperado.json — os números da massa gerada,
@@ -128,7 +128,7 @@ def problema(rng):
 
 
 # Pesos das unidades: uma unidade grande (o triplo da média), três médias-altas,
-# o resto entre metade e uma vez e meia da média. Ver Capítulo 11, "A conta que
+# o resto entre metade e uma vez e meia da média. Ver Capítulo 12, "A conta que
 # você precisa fazer".
 def pesos_unidades(rng):
     pesos = {}
@@ -197,7 +197,7 @@ def gerar_ocorrencias_planilha(rng):
         ln["Local"] = escolher_ponderado(rng, unidades_pond)
         ln["Responsavel"] = rng.choice(TECNICOS)[0]
 
-    # Museu #0: críticas abertas entre as linhas 301 e 352 (índices 299 a 350),
+    # Museu #1: críticas abertas entre as linhas 301 e 352 (índices 299 a 350),
     # que o CONT.SES(G2:G300; ...) deixa de contar.
     for idx in (305, 318, 331, 344, 349):
         linhas[idx - 2]["Prioridade"] = "Crítica"
@@ -221,7 +221,7 @@ def gerar_ocorrencias_planilha(rng):
     for i in rng.sample(candidatos, 12):
         linhas[i]["DataAbertura"] = None
 
-    # nenhum título de vibração na planilha (a busca do Capítulo 8 depende disso)
+    # nenhum título de vibração na planilha (a busca do Capítulo 9 depende disso)
     for ln in linhas:
         assert "vibra" not in (ln["Titulo"] + ln["Descricao"]).lower()
     return linhas
@@ -261,7 +261,7 @@ def escrever_planilha(linhas, arquivo2025, caminho):
     ]
     for i, a in enumerate(avisos, start=3):
         leia.cell(row=i, column=1, value=a).font = Font(bold=True, color="C00000")
-    leia["A8"] = "Arquivo de exemplo do livro Power Fx na Prática (Capítulo 0). Dados fictícios: pessoas e unidades inventadas."
+    leia["A8"] = "Arquivo de exemplo do livro Power Fx na Prática (Capítulo 1). Dados fictícios: pessoas e unidades inventadas."
     leia["A8"].font = Font(italic=True, color="808080")
     leia.column_dimensions["A"].width = 90
 
@@ -441,7 +441,7 @@ def escrever_csv(massa, caminho):
 
 # Os horários do CSV são de Brasília (UTC-3, sem horário de verão desde 2019). Os
 # lotes e os roteiros de carga gravam em UTC, para que o instante salvo não dependa
-# do fuso do computador de quem carrega nem do fuso regional do site (Capítulo 9).
+# do fuso do computador de quem carrega nem do fuso regional do site (Capítulo 10).
 FUSO_DOS_DADOS_HORAS = -3
 
 
@@ -452,7 +452,7 @@ def utc(data):
 def escrever_planilha_csv(planilha, caminho):
     """As 351 linhas da aba Ocorrencias, só as oito colunas de dado, do jeito que
     estão na planilha (com as seis grafias de Status, os brancos e os locais sujos):
-    é o que a importação do Capítulo 4 leva para a lista."""
+    é o que a importação do Capítulo 5 leva para a lista."""
     with open(caminho, "w", newline="", encoding="utf-8-sig") as f:
         w = csv.writer(f, delimiter=";")
         w.writerow(["ID_esperado"] + COLUNAS)
@@ -540,7 +540,7 @@ def estatisticas(planilha, massa, sentinelas, fim, caminho):
         f"- Abertas por unidade: média **{st['Aberta'] / 40:.0f}**, maior **{max(abertas_un.values())}** "
         f"({abertas_un.most_common(1)[0][0]}), menor **{min(abertas_un[u] for u in UNIDADES)}**",
         "",
-        "O Capítulo 11 trabalha com estes números arredondados: cerca de 12.350 registros, perto de 2.400 abertas,",
+        "O Capítulo 12 trabalha com estes números arredondados: cerca de 12.350 registros, perto de 2.400 abertas,",
         "sessenta por unidade no caso típico e cerca de cento e oitenta na maior.",
         "",
     ]

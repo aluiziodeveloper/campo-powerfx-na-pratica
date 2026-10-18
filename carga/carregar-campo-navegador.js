@@ -1,5 +1,5 @@
 /*
- * Carga do CAMPO pelo navegador — material de apoio de "Power Fx na Prática" (Capítulos 4, 8 e 11).
+ * Carga do CAMPO pelo navegador — material de apoio de "Power Fx na Prática" (Capítulos 5, 9 e 12).
  *
  * Faz o mesmo que Carregar-CAMPO.ps1, sem instalar nada e sem registrar aplicativo no
  * Microsoft Entra ID: roda na página do próprio site do SharePoint, com a sessão de quem
@@ -12,7 +12,7 @@
  *   4. No painel que aparece, escolha os arquivos da pasta dados/ e as etapas.
  *
  * Etapas: Listas (cria Ocorrencias e Unidades com as colunas e os seis índices do
- * Capítulo 4), Planilha (351 registros e 40 unidades), Massa (12.000 OS em lotes de 100,
+ * Capítulo 5), Planilha (351 registros e 40 unidades), Massa (12.000 OS em lotes de 100,
  * em sequência; se for interrompida, a nova execução grava só o que falta) e Conferir
  * (totais por status e ID das duas sentinelas contra esperado.json).
  */
@@ -22,7 +22,7 @@
   const LISTA = "Ocorrencias";
   const LISTA_UNIDADES = "Unidades";
   const TAMANHO_LOTE = 100;
-  const FUSO_DOS_DADOS = "-03:00"; // horários do CSV são de Brasília; grava-se em UTC (Capítulo 9)
+  const FUSO_DOS_DADOS = "-03:00"; // horários do CSV são de Brasília; grava-se em UTC (Capítulo 10)
 
   const COLUNAS = [
     { nome: "NumeroOS", tipo: "Text", indice: true },
@@ -258,7 +258,7 @@
     for (const c of COLUNAS) {
       if (!(await sp.campoExiste(LISTA, c.nome))) { await sp.criarCampo(LISTA, c); log(`  coluna ${c.nome} (${c.tipo}) criada`); }
     }
-    // Índices com a lista ainda pequena: depois de crescer, a operação pode ser recusada (Capítulo 4).
+    // Índices com a lista ainda pequena: depois de crescer, a operação pode ser recusada (Capítulo 5).
     for (const nome of ["Title", ...COLUNAS.filter((c) => c.indice).map((c) => c.nome)]) await sp.alterarCampo(LISTA, nome, { Indexed: true });
     log("  seis índices conferidos: Titulo, NumeroOS, Status, Prioridade, Local, DataAbertura");
     if (!(await sp.lista(LISTA_UNIDADES))) {
@@ -319,7 +319,7 @@
     log("Conferência (item · esperado · na lista):");
     for (const [item, esp, real] of linhas) log(`  ${item.padEnd(24)} ${String(esp).padStart(6)} ${String(real).padStart(14)}  ${esp === real ? "ok" : "DIFERENTE"}`);
     log("Grafias de Status na lista: " + Object.entries(c.grafias).map(([k, v]) => `${k} = ${v}`).join("; "));
-    log("As contagens normalizam as grafias da planilha, como o Capítulo 7 faz. O que o Teste de Realidade #1 exige são as duas regras de ID.");
+    log("As contagens normalizam as grafias da planilha, como o Capítulo 8 faz. O que o Teste de Realidade #1 exige são as duas regras de ID.");
   }
 
   // ------------------------------------------------------------ painel

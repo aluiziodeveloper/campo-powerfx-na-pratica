@@ -1,6 +1,6 @@
 # Cartão de leitura de fórmulas
 
-*Material de apoio do Capítulo 5. Uma página, para imprimir e deixar ao lado do teclado. Seis passos para atacar qualquer fórmula que você não escreveu.*
+*Material de apoio do Capítulo 6. Uma página, para imprimir e deixar ao lado do teclado. Seis passos para atacar qualquer fórmula que você não escreveu.*
 
 ```
  1. ONDE ELA MORA?      Propriedade de dados ou de comportamento?
@@ -16,7 +16,7 @@
                         Onde cada um está definido?
 
  5. ONDE ELA TRABALHA?  Dispositivo, servidor, ou os dois?
-                        (Capítulo 3)
+                        (Capítulo 4)
 
  6. DIGA EM UMA FRASE   Se você não consegue,
                         o problema é da fórmula.

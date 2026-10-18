@@ -21,5 +21,5 @@ que a primeira sentinela fique com ID até 500 e a segunda acima de 10.000, o te
 - Fechadas: **9.332**
 - Abertas por unidade: média **60**, maior **179** (Estação Elevatória Leste), menor **27**
 
-O Capítulo 11 trabalha com estes números arredondados: cerca de 12.350 registros, perto de 2.400 abertas,
+O Capítulo 12 trabalha com estes números arredondados: cerca de 12.350 registros, perto de 2.400 abertas,
 sessenta por unidade no caso típico e cerca de cento e oitenta na maior.
