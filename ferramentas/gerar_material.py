@@ -529,7 +529,7 @@ def estatisticas(planilha, massa, sentinelas, fim, caminho):
         "",
         "O ID esperado supõe que a lista `Ocorrencias` recebeu os 351 registros da planilha (IDs 1 a 351) e nada mais",
         "antes da carga. Se a sua lista já tiver outros itens, ou itens apagados, os IDs se deslocam; o que o teste exige é",
-        "que a primeira sentinela fique com ID até 500 e a segunda acima de 2.000. Confira depois da carga.",
+        "que a primeira sentinela fique com ID até 500 e a segunda acima de 10.000, o teto do limite de linhas. Confira depois da carga.",
         "",
         "## Totais na lista depois da carga (planilha + massa)",
         "",
@@ -557,7 +557,7 @@ def estatisticas(planilha, massa, sentinelas, fim, caminho):
         "sentinelas": [
             {"nome": nome, "NumeroOS": massa[i]["NumeroOS"], "indice_na_massa": i,
              "ID_esperado": massa[i]["ID_esperado"], "Titulo": massa[i]["Titulo"], "regra": regra}
-            for nome, i, regra in (("primeira", s1, "ID <= 500"), ("segunda", s2, "ID > 2000"))
+            for nome, i, regra in (("primeira", s1, "ID <= 500"), ("segunda", s2, "ID > 10000"))
         ],
     }
     with open(os.path.join(os.path.dirname(caminho), "esperado.json"), "w", encoding="utf-8") as f:

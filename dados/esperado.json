@@ -28,7 +28,7 @@
       "indice_na_massa": 11800,
       "ID_esperado": 12152,
       "Titulo": "Vibração excessiva na bomba B-07",
-      "regra": "ID > 2000"
+      "regra": "ID > 10000"
     }
   ]
 }

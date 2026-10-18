@@ -29,7 +29,7 @@ Os três gravam a mesma massa, na mesma ordem, em lotes de 100 itens enviados um
 
 ## Por que a posição importa, e por que não se conserta apagando
 
-O teste depende do `ID` que o SharePoint dá a cada item: a primeira sentinela precisa ficar com `ID` até 500 e a segunda acima de 2.000 (Capítulo 8). O `ID` segue a ordem de gravação e **nunca é reaproveitado**: um item apagado leva o número dele junto. Por isso, numa lista que já teve muitos itens criados e apagados, a primeira sentinela pode passar de 500 mesmo com a lista quase vazia, e apagar mais itens só piora. Os dois roteiros estimam a posição antes de gravar e param com a explicação. A saída é um site novo, ou a opção de ignorar a posição, sabendo que o teste perde o que mostra.
+O teste depende do `ID` que o SharePoint dá a cada item: a primeira sentinela precisa ficar com `ID` até 500 e a segunda acima de 10.000, o teto do limite de linhas que o Capítulo 8 manda subir (até setembro de 2026 o teto era 2.000). O `ID` segue a ordem de gravação e **nunca é reaproveitado**: um item apagado leva o número dele junto. Por isso, numa lista que já teve muitos itens criados e apagados, a primeira sentinela pode passar de 500 mesmo com a lista quase vazia, e apagar mais itens só piora. Os dois roteiros estimam a posição antes de gravar e param com a explicação. A saída é um site novo, ou a opção de ignorar a posição, sabendo que o teste perde o que mostra.
 
 ## Os conceitos por trás dos roteiros
 
