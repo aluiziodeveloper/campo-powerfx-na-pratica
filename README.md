@@ -64,6 +64,10 @@ Os cenários: ambiente novo, item recusado no meio da massa, retomada sem duplic
 
 O SharePoint simulado é o que a literatura de testes chama de **dublê** (*test double*): uma peça falsa que responde como a real, para que o teste rode sem rede, sem conta e sem custo, sempre com o mesmo resultado. O dublê prova a lógica dos roteiros; não prova o comportamento do serviço real, e por isso uma execução num locatário de verdade continua necessária. O Capítulo 24 volta ao assunto.
 
+## Errata
+
+Achou um erro no livro ou neste repositório? Abra uma *issue* com o modelo **Errata do livro**: ele pede o capítulo e a seção, o pacto descumprido e onde você conferiu. As correções confirmadas recebem o rótulo `errata` e ficam listadas em [issues com o rótulo errata](https://github.com/aluiziodeveloper/campo-powerfx-na-pratica/issues?q=label%3Aerrata), com o capítulo e a data.
+
 ## Licenças
 
 - **Código** (`carga/`, `ferramentas/`, `testes/`): MIT, no arquivo `LICENSE`.

@@ -1,0 +1,39 @@
+name: Errata do livro
+description: Um erro em Power Fx na Prática — número sem método, exemplo que não roda, função traduzida, capítulo que não diz o que deixou de fora.
+title: "[Errata] Cap. N — "
+labels: ["errata"]
+body:
+  - type: input
+    id: onde
+    attributes:
+      label: Capítulo e seção
+      description: O número da página muda entre edições e formatos; o capítulo e a seção, não.
+      placeholder: "Cap. 8, Teste de Realidade #1"
+    validations:
+      required: true
+  - type: dropdown
+    id: tipo
+    attributes:
+      label: Que pacto foi descumprido
+      options:
+        - Termo técnico traduzido (Pacto 1)
+        - Afirmação sem demonstração ou número sem método (Pacto 2)
+        - Exemplo que não roda (Pacto 3)
+        - Dado de brinquedo (Pacto 4)
+        - Não fica claro onde estou ou o que ficou de fora (Pacto 5)
+        - Outro erro (fato, digitação, referência)
+    validations:
+      required: true
+  - type: textarea
+    id: oque
+    attributes:
+      label: O que o livro diz e o que você encontrou
+      description: Se for um exemplo, cole a fórmula e a mensagem do estúdio, em inglês, como ela aparece.
+    validations:
+      required: true
+  - type: textarea
+    id: ambiente
+    attributes:
+      label: Onde você conferiu
+      description: Versão do Power Apps Studio, fonte de dados (SharePoint, Dataverse), idioma do navegador e data.
+      placeholder: "Studio 3.26xx, SharePoint, pt-BR, 20/10/2026"
