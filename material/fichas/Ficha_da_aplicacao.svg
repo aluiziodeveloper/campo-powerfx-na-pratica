@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 608" role="img" aria-labelledby="titulo descricao">
+  <title id="titulo">A ficha da aplicação.</title>
+  <desc id="descricao">Ficha da aplicação em branco, com o nome e a data de revisão: dono, que responde por ela funcionar; substituto, e se já publicou uma vez; quem pode publicar; se parar, como o trabalho continua; quem é avisado quando para; como se pede uma mudança; quem prioriza, com que critério; como se volta atrás, no procedimento de promoção; e onde estão os registros: Registro de Decisões, Mapa de delegação, Inventário de estado, Ficha de medição e Modelo de permissão.</desc>
+  <defs>
+  </defs>
+  <rect width="800" height="608" fill="#FFFFFF"/>
+  <rect x="14" y="8" width="772" height="574" rx="6" fill="#FFFFFF" stroke="#ADB5BD" stroke-width="1.5"/>
+  <text x="24.0" y="42.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="22" text-anchor="start" style="fill:#1F5F7A;font-weight:700">FICHA DA APLICAÇÃO</text>
+  <text x="776.0" y="42.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="end" style="fill:#212529">revisada em __/__/____</text>
+  <line x1="24" y1="58" x2="776" y2="58" stroke="#1F5F7A" stroke-width="2"/>
+  <text x="24.0" y="96.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529;font-weight:700">Nome da aplicação</text>
+  <line x1="384" y1="98" x2="776" y2="98" stroke="#ADB5BD" stroke-width="1.5"/>
+  <text x="24.0" y="132.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529;font-weight:700">Dono (responde por ela</text>
+  <text x="24.0" y="156.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529;font-weight:700">funcionar)</text>
+  <line x1="384" y1="158" x2="776" y2="158" stroke="#ADB5BD" stroke-width="1.5"/>
+  <text x="24.0" y="192.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529;font-weight:700">Substituto</text>
+  <line x1="384" y1="194" x2="776" y2="194" stroke="#ADB5BD" stroke-width="1.5"/>
+  <text x="24.0" y="228.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529;font-weight:700">O substituto já publicou uma vez?</text>
+  <rect x="384" y="211" width="20" height="20" rx="3" fill="#FFFFFF" stroke="#212529" stroke-width="1.5"/>
+  <text x="412.0" y="228.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529">sim</text>
+  <text x="24.0" y="264.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529;font-weight:700">Quem pode publicar</text>
+  <line x1="384" y1="266" x2="776" y2="266" stroke="#ADB5BD" stroke-width="1.5"/>
+  <text x="24.0" y="300.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529;font-weight:700">Se parar, o trabalho continua</text>
+  <text x="24.0" y="324.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529;font-weight:700">como</text>
+  <line x1="384" y1="326" x2="776" y2="326" stroke="#ADB5BD" stroke-width="1.5"/>
+  <text x="24.0" y="360.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529;font-weight:700">Quem é avisado quando para</text>
+  <line x1="384" y1="362" x2="776" y2="362" stroke="#ADB5BD" stroke-width="1.5"/>
+  <text x="24.0" y="396.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529;font-weight:700">Como se pede uma mudança</text>
+  <line x1="384" y1="398" x2="776" y2="398" stroke="#ADB5BD" stroke-width="1.5"/>
+  <text x="24.0" y="432.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529;font-weight:700">Quem prioriza, com que critério</text>
+  <line x1="384" y1="434" x2="776" y2="434" stroke="#ADB5BD" stroke-width="1.5"/>
+  <text x="24.0" y="468.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529;font-weight:700">Como se volta atrás</text>
+  <text x="384.0" y="468.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529">ver procedimento de promoção</text>
+  <text x="24.0" y="504.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529;font-weight:700">Onde estão os registros</text>
+  <text x="384.0" y="504.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529">Registro de Decisões, Mapa de delegação,</text>
+  <text x="384.0" y="528.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529">Inventário de estado, Ficha de medição,</text>
+  <text x="384.0" y="552.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529">Modelo de permissão</text>
+</svg>

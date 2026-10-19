@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 590" role="img" aria-labelledby="titulo descricao">
+  <title id="titulo">O roteiro de conferência de migração.</title>
+  <desc id="descricao">Roteiro de conferência de migração, com data de execução, em quatro partes. Contagem: total, e total por unidade, na origem e no destino. Valores: soma de horas apontadas, contagem por status, a ordem mais antiga e a mais nova, na origem e no destino. Referências: cinco ordens conhecidas, cada referência seguida até o fim, e as duas sentinelas do Teste #1 encontradas. Nascimento: criar uma ordem do zero e criar sem preencher o opcional.</desc>
+  <defs>
+  </defs>
+  <rect width="800" height="590" fill="#FFFFFF"/>
+  <rect x="14" y="8" width="772" height="556" rx="6" fill="#FFFFFF" stroke="#ADB5BD" stroke-width="1.5"/>
+  <text x="24.0" y="42.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="22" text-anchor="start" style="fill:#1F5F7A;font-weight:700">ROTEIRO DE CONFERÊNCIA DE MIGRAÇÃO</text>
+  <text x="776.0" y="72.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="end" style="fill:#212529">executado em ___/___/______</text>
+  <line x1="24" y1="88" x2="776" y2="88" stroke="#1F5F7A" stroke-width="2"/>
+  <rect x="24.0" y="106.0" width="752.0" height="40.0" rx="4" fill="#E3EEF3"/>
+  <text x="244.0" y="132.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#1F5F7A;font-weight:700">o que conferir</text>
+  <text x="574.0" y="132.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#1F5F7A;font-weight:700">origem</text>
+  <text x="680.0" y="132.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#1F5F7A;font-weight:700">destino</text>
+  <text x="34.0" y="172.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529;font-weight:700">1. CONTAGEM</text>
+  <text x="244.0" y="172.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529">total, e total por unidade</text>
+  <line x1="24" y1="186" x2="776" y2="186" stroke="#ADB5BD" stroke-width="1"/>
+  <text x="34.0" y="212.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529;font-weight:700">2. VALORES</text>
+  <text x="244.0" y="212.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529">soma de horas apontadas</text>
+  <line x1="24" y1="226" x2="776" y2="226" stroke="#ADB5BD" stroke-width="1"/>
+  <text x="244.0" y="252.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529">contagem por status</text>
+  <line x1="24" y1="266" x2="776" y2="266" stroke="#ADB5BD" stroke-width="1"/>
+  <text x="244.0" y="292.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529">a ordem mais antiga e a mais nova</text>
+  <line x1="24" y1="306" x2="776" y2="306" stroke="#ADB5BD" stroke-width="1"/>
+  <line x1="234" y1="146" x2="234" y2="306" stroke="#ADB5BD" stroke-width="1"/>
+  <line x1="564" y1="146" x2="564" y2="306" stroke="#ADB5BD" stroke-width="1"/>
+  <line x1="670" y1="146" x2="670" y2="306" stroke="#ADB5BD" stroke-width="1"/>
+  <rect x="24.0" y="322.0" width="752.0" height="36.0" rx="4" fill="#E3EEF3"/>
+  <text x="36.0" y="347.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#1F5F7A;font-weight:700">3. REFERÊNCIAS</text>
+  <rect x="24" y="371" width="20" height="20" rx="3" fill="#FFFFFF" stroke="#212529" stroke-width="1.5"/>
+  <text x="56.0" y="387.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529">cinco ordens conhecidas, e cada referência seguida até o fim: conferido</text>
+  <rect x="24" y="405" width="20" height="20" rx="3" fill="#FFFFFF" stroke="#212529" stroke-width="1.5"/>
+  <text x="56.0" y="421.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529">as duas sentinelas do Teste #1: encontradas</text>
+  <rect x="24.0" y="436.0" width="752.0" height="36.0" rx="4" fill="#E3EEF3"/>
+  <text x="36.0" y="461.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#1F5F7A;font-weight:700">4. NASCIMENTO</text>
+  <rect x="24" y="485" width="20" height="20" rx="3" fill="#FFFFFF" stroke="#212529" stroke-width="1.5"/>
+  <text x="56.0" y="501.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529">criar uma ordem do zero: conseguiu</text>
+  <rect x="24" y="519" width="20" height="20" rx="3" fill="#FFFFFF" stroke="#212529" stroke-width="1.5"/>
+  <text x="56.0" y="535.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529">criar sem preencher o opcional: conseguiu</text>
+</svg>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 536" role="img" aria-labelledby="titulo descricao">
+  <title id="titulo">A transferência de propriedade do CAMPO v1.0.</title>
+  <desc id="descricao">Registro da transferência de propriedade do CAMPO v1.0, com data: quem entrega e quem assume; o substituto de quem assume, e se já publicou uma vez; o teste da transferência, com a data da mudança publicada sozinha por quem assume, e o que precisou perguntar, cada item virando documento; quantos itens da Checklist de Produção foram cumpridos, e os não cumpridos, com risco e data; as verificações que ficam em aberto, cada uma com o efeito se divergir; e a próxima revisão semestral.</desc>
+  <defs>
+  </defs>
+  <rect width="800" height="536" fill="#FFFFFF"/>
+  <rect x="14" y="8" width="772" height="502" rx="6" fill="#FFFFFF" stroke="#ADB5BD" stroke-width="1.5"/>
+  <text x="24.0" y="42.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="22" text-anchor="start" style="fill:#1F5F7A;font-weight:700">TRANSFERÊNCIA DE PROPRIEDADE — CAMPO v1.0</text>
+  <text x="776.0" y="42.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="end" style="fill:#212529">__/__/____</text>
+  <line x1="24" y1="58" x2="776" y2="58" stroke="#1F5F7A" stroke-width="2"/>
+  <text x="24.0" y="96.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529;font-weight:700">Quem entrega</text>
+  <line x1="179.1" y1="98" x2="390.0" y2="98" stroke="#ADB5BD" stroke-width="1.5"/>
+  <text x="410.0" y="96.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529;font-weight:700">Quem assume</text>
+  <line x1="562.7" y1="98" x2="776.0" y2="98" stroke="#ADB5BD" stroke-width="1.5"/>
+  <text x="24.0" y="132.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529;font-weight:700">Substituto de quem assume</text>
+  <line x1="384" y1="134" x2="776" y2="134" stroke="#ADB5BD" stroke-width="1.5"/>
+  <text x="24.0" y="168.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529;font-weight:700">O substituto já publicou uma vez?</text>
+  <rect x="384" y="151" width="20" height="20" rx="3" fill="#FFFFFF" stroke="#212529" stroke-width="1.5"/>
+  <text x="412.0" y="168.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529">sim</text>
+  <text x="24.0" y="204.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529;font-weight:700">Teste: mudança publicada</text>
+  <text x="24.0" y="228.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529;font-weight:700">sozinha por quem assume em</text>
+  <line x1="384" y1="230" x2="776" y2="230" stroke="#ADB5BD" stroke-width="1.5"/>
+  <text x="24.0" y="264.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529;font-weight:700">O que precisou perguntar (cada</text>
+  <text x="24.0" y="288.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529;font-weight:700">item virou documento)</text>
+  <line x1="384" y1="290" x2="776" y2="290" stroke="#ADB5BD" stroke-width="1.5"/>
+  <text x="24.0" y="324.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529;font-weight:700">Checklist de Produção: itens</text>
+  <text x="24.0" y="348.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529;font-weight:700">cumpridos</text>
+  <line x1="384" y1="350" x2="776" y2="350" stroke="#ADB5BD" stroke-width="1.5"/>
+  <text x="24.0" y="384.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529;font-weight:700">Não cumpridos, com risco e data</text>
+  <line x1="384" y1="386" x2="776" y2="386" stroke="#ADB5BD" stroke-width="1.5"/>
+  <text x="24.0" y="420.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529;font-weight:700">Verificações em aberto, cada uma</text>
+  <text x="24.0" y="444.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529;font-weight:700">com o efeito se divergir</text>
+  <line x1="384" y1="446" x2="776" y2="446" stroke="#ADB5BD" stroke-width="1.5"/>
+  <text x="24.0" y="480.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529;font-weight:700">Próxima revisão semestral</text>
+  <line x1="384" y1="482" x2="776" y2="482" stroke="#ADB5BD" stroke-width="1.5"/>
+</svg>

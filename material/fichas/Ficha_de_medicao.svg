@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" role="img" aria-labelledby="titulo descricao">
+  <title id="titulo">A ficha de medição.</title>
+  <desc id="descricao">Ficha de medição em branco, com data, com os campos: aparelho e sistema; player e versão; rede; perfil do usuário; fonte; volume em registros; procedimento, o que exatamente é feito do primeiro toque ao ponto final da contagem; estado inicial, primeira abertura do dia ou reaberto; repetições, mediana, pior caso e melhor caso.</desc>
+  <defs>
+  </defs>
+  <rect width="800" height="400" fill="#FFFFFF"/>
+  <rect x="14" y="8" width="772" height="366.0" rx="6" fill="#FFFFFF" stroke="#ADB5BD" stroke-width="1.5"/>
+  <text x="24.0" y="42.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="22" text-anchor="start" style="fill:#1F5F7A;font-weight:700">FICHA DE MEDIÇÃO</text>
+  <text x="776.0" y="42.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="end" style="fill:#212529">___/___/______</text>
+  <line x1="24" y1="58" x2="776" y2="58" stroke="#1F5F7A" stroke-width="2"/>
+  <text x="24.0" y="96.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529;font-weight:700">Aparelho / SO</text>
+  <line x1="172.8" y1="98" x2="390.0" y2="98" stroke="#ADB5BD" stroke-width="1.5"/>
+  <text x="410.0" y="96.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529;font-weight:700">Player e versão</text>
+  <line x1="577.1" y1="98" x2="776.0" y2="98" stroke="#ADB5BD" stroke-width="1.5"/>
+  <text x="24.0" y="132.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529;font-weight:700">Rede</text>
+  <line x1="85.2" y1="134" x2="390.0" y2="134" stroke="#ADB5BD" stroke-width="1.5"/>
+  <text x="410.0" y="132.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529;font-weight:700">Perfil do usuário</text>
+  <line x1="588.1" y1="134" x2="776.0" y2="134" stroke="#ADB5BD" stroke-width="1.5"/>
+  <text x="24.0" y="168.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529;font-weight:700">Fonte</text>
+  <line x1="92.3" y1="170" x2="390.0" y2="170" stroke="#ADB5BD" stroke-width="1.5"/>
+  <text x="410.0" y="168.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529;font-weight:700">Volume (registros)</text>
+  <line x1="610.4" y1="170" x2="776.0" y2="170" stroke="#ADB5BD" stroke-width="1.5"/>
+  <text x="24.0" y="204.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529;font-weight:700">Procedimento</text>
+  <line x1="174" y1="206" x2="776" y2="206" stroke="#ADB5BD" stroke-width="1.5"/>
+  <text x="24.0" y="238.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#6C757D">o que exatamente é feito, do primeiro toque ao ponto final da contagem</text>
+  <text x="24.0" y="272.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529;font-weight:700">Estado inicial</text>
+  <rect x="194" y="255.0" width="20" height="20" rx="3" fill="#FFFFFF" stroke="#212529" stroke-width="1.5"/>
+  <text x="222.0" y="272.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529">primeira abertura do dia</text>
+  <rect x="468.7538" y="255.0" width="20" height="20" rx="3" fill="#FFFFFF" stroke="#212529" stroke-width="1.5"/>
+  <text x="496.8" y="272.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529">reaberto</text>
+  <text x="24.0" y="308.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529;font-weight:700">Repetições</text>
+  <line x1="145.9" y1="310.0" x2="390.0" y2="310.0" stroke="#ADB5BD" stroke-width="1.5"/>
+  <text x="410.0" y="308.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529;font-weight:700">Mediana</text>
+  <line x1="506.3" y1="310.0" x2="776.0" y2="310.0" stroke="#ADB5BD" stroke-width="1.5"/>
+  <text x="24.0" y="344.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529;font-weight:700">Pior caso</text>
+  <line x1="126.8" y1="346.0" x2="390.0" y2="346.0" stroke="#ADB5BD" stroke-width="1.5"/>
+  <text x="410.0" y="344.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529;font-weight:700">Melhor caso</text>
+  <line x1="542.5" y1="346.0" x2="776.0" y2="346.0" stroke="#ADB5BD" stroke-width="1.5"/>
+</svg>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 268" role="img" aria-labelledby="titulo descricao">
+  <title id="titulo">A declaração de uma regra fora do lugar ideal.</title>
+  <desc id="descricao">Declaração em branco de uma regra fora do lugar ideal: onde a regra deveria morar; onde ela está e por quê; o que se perde com isso; data de reavaliação.</desc>
+  <defs>
+  </defs>
+  <rect width="800" height="268" fill="#FFFFFF"/>
+  <rect x="14" y="8" width="772" height="234" rx="6" fill="#FFFFFF" stroke="#ADB5BD" stroke-width="1.5"/>
+  <text x="24.0" y="44.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529;font-weight:700">A regra X deveria morar</text>
+  <text x="24.0" y="68.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529;font-weight:700">em</text>
+  <line x1="294" y1="70" x2="776" y2="70" stroke="#ADB5BD" stroke-width="1.5"/>
+  <text x="24.0" y="104.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529;font-weight:700">Ela está em</text>
+  <line x1="294" y1="106" x2="776" y2="106" stroke="#ADB5BD" stroke-width="1.5"/>
+  <text x="24.0" y="140.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529;font-weight:700">porque</text>
+  <line x1="294" y1="142" x2="776" y2="142" stroke="#ADB5BD" stroke-width="1.5"/>
+  <text x="24.0" y="176.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529;font-weight:700">O que se perde com isso</text>
+  <line x1="294" y1="178" x2="776" y2="178" stroke="#ADB5BD" stroke-width="1.5"/>
+  <text x="24.0" y="212.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529;font-weight:700">Reavaliar em</text>
+  <line x1="294" y1="214" x2="776" y2="214" stroke="#ADB5BD" stroke-width="1.5"/>
+</svg>

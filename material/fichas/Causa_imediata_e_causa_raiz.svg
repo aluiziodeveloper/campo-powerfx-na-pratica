@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 268" role="img" aria-labelledby="titulo descricao">
+  <title id="titulo">Causa imediata e causa raiz.</title>
+  <desc id="descricao">Ficha em branco de causa e correção: causa imediata; correção imediata; causa raiz; correção do processo; caso de teste que nasce desta correção.</desc>
+  <defs>
+  </defs>
+  <rect width="800" height="268" fill="#FFFFFF"/>
+  <rect x="14" y="8" width="772" height="234" rx="6" fill="#FFFFFF" stroke="#ADB5BD" stroke-width="1.5"/>
+  <text x="24.0" y="44.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529;font-weight:700">Causa imediata</text>
+  <line x1="294" y1="46" x2="776" y2="46" stroke="#ADB5BD" stroke-width="1.5"/>
+  <text x="24.0" y="80.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529;font-weight:700">Correção imediata</text>
+  <line x1="294" y1="82" x2="776" y2="82" stroke="#ADB5BD" stroke-width="1.5"/>
+  <text x="24.0" y="116.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529;font-weight:700">Causa raiz</text>
+  <line x1="294" y1="118" x2="776" y2="118" stroke="#ADB5BD" stroke-width="1.5"/>
+  <text x="24.0" y="152.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529;font-weight:700">Correção do processo</text>
+  <line x1="294" y1="154" x2="776" y2="154" stroke="#ADB5BD" stroke-width="1.5"/>
+  <text x="24.0" y="188.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529;font-weight:700">Caso de teste que nasce</text>
+  <text x="24.0" y="212.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529;font-weight:700">desta correção</text>
+  <line x1="294" y1="214" x2="776" y2="214" stroke="#ADB5BD" stroke-width="1.5"/>
+</svg>

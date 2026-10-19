@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 308" role="img" aria-labelledby="titulo descricao">
+  <title id="titulo">O horizonte declarado de uma decisão de fonte.</title>
+  <desc id="descricao">Ficha do horizonte declarado, em branco, com a data da decisão: volume hoje, em registros; volume projetado, em registros e em quantos meses; usuários simultâneos, hoje e projetado; data de reavaliação.</desc>
+  <defs>
+  </defs>
+  <rect width="800" height="308" fill="#FFFFFF"/>
+  <rect x="14" y="8" width="772" height="274" rx="6" fill="#FFFFFF" stroke="#ADB5BD" stroke-width="1.5"/>
+  <text x="24.0" y="42.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="22" text-anchor="start" style="fill:#1F5F7A;font-weight:700">HORIZONTE DECLARADO</text>
+  <text x="776.0" y="42.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="end" style="fill:#212529">decidido em ___/___/______</text>
+  <line x1="24" y1="58" x2="776" y2="58" stroke="#1F5F7A" stroke-width="2"/>
+  <text x="24.0" y="96.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529;font-weight:700">Volume hoje (registros)</text>
+  <line x1="294" y1="98" x2="776" y2="98" stroke="#ADB5BD" stroke-width="1.5"/>
+  <text x="24.0" y="132.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529;font-weight:700">Volume projetado</text>
+  <text x="24.0" y="156.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529;font-weight:700">(registros, em meses)</text>
+  <line x1="294" y1="158" x2="776" y2="158" stroke="#ADB5BD" stroke-width="1.5"/>
+  <text x="24.0" y="192.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529;font-weight:700">Usuários simultâneos</text>
+  <text x="24.0" y="216.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529;font-weight:700">(hoje · projetado)</text>
+  <line x1="294" y1="218" x2="776" y2="218" stroke="#ADB5BD" stroke-width="1.5"/>
+  <text x="24.0" y="252.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529;font-weight:700">Reavaliar em</text>
+  <line x1="294" y1="254" x2="776" y2="254" stroke="#ADB5BD" stroke-width="1.5"/>
+</svg>
