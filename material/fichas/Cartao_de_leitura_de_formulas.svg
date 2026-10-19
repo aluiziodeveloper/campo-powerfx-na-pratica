@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 672" role="img" aria-labelledby="titulo descricao">
+  <title id="titulo">O Cartão de leitura de fórmulas.</title>
+  <desc id="descricao">Cartão para recortar, com as seis perguntas de leitura de uma fórmula. 1, onde ela mora: Propriedade de dados ou de comportamento? Só a segunda tem sequência e ordem.. 2, qual é o contorno: Qual é a função mais externa, e quantos argumentos ela recebe?. 3, de dentro para fora: Numere os níveis de parêntese. Comece pelo mais interno.. 4, quem são os nomes: Liste os identificadores. Onde cada um está definido?. 5, onde ela trabalha: Dispositivo, servidor, ou os dois? (Capítulo 4). 6, diga em uma frase: Se você não consegue, o problema é da fórmula..</desc>
+  <defs>
+  </defs>
+  <rect width="800" height="672" fill="#FFFFFF"/>
+  <rect x="18" y="16" width="764" height="632.0" rx="10" fill="#FFFFFF" stroke="#1F5F7A" stroke-width="2" stroke-dasharray="10 6"/>
+  <text x="24.0" y="54.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="24" text-anchor="start" style="fill:#212529;font-weight:700">Cartão de leitura de fórmulas</text>
+  <rect x="40.0" y="84.0" width="720.0" height="100.0" rx="6" fill="#F1F3F5" stroke="#ADB5BD" stroke-width="1.5"/>
+  <circle cx="68" cy="134.0" r="16" fill="#1F5F7A"/>
+  <text x="68.0" y="141.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="20" text-anchor="middle" style="fill:#FFFFFF;font-weight:700">1</text>
+  <text x="96.0" y="113.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="20" text-anchor="start" style="fill:#212529;font-weight:700">Onde ela mora?</text>
+  <text x="96.0" y="143.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#6C757D">Propriedade de dados ou de comportamento? Só a segunda tem</text>
+  <text x="96.0" y="167.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#6C757D">sequência e ordem.</text>
+  <rect x="40.0" y="196.0" width="720.0" height="76.0" rx="6" fill="#FFFFFF" stroke="#ADB5BD" stroke-width="1.5"/>
+  <circle cx="68" cy="234.0" r="16" fill="#1F5F7A"/>
+  <text x="68.0" y="241.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="20" text-anchor="middle" style="fill:#FFFFFF;font-weight:700">2</text>
+  <text x="96.0" y="225.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="20" text-anchor="start" style="fill:#212529;font-weight:700">Qual é o contorno?</text>
+  <text x="96.0" y="255.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#6C757D">Qual é a função mais externa, e quantos argumentos ela recebe?</text>
+  <rect x="40.0" y="284.0" width="720.0" height="76.0" rx="6" fill="#F1F3F5" stroke="#ADB5BD" stroke-width="1.5"/>
+  <circle cx="68" cy="322.0" r="16" fill="#1F5F7A"/>
+  <text x="68.0" y="329.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="20" text-anchor="middle" style="fill:#FFFFFF;font-weight:700">3</text>
+  <text x="96.0" y="313.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="20" text-anchor="start" style="fill:#212529;font-weight:700">De dentro para fora</text>
+  <text x="96.0" y="343.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#6C757D">Numere os níveis de parêntese. Comece pelo mais interno.</text>
+  <rect x="40.0" y="372.0" width="720.0" height="76.0" rx="6" fill="#FFFFFF" stroke="#ADB5BD" stroke-width="1.5"/>
+  <circle cx="68" cy="410.0" r="16" fill="#1F5F7A"/>
+  <text x="68.0" y="417.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="20" text-anchor="middle" style="fill:#FFFFFF;font-weight:700">4</text>
+  <text x="96.0" y="401.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="20" text-anchor="start" style="fill:#212529;font-weight:700">Quem são os nomes?</text>
+  <text x="96.0" y="431.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#6C757D">Liste os identificadores. Onde cada um está definido?</text>
+  <rect x="40.0" y="460.0" width="720.0" height="76.0" rx="6" fill="#F1F3F5" stroke="#ADB5BD" stroke-width="1.5"/>
+  <circle cx="68" cy="498.0" r="16" fill="#1F5F7A"/>
+  <text x="68.0" y="505.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="20" text-anchor="middle" style="fill:#FFFFFF;font-weight:700">5</text>
+  <text x="96.0" y="489.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="20" text-anchor="start" style="fill:#212529;font-weight:700">Onde ela trabalha?</text>
+  <text x="96.0" y="519.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#6C757D">Dispositivo, servidor, ou os dois? (Capítulo 4)</text>
+  <rect x="40.0" y="548.0" width="720.0" height="76.0" rx="6" fill="#FFFFFF" stroke="#ADB5BD" stroke-width="1.5"/>
+  <circle cx="68" cy="586.0" r="16" fill="#1F5F7A"/>
+  <text x="68.0" y="593.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="20" text-anchor="middle" style="fill:#FFFFFF;font-weight:700">6</text>
+  <text x="96.0" y="577.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="20" text-anchor="start" style="fill:#212529;font-weight:700">Diga em uma frase</text>
+  <text x="96.0" y="607.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#6C757D">Se você não consegue, o problema é da fórmula.</text>
+</svg>

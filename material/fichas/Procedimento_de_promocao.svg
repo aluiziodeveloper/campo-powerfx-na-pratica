@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 862" role="img" aria-labelledby="titulo descricao">
+  <title id="titulo">O procedimento de promoção do CAMPO.</title>
+  <desc id="descricao">Procedimento de promoção do CAMPO, com a versão do documento, em três partes de itens para marcar. Antes: o que vai, uma linha por mudança; a versão nova, igual no aplicativo e na solução; se há mudança de estrutura, e qual passo de expandir e contrair; quem conferiu em homologação e quando; roteiro de regressão executado; configuração de teste desfeita; caminho de volta decidido, com tempo máximo; aviso aos usuários redigido. Durante, com a janela: connector próprio, se mudou, antes de tudo; biblioteca de componentes, se mudou; solução CAMPO, gerenciada; variáveis de ambiente conferidas no destino; referências de conexão apontando para a fonte de produção. Depois: rótulo de ambiente e versão conferidos na tela; um registro gravado e encontrado na fonte de produção; aviso enviado; Registro de Decisões com o que foi publicado, quando e por quem.</desc>
+  <defs>
+  </defs>
+  <rect width="800" height="862" fill="#FFFFFF"/>
+  <rect x="14" y="8" width="772" height="828" rx="6" fill="#FFFFFF" stroke="#ADB5BD" stroke-width="1.5"/>
+  <text x="24.0" y="42.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="22" text-anchor="start" style="fill:#1F5F7A;font-weight:700">PROCEDIMENTO DE PROMOÇÃO — CAMPO</text>
+  <text x="776.0" y="72.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="end" style="fill:#212529">versão do documento: __</text>
+  <line x1="24" y1="88" x2="776" y2="88" stroke="#1F5F7A" stroke-width="2"/>
+  <rect x="24.0" y="106.0" width="752.0" height="36.0" rx="4" fill="#E3EEF3"/>
+  <text x="36.0" y="131.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#1F5F7A;font-weight:700">ANTES</text>
+  <rect x="24" y="155" width="20" height="20" rx="3" fill="#FFFFFF" stroke="#212529" stroke-width="1.5"/>
+  <text x="56.0" y="171.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529">O que vai: ______________________ (uma linha por mudança)</text>
+  <rect x="24" y="189" width="20" height="20" rx="3" fill="#FFFFFF" stroke="#212529" stroke-width="1.5"/>
+  <text x="56.0" y="205.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529">Versão nova: 0.__.__ (VersaoDoApp e solução, iguais)</text>
+  <rect x="24" y="223" width="20" height="20" rx="3" fill="#FFFFFF" stroke="#212529" stroke-width="1.5"/>
+  <text x="56.0" y="239.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529">Mudança de estrutura? Se sim, qual passo de expandir e contrair: __________</text>
+  <rect x="24" y="257" width="20" height="20" rx="3" fill="#FFFFFF" stroke="#212529" stroke-width="1.5"/>
+  <text x="56.0" y="273.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529">Conferido em homologação por: ____________ em __/__/____</text>
+  <rect x="24" y="291" width="20" height="20" rx="3" fill="#FFFFFF" stroke="#212529" stroke-width="1.5"/>
+  <text x="56.0" y="307.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529">Roteiro de regressão executado (Capítulo 25)</text>
+  <rect x="24" y="325" width="20" height="20" rx="3" fill="#FFFFFF" stroke="#212529" stroke-width="1.5"/>
+  <text x="56.0" y="341.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529">Configuração de teste desfeita (limite de registros, recurso ligado para testar)</text>
+  <rect x="24" y="359" width="20" height="20" rx="3" fill="#FFFFFF" stroke="#212529" stroke-width="1.5"/>
+  <text x="56.0" y="375.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529">Caminho de volta decidido: ______________ tempo máximo: ___ min</text>
+  <rect x="24" y="393" width="20" height="20" rx="3" fill="#FFFFFF" stroke="#212529" stroke-width="1.5"/>
+  <text x="56.0" y="409.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529">Aviso aos usuários redigido</text>
+  <rect x="24.0" y="424.0" width="752.0" height="36.0" rx="4" fill="#E3EEF3"/>
+  <text x="36.0" y="449.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#1F5F7A;font-weight:700">DURANTE (janela: ________ a ________)</text>
+  <rect x="24" y="473" width="20" height="20" rx="3" fill="#FFFFFF" stroke="#212529" stroke-width="1.5"/>
+  <text x="56.0" y="489.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529">Connector próprio, se mudou, antes de tudo</text>
+  <rect x="24" y="507" width="20" height="20" rx="3" fill="#FFFFFF" stroke="#212529" stroke-width="1.5"/>
+  <text x="56.0" y="523.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529">Biblioteca de componentes, se mudou</text>
+  <rect x="24" y="541" width="20" height="20" rx="3" fill="#FFFFFF" stroke="#212529" stroke-width="1.5"/>
+  <text x="56.0" y="557.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529">Solução CAMPO, gerenciada</text>
+  <rect x="24" y="575" width="20" height="20" rx="3" fill="#FFFFFF" stroke="#212529" stroke-width="1.5"/>
+  <text x="56.0" y="591.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529">Variáveis de ambiente conferidas no destino</text>
+  <rect x="24" y="609" width="20" height="20" rx="3" fill="#FFFFFF" stroke="#212529" stroke-width="1.5"/>
+  <text x="56.0" y="625.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529">Referências de conexão conferidas: apontam para a fonte de produção</text>
+  <rect x="24.0" y="640.0" width="752.0" height="36.0" rx="4" fill="#E3EEF3"/>
+  <text x="36.0" y="665.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#1F5F7A;font-weight:700">DEPOIS</text>
+  <rect x="24" y="689" width="20" height="20" rx="3" fill="#FFFFFF" stroke="#212529" stroke-width="1.5"/>
+  <text x="56.0" y="705.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529">Rótulo de ambiente e versão conferidos na tela</text>
+  <rect x="24" y="723" width="20" height="20" rx="3" fill="#FFFFFF" stroke="#212529" stroke-width="1.5"/>
+  <text x="56.0" y="739.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529">Um registro gravado e encontrado NA FONTE de produção</text>
+  <rect x="24" y="757" width="20" height="20" rx="3" fill="#FFFFFF" stroke="#212529" stroke-width="1.5"/>
+  <text x="56.0" y="773.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529">Aviso enviado</text>
+  <rect x="24" y="791" width="20" height="20" rx="3" fill="#FFFFFF" stroke="#212529" stroke-width="1.5"/>
+  <text x="56.0" y="807.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529">Registro de Decisões: o que foi publicado, quando, por quem</text>
+</svg>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 818" role="img" aria-labelledby="titulo descricao">
+  <title id="titulo">A ficha do Teste de Realidade #3, em branco.</title>
+  <desc id="descricao">Ficha em branco do Teste de Realidade #3, do CAMPO v0.4.1, com data. Cabeçalho: aparelho e sistema, player e versão, rede, perfil do usuário, fonte e volume; estado inicial, primeira abertura; cinco repetições. Grade com antes e depois, mediana e pior caso, para o percurso A, registrar (tempo até utilizável, número de requisições, volume trafegado), e o percurso B, abrir detalhe (tempo até legível, número de requisições, volume trafegado). Conferência de correção: o contador de abertas bate com a fonte, o resumo por status bate com a fonte, o supervisor exibido continua correto, cada um com sim ou não.</desc>
+  <defs>
+  </defs>
+  <rect width="800" height="818" fill="#FFFFFF"/>
+  <rect x="14" y="8" width="772" height="784.0" rx="6" fill="#FFFFFF" stroke="#ADB5BD" stroke-width="1.5"/>
+  <text x="24.0" y="42.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="22" text-anchor="start" style="fill:#1F5F7A;font-weight:700">TESTE DE REALIDADE #3 — CAMPO v0.4.1</text>
+  <text x="776.0" y="42.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="end" style="fill:#212529">___/___/______</text>
+  <line x1="24" y1="58" x2="776" y2="58" stroke="#1F5F7A" stroke-width="2"/>
+  <text x="24.0" y="96.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529;font-weight:700">Aparelho / SO</text>
+  <line x1="172.8" y1="98" x2="390.0" y2="98" stroke="#ADB5BD" stroke-width="1.5"/>
+  <text x="410.0" y="96.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529;font-weight:700">Player e versão</text>
+  <line x1="577.1" y1="98" x2="776.0" y2="98" stroke="#ADB5BD" stroke-width="1.5"/>
+  <text x="24.0" y="132.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529;font-weight:700">Rede</text>
+  <line x1="85.2" y1="134" x2="390.0" y2="134" stroke="#ADB5BD" stroke-width="1.5"/>
+  <text x="410.0" y="132.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529;font-weight:700">Perfil do usuário</text>
+  <line x1="588.1" y1="134" x2="776.0" y2="134" stroke="#ADB5BD" stroke-width="1.5"/>
+  <text x="24.0" y="168.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529;font-weight:700">Fonte</text>
+  <line x1="92.3" y1="170" x2="390.0" y2="170" stroke="#ADB5BD" stroke-width="1.5"/>
+  <text x="410.0" y="168.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529;font-weight:700">Volume (registros)</text>
+  <line x1="610.4" y1="170" x2="776.0" y2="170" stroke="#ADB5BD" stroke-width="1.5"/>
+  <text x="24.0" y="202.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529">Estado inicial: primeira abertura. Repetições: 5.</text>
+  <text x="416.0" y="238.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="middle" style="fill:#1F5F7A;font-weight:700">ANTES</text>
+  <text x="656.0" y="238.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="middle" style="fill:#1F5F7A;font-weight:700">DEPOIS</text>
+  <text x="24.0" y="268.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#1F5F7A;font-weight:700">PERCURSO A (registrar)</text>
+  <rect x="24.0" y="278.0" width="752.0" height="36.0" rx="4" fill="#E3EEF3"/>
+  <text x="306.0" y="304.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#1F5F7A;font-weight:700">mediana</text>
+  <text x="426.0" y="304.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#1F5F7A;font-weight:700">pior caso</text>
+  <text x="546.0" y="304.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#1F5F7A;font-weight:700">mediana</text>
+  <text x="666.0" y="304.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#1F5F7A;font-weight:700">pior caso</text>
+  <text x="34.0" y="340.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529;font-weight:700">tempo até utilizável</text>
+  <line x1="24" y1="350.0" x2="776" y2="350.0" stroke="#ADB5BD" stroke-width="1"/>
+  <text x="34.0" y="376.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529;font-weight:700">nº de requisições</text>
+  <line x1="24" y1="386.0" x2="776" y2="386.0" stroke="#ADB5BD" stroke-width="1"/>
+  <text x="34.0" y="412.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529;font-weight:700">volume trafegado</text>
+  <line x1="24" y1="422.0" x2="776" y2="422.0" stroke="#ADB5BD" stroke-width="1"/>
+  <line x1="296" y1="314.0" x2="296" y2="422.0" stroke="#ADB5BD" stroke-width="1"/>
+  <line x1="416" y1="314.0" x2="416" y2="422.0" stroke="#ADB5BD" stroke-width="1"/>
+  <line x1="536" y1="314.0" x2="536" y2="422.0" stroke="#ADB5BD" stroke-width="1"/>
+  <line x1="656" y1="314.0" x2="656" y2="422.0" stroke="#ADB5BD" stroke-width="1"/>
+  <text x="24.0" y="454.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#1F5F7A;font-weight:700">PERCURSO B (abrir detalhe)</text>
+  <rect x="24.0" y="464.0" width="752.0" height="36.0" rx="4" fill="#E3EEF3"/>
+  <text x="306.0" y="490.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#1F5F7A;font-weight:700">mediana</text>
+  <text x="426.0" y="490.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#1F5F7A;font-weight:700">pior caso</text>
+  <text x="546.0" y="490.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#1F5F7A;font-weight:700">mediana</text>
+  <text x="666.0" y="490.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#1F5F7A;font-weight:700">pior caso</text>
+  <text x="34.0" y="526.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529;font-weight:700">tempo até legível</text>
+  <line x1="24" y1="536.0" x2="776" y2="536.0" stroke="#ADB5BD" stroke-width="1"/>
+  <text x="34.0" y="562.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529;font-weight:700">nº de requisições</text>
+  <line x1="24" y1="572.0" x2="776" y2="572.0" stroke="#ADB5BD" stroke-width="1"/>
+  <text x="34.0" y="598.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529;font-weight:700">volume trafegado</text>
+  <line x1="24" y1="608.0" x2="776" y2="608.0" stroke="#ADB5BD" stroke-width="1"/>
+  <line x1="296" y1="500.0" x2="296" y2="608.0" stroke="#ADB5BD" stroke-width="1"/>
+  <line x1="416" y1="500.0" x2="416" y2="608.0" stroke="#ADB5BD" stroke-width="1"/>
+  <line x1="536" y1="500.0" x2="536" y2="608.0" stroke="#ADB5BD" stroke-width="1"/>
+  <line x1="656" y1="500.0" x2="656" y2="608.0" stroke="#ADB5BD" stroke-width="1"/>
+  <rect x="24.0" y="624.0" width="752.0" height="36.0" rx="4" fill="#E3EEF3"/>
+  <text x="36.0" y="649.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#1F5F7A;font-weight:700">CONFERÊNCIA DE CORREÇÃO</text>
+  <text x="24.0" y="690.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529;font-weight:700">Contador de abertas bate com a fonte?</text>
+  <rect x="504" y="673.0" width="20" height="20" rx="3" fill="#FFFFFF" stroke="#212529" stroke-width="1.5"/>
+  <text x="532.0" y="690.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529">sim</text>
+  <rect x="589.9122" y="673.0" width="20" height="20" rx="3" fill="#FFFFFF" stroke="#212529" stroke-width="1.5"/>
+  <text x="617.9" y="690.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529">não</text>
+  <text x="24.0" y="726.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529;font-weight:700">Resumo por status bate com a fonte?</text>
+  <rect x="504" y="709.0" width="20" height="20" rx="3" fill="#FFFFFF" stroke="#212529" stroke-width="1.5"/>
+  <text x="532.0" y="726.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529">sim</text>
+  <rect x="589.9122" y="709.0" width="20" height="20" rx="3" fill="#FFFFFF" stroke="#212529" stroke-width="1.5"/>
+  <text x="617.9" y="726.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529">não</text>
+  <text x="24.0" y="762.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529;font-weight:700">Supervisor exibido continua correto?</text>
+  <rect x="504" y="745.0" width="20" height="20" rx="3" fill="#FFFFFF" stroke="#212529" stroke-width="1.5"/>
+  <text x="532.0" y="762.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529">sim</text>
+  <rect x="589.9122" y="745.0" width="20" height="20" rx="3" fill="#FFFFFF" stroke="#212529" stroke-width="1.5"/>
+  <text x="617.9" y="762.0" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="18" text-anchor="start" style="fill:#212529">não</text>
+</svg>

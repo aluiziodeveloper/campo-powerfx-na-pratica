@@ -19,18 +19,34 @@ O histórico deste repositório (o link *commits*, no topo da lista de arquivos)
 | 1, 3, 5, 8 | A planilha v0.0, com as sete abas, as doze fórmulas e a sujeira que o livro manda inventariar | `material/CAMPO_v0.0.xlsx` |
 | 1, 3, 5 | Ficha da planilha, para o inventário | `material/Ficha_da_planilha_v0.0.md` |
 | 5 | As listas `Ocorrencias` e `Unidades`, se você preferir criá-las por roteiro em vez de importar a planilha | `carga/` (etapas Listas e Planilha) |
-| 6 em diante | Cartão de leitura de fórmulas, para imprimir | `material/Cartao_de_leitura_de_formulas.md` |
-| 9, 12 | A massa de 12.000 ordens de serviço com as duas sentinelas, e três jeitos de carregá-la | `dados/` e `carga/` |
 | 5 em diante | Pendências do CAMPO | `material/modelos/Pendencias_CAMPO.md` |
+| 6 em diante | Cartão de leitura de fórmulas, para imprimir | `material/Cartao_de_leitura_de_formulas.md` · para imprimir: `material/fichas/Cartao_de_leitura_de_formulas.svg` |
+| 9, 12 | A massa de 12.000 ordens de serviço com as duas sentinelas, e três jeitos de carregá-la | `dados/` e `carga/` |
 | 9, 23, 24, 26, 28 | Registro de Decisões do CAMPO | `material/modelos/Registro_de_Decisoes_do_CAMPO.md` |
+| 17 | Ficha de medição | `material/modelos/Ficha_de_medicao.md` · para imprimir: `material/fichas/Ficha_de_medicao.svg` |
+| 17 | Ficha do Teste de Realidade #3 | `material/modelos/Ficha_Teste_de_Realidade_3.md` · para imprimir: `material/fichas/Ficha_Teste_de_Realidade_3.svg` |
+| 19 | Declaração dos quatro estados de uma tela | `material/modelos/Declaracao_dos_quatro_estados.md` · para imprimir: `material/fichas/Declaracao_dos_quatro_estados.svg` |
+| 20 | Horizonte declarado | `material/modelos/Horizonte_declarado.md` · para imprimir: `material/fichas/Horizonte_declarado.svg` |
+| 21 | Declaração de uma regra fora do lugar ideal | `material/modelos/Regra_fora_do_lugar.md` · para imprimir: `material/fichas/Regra_fora_do_lugar.svg` |
+| 21 | Roteiro de conferência de migração | `material/modelos/Roteiro_de_conferencia_de_migracao.md` · para imprimir: `material/fichas/Roteiro_de_conferencia_de_migracao.svg` |
 | 23 | Registro de Recomendação Técnica | `material/modelos/Registro_de_Recomendacao_Tecnica.md` |
+| 23 | Ficha dos seis sinais | `material/modelos/Ficha_dos_seis_sinais.md` |
+| 24 | Ficha da aplicação | `material/modelos/Ficha_da_aplicacao.md` · para imprimir: `material/fichas/Ficha_da_aplicacao.svg` |
+| 24 | Procedimento de promoção | `material/modelos/Procedimento_de_promocao.md` · para imprimir: `material/fichas/Procedimento_de_promocao.svg` |
 | 25, 27 | Checklist de revisão de fórmulas | `material/modelos/Checklist_de_revisao_de_formulas.md` |
 | 25, 26 | Checklist de Produção | `material/modelos/Checklist_de_Producao.md` |
+| 25 | Registro de dívida técnica | `material/modelos/Divida_tecnica.md` · para imprimir: `material/fichas/Divida_tecnica.svg` |
+| 25 | Execução do roteiro de regressão | `material/modelos/Execucao_do_roteiro_de_regressao.md` · para imprimir: `material/fichas/Execucao_do_roteiro_de_regressao.svg` |
+| 26 | Rotina semanal | `material/modelos/Rotina_semanal.md` · para imprimir: `material/fichas/Rotina_semanal.svg` |
+| 26 | Causa imediata e causa raiz | `material/modelos/Causa_imediata_e_causa_raiz.md` · para imprimir: `material/fichas/Causa_imediata_e_causa_raiz.svg` |
 | 27 | Protocolo de medição de fórmulas geradas por IA: vinte pedidos e ficha de registro | `material/Protocolo_IA_20_pedidos.md` |
+| 27 | Registro de uma fórmula gerada | `material/modelos/Registro_de_formula_gerada.md` · para imprimir: `material/fichas/Registro_de_formula_gerada.svg` |
+| 28 | Transferência de propriedade | `material/modelos/Transferencia_de_propriedade.md` · para imprimir: `material/fichas/Transferencia_de_propriedade.svg` |
 
 ## Os formatos dos arquivos
 
 - **`.md` (Markdown):** texto comum com marcas simples de formatação (`|` desenha tabelas, `**` faz negrito, `#` faz títulos). O GitHub mostra o arquivo formatado; qualquer editor de texto o abre e grava. Os modelos que os capítulos mandam preencher estão nesse formato para que você os mantenha num editor qualquer, sem depender de um programa específico.
+- **`.svg`:** as fichas desenhadas como estão no livro, em vetor, para imprimir em qualquer tamanho sem perder nitidez. O navegador abre e imprime.
 - **`.xlsx`:** a planilha do Capítulo 1, para o Excel.
 - **`.csv`:** tabela em texto puro, uma linha por registro, colunas separadas por `;`. Abre no Excel; veja `dados/README.md`.
 - **`.json`:** dados estruturados em texto, com nomes e valores entre chaves. Só os roteiros de carga o leem.
